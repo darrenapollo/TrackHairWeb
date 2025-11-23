@@ -119,6 +119,3 @@ DEPENDENCIES
   jekyll-sitemap
   octopress-minify-html
   tzinfo-data
-
-BUNDLED WITH
-   2.51.7
