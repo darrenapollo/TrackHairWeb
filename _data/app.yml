@@ -1,13 +1,13 @@
 name: Track Hair
-description: Regrowth Schedule Tracker 
-full_description: 'Never miss another treatment, with Track Hair. Custom Notifications, and progress photos.<br>
-<br>With a lot of features:
-<br>- Feature 1
-<br>- Feature 2
-<br>- Feature 3'
-#android: https://telegra.ph/Replace-this-link-07-23
+description: Stay on top of hair regrowth with smart reminders and photos.
+full_description: 'Track Hair keeps every treatment on schedule so you can see progress faster. Build a routine, capture photos, and get timely nudges that match your growth cycle.<br>
+<br>- Personalized schedules for each treatment area
+<br>- Smart reminders before and after treatments
+<br>- Side-by-side progress photos with notes
+<br>- Export updates to share with your provider'
+android: false
 iOS: https://apps.apple.com/id6740919537
-#web: https://telegra.ph/Replace-this-link-07-23
+web: false
 screenshots:
   - 1.png
   - 2.png

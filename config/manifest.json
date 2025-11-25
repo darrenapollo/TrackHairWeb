@@ -6,6 +6,6 @@
   "start_url": "/",
   "description": "A super tagline for the mobile app",
   "scope": "/",
-  "theme_color": "#efeeff",
-  "background_color": "#efeeff"
+  "theme_color": "#0021AC",
+  "background_color": "#f6f8fa"
 }
