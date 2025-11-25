@@ -60,6 +60,8 @@ exclude:
   - package.json
   - README.md
   - webpack.config.js
+  - yarn-error.log
+  - yarn.lock
   - config
   - optimization-fix
   - optimization-fix-this-file-is-ignored.js
