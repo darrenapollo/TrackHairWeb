@@ -1,28 +1,43 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="post__container">
-    <header class="post__header">
-      <h1 class="post__title" itemprop="name headline">{{ page.title | escape }}</h1>
-      <p class="post__meta">
-        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-          {{ page.date | date: date_format }}
-        </time>
-        {% if page.author %}
-          • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
-        {% endif %}</p>
+<article class="article-shell">
+  <div class="container">
+    {% include breadcrumbs.html %}
+    <header class="article-hero">
+      {% if page.hero_kicker %}
+      <p class="eyebrow">{{ page.hero_kicker }}</p>
+      {% endif %}
+      <h1>{{ page.title }}</h1>
+      <p class="article-hero__summary">{{ page.summary | default: page.description }}</p>
+      <p class="article-meta">{{ page.date | date: "%B %-d, %Y" }}{% if page.author %} · {{ page.author }}{% endif %}</p>
     </header>
 
-    <div class="post__content" itemprop="articleBody">
-      {{ content }}
-    </div>
+    <div class="article-layout">
+      <div class="article-layout__main">
+        <div class="article-content">
+          {{ content }}
+        </div>
 
-    <div class="post__comments">
-    {% if site.disqus.shortname %}
-      {% include disqus_comments.html %}
-    {% endif %}
+        {% if page.citations %}
+        <section class="article-section">
+          <h2>{{ site.data.strings.medical.citations_title }}</h2>
+          <ul class="source-list">
+            {% for source in page.citations %}
+            <li><a href="{{ source.url }}" target="_blank" rel="noopener">{{ source.label }}</a></li>
+            {% endfor %}
+          </ul>
+        </section>
+        {% endif %}
+      </div>
+
+      <aside class="article-layout__aside">
+        <section class="aside-card aside-card--product">
+          <h2>{{ site.data.strings.medical.app_cta_title }}</h2>
+          <p>{{ site.data.strings.medical.app_cta_body }}</p>
+          <a class="button button--light" href="{{ site.data.app.app_store_url }}" target="_blank" rel="noopener">{{ site.data.strings.medical.app_cta_label }}</a>
+        </section>
+      </aside>
     </div>
   </div>
 </article>

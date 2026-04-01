@@ -1,0 +1,14 @@
+{% if page.url != '/' %}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <a href="/">Home</a>
+  {% if page.section == 'treatments' %}
+  <span>/</span>
+  <a href="/treatments/">Treatments</a>
+  {% elsif page.layout == 'post' or page.section == 'blog' %}
+  <span>/</span>
+  <a href="/blog/">Blog</a>
+  {% endif %}
+  <span>/</span>
+  <span aria-current="page">{{ page.title }}</span>
+</nav>
+{% endif %}

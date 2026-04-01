@@ -1,11 +1,62 @@
-app:
-  screenshots: Screenshots
-  description: Description
-  featured: Featured in
+nav:
+  links:
+    - title: App
+      url: /
+    - title: Treatments
+      url: /treatments/
+    - title: Male Pattern Baldness
+      url: /male-pattern-baldness/
+    - title: Blog
+      url: /blog/
+  cta_label: Download
+
+home:
+  social_proof: Built for men tracking hair loss treatment consistency over months, not days.
+  features_title: What makes Track Hair useful
+  story_title: How the app fits your routine
+  regimens_title: Built for real treatment regimens
+  learn_title: Learn the treatment landscape
+  screenshots_title: See the app in action
+  faq_title: Hair loss tracking FAQs
+  cta_title: Start tracking your hair loss routine with more structure.
+  cta_subtitle: Keep treatment schedules, progress photos, and long-term hair loss context in one place.
+
+  faq:
+    - question: What is a hair loss tracker app?
+      answer: A hair loss tracker app helps you organize treatments, keep photo records, and monitor visible changes over time. Track Hair focuses specifically on male pattern baldness routines such as finasteride, minoxidil, microneedling, and transplant recovery.
+    - question: Why track hair loss instead of relying on memory?
+      answer: Hair loss treatments usually take months to judge. Consistent photos, treatment logs, and notes make it easier to spot change, stay consistent, and discuss progress with a clinician.
+    - question: Can I track finasteride and minoxidil together?
+      answer: Yes. Track Hair is designed for multi-treatment routines, so you can keep separate schedules and notes for oral medication, topical treatment, scalp stimulation, and procedure recovery in the same app.
+    - question: Does Track Hair diagnose hair loss?
+      answer: No. The app is a tracking tool, not a diagnostic or treatment service. Any AI analysis should be treated as informational support rather than medical advice.
+    - question: What should I photograph when tracking progress?
+      answer: Most people benefit from repeatable front, temple, crown, and top-down photos captured in similar lighting and at regular intervals.
+
+medical:
+  disclaimer_title: Medical disclaimer
+  disclaimer_body: This content is for informational purposes only and does not provide medical advice, diagnosis, or treatment. Hair loss treatment decisions should be made with a qualified clinician, especially before starting prescription drugs, procedures, or compounded products.
+  citations_title: Sources
+  related_title: Related reading
+  faq_title: Common questions
+  app_cta_title: Track your routine in Track Hair
+  app_cta_body: Use the app to keep treatment schedules, progress photos, and routine notes in one place while you monitor long-term change.
+  app_cta_label: Download on the App Store
+
+blog:
+  eyebrow: Hair loss education
+  title: Articles for men tracking hair loss
+  description: Evergreen guides, treatment comparisons, and tracking-focused articles that support the Track Hair app experience.
 
 footer:
-  copyright: © Track Hair 2025
+  copyright: "© Track Hair 2026"
   links:
+    - title: Treatments
+      url: /treatments/
+    - title: Male Pattern Baldness
+      url: /male-pattern-baldness/
+    - title: Blog
+      url: /blog/
     - title: Privacy
       url: /privacy/
     - title: Terms

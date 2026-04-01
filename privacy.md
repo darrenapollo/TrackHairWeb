@@ -2,6 +2,11 @@
 layout: page
 title: Privacy policy
 permalink: /privacy/
+summary: Privacy details for the Track Hair app and website.
+schema_type: WebPage
+hide_medical_disclaimer: true
+hide_app_cta: true
+body_class: page__legal
 ---
 
 Privacy Policy

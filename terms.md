@@ -2,6 +2,11 @@
 layout: page
 title: Terms of Use
 permalink: /terms/
+summary: Terms governing use of the Track Hair app and website.
+schema_type: WebPage
+hide_medical_disclaimer: true
+hide_app_cta: true
+body_class: page__legal
 ---
 
 Terms of Service

@@ -3,16 +3,26 @@
 # This config file contains the config of your webpages
 # You may also want to update /config/webpack.pwa.js in case you want to generate a Progressive Web App
 
-title: Track Hair App
+title: Track Hair
 email: hello@track.hair
-description: Track Hair - Treatment Schedule App
+description: "Track Hair is a hair loss tracker app for men. Schedule finasteride and minoxidil, store progress photos, track Norwood changes, and stay consistent with long-term regimens."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://track.hair" # the base hostname & protocol for your site, e.g. http://example.com
 theme_color: '#0021AC'
+lang: en
 #twitter_username: sandochee
 github_username:  darrenapollo
 author: Darren Tracey
-logo: assets/images/THAppIcon.png
+logo: /assets/images/THAppIcon.png
+
+navigation_pages:
+  - treatments.md
+  - male-pattern-baldness.md
+  - norwood-scale.md
+  - blog.md
+
+webmaster_verifications:
+  google: nCaLTTiV8rKQ7dLgpy8WaJpyf2-h53gPV_ZBqoiHolc
 #twitter:
   #username: darrenapollo
 #social:
@@ -30,9 +40,8 @@ ampdir: amp
 github: https://github.com/darrenapollo
 
 ### Google webmaster tools, Google Analytics, Doorbell and Cookie consent uncomment and put the API key
-#webmaster_verifications:
-#  google: verification_code
 #google_analytics: UA-XXXXXXXXX-X
+google_analytics: false
 #doorbell:
 #  id: doorbell_id
 #  appKey: doorbell_appKey

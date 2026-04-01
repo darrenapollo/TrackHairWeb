@@ -1,20 +1,24 @@
 ---
 layout: default
 ---
-<div class="blog">
-  {% for post in site.posts %}
-    <article class="blog__post">
-      {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-      <div class="blog__date">
-        <p>{{ post.date | date: date_format }}</p>
-        <p>by {{ post.author }}</p>
-      </div>
-      <div class="blog__content">
-        <a class="blog__link" href="{{ post.url | relative_url }}">
-          <h2 class="blog__title">{{ post.title | escape }}</h2>
-          <p class="blog__excerpt">{{ post.excerpt }}</p>
-        </a>
-      </div>
-    </article>
-  {% endfor %}
-</div>
+<section class="article-shell article-shell--blog-index">
+  <div class="container">
+    {% include breadcrumbs.html %}
+    <header class="article-hero">
+      <p class="eyebrow">{{ site.data.strings.blog.eyebrow }}</p>
+      <h1>{{ site.data.strings.blog.title }}</h1>
+      <p class="article-hero__summary">{{ site.data.strings.blog.description }}</p>
+    </header>
+
+    <div class="blog-grid">
+      {% for post in site.posts %}
+      <article class="blog-card">
+        <p class="blog-card__meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p>{{ post.summary | default: post.excerpt | strip_html | truncate: 170 }}</p>
+        <a class="blog-card__cta" href="{{ post.url | relative_url }}">Read article</a>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

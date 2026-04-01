@@ -11,8 +11,15 @@ module.exports = {
   },
   plugins: [
     new FaviconsWebpackPlugin({
-      logo: './icon.png',
+      logo: './_images/THAppIcon.png',
       manifest: './config/manifest.json',
+      favicons: {
+        appName: 'Track Hair',
+        appShortName: 'Track Hair',
+        appDescription: 'Hair loss tracker app for men with treatment schedules, progress photos, and Norwood tracking.',
+        background: '#f6f8fa',
+        theme_color: '#0021AC',
+      },
     }),
     new HtmlWebpackPlugin({
       template: './_src/template/default.html',

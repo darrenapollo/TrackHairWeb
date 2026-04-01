@@ -1,20 +1,29 @@
-<nav class="navigation" role="navigation">
-  {% assign default_paths = site.pages | map: "path" %}
-  {% assign page_paths = site.navigation_pages | default: default_paths %}
-  <a class="navigation__branding" href="{{ "/" | relative_url }}">
-    <span class="navigation__logo"><img src="{{ "/assets/images/icon.png" | relative_url }}" class="navigation__logo-img" alt=""></span>
-    <span class="navigation__title">{{ site.title | escape }}</span>
-  </a>
-  <div class="navigation__links">
-    {% if page_paths %}
-      {% for path in page_paths %}
-        {% assign my_page = site.pages | where: "path", path | first %}
-        {% if my_page.title %}
-          {% unless my_page.url contains site.ampdir %}
-            <a class="navigation__link{% if my_page.url == page.url %} navigation__link--active{% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-          {% endunless %}
-        {% endif %}
+<input type="checkbox" id="nav-toggle" class="nav__toggle" aria-hidden="true">
+<nav class="nav" aria-label="Primary">
+  <div class="nav__shell container">
+    <a class="nav__brand" href="/" aria-label="Track Hair home">
+      <img src="/assets/images/THAppIcon.png" alt="Track Hair icon" width="40" height="40">
+      <span>Track Hair</span>
+    </a>
+
+    <div class="nav__desktop">
+      {% for link in site.data.strings.nav.links %}
+      <a class="nav__link{% if page.url == link.url %} nav__link--active{% endif %}" href="{{ link.url }}">{{ link.title }}</a>
       {% endfor %}
-    {% endif %}
+      <a class="button button--nav" href="{{ site.data.app.app_store_url }}" target="_blank" rel="noopener">{{ site.data.strings.nav.cta_label }}</a>
+    </div>
+
+    <label class="nav__menu-button" for="nav-toggle" aria-label="Open navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+
+  <div class="nav__mobile">
+    {% for link in site.data.strings.nav.links %}
+    <a class="nav__mobile-link{% if page.url == link.url %} nav__mobile-link--active{% endif %}" href="{{ link.url }}">{{ link.title }}</a>
+    {% endfor %}
+    <a class="button button--mobile" href="{{ site.data.app.app_store_url }}" target="_blank" rel="noopener">{{ site.data.strings.nav.cta_label }}</a>
   </div>
 </nav>

@@ -1,64 +1,153 @@
 ---
 layout: default
+body_class: page-home
 ---
-<header class="app__header container">
-  <div class="app__logo-wrapper">
-    <img class="app__logo" src="{{ site.logo | default: 'assets/images/appicon.png' | prepend: '/' }}" alt="{{ site.data.app.name }} Icon">
-  </div>
-  <div class="app__infos">
-    <h1 class="app__name">{{ site.data.app.name }}</h1>
-    <p class="app__description">{{ site.data.app.description }}</p>
-    <div class="app__buttons app__buttons--desktop">
-      {% if site.data.app.android != false %}
-      <a href="{{ site.data.app.android }}" class="app__button-play" target="_blank"><img src="/assets/images/google-play-badge.png" alt="Get on Google Play"></a>
-      {% endif %}
-      {% if site.data.app.iOS != false %}
-      <a href="{{ site.data.app.iOS }}" class="app__button-ios" target="_blank"><img src="/assets/images/ios.svg" alt="Get on Appstore"></a>
-      {% endif %}
-      {% if site.data.app.web != false %}
-      <a href="{{ site.data.app.web }}" class="app__button-web" target="_blank"><img src="/assets/images/pwa-badge.png" alt="Go to website"></a>
-      {% endif %}
+<section class="hero">
+  <div class="container hero__grid">
+    <div class="hero__content">
+      <p class="eyebrow">{{ site.data.app.hero.eyebrow }}</p>
+      <h1>{{ site.data.app.hero.title }}</h1>
+      <p class="hero__lede">{{ site.data.app.hero.description }}</p>
+      <p class="hero__proof">{{ site.data.app.hero.proof }}</p>
+
+      <div class="hero__actions">
+        <a class="button" href="{{ site.data.app.app_store_url }}" target="_blank" rel="noopener">{{ site.data.app.hero.primary_cta }}</a>
+        <a class="button button--ghost" href="{{ site.data.app.hero.secondary_cta_url }}">{{ site.data.app.hero.secondary_cta_label }}</a>
+      </div>
+
+      <p class="hero__meta">{{ site.data.strings.home.social_proof }}</p>
+    </div>
+
+    <div class="hero__device-cluster" aria-hidden="true">
+      <div class="device device--primary">
+        <img src="/assets/images/screenshots/1.png" alt="" loading="eager">
+      </div>
+      <div class="device device--secondary">
+        <img src="/assets/images/screenshots/2.png" alt="" loading="lazy">
+      </div>
+      <div class="hero__floating-card">
+        <span>Daily routine</span>
+        <strong>Finasteride, minoxidil, progress photos</strong>
+      </div>
     </div>
   </div>
-</header>
-<div class="app__buttons app__buttons--mobile container">
-  {% if site.data.app.android != false %}
-  <a href="{{ site.data.app.android }}" class="app__button-play" target="_blank"><img src="/assets/images/google-play-badge.png" alt="Get on Google Play"></a>
-  {% endif %}
-  {% if site.data.app.iOS != false %}
-  <a href="{{ site.data.app.iOS }}" class="app__button-ios" target="_blank"><img src="/assets/images/ios.svg" alt="Get on Appstore"></a>
-  {% endif %}
-  {% if site.data.app.web != false %}
-  <a href="{{ site.data.app.web }}" class="app__button-web" target="_blank"><img src="/assets/images/pwa-badge.png" alt="Go to website"></a>
-  {% endif %}
-</div>
-<section class="app__screenshots app__section">
+</section>
+
+<section class="section section--story">
   <div class="container">
-    <h2 class="app__section-title">{{ site.data.strings.app.screenshots }}</h2>
+    <div class="section-heading">
+      <p class="eyebrow">Product workflow</p>
+      <h2>{{ site.data.app.story.title }}</h2>
+      <p>{{ site.data.app.story.intro }}</p>
+    </div>
+    <div class="story-grid">
+      {% for step in site.data.app.story.steps %}
+      <article class="story-card">
+        <span class="story-card__index">0{{ forloop.index }}</span>
+        <h3>{{ step.title }}</h3>
+        <p>{{ step.description }}</p>
+      </article>
+      {% endfor %}
+    </div>
   </div>
-  <div class="app__screenshots-wrapper container-desktop">
-    <div class="app__screenshots-list">
-      {% for screenshot in site.data.app.screenshots %}
-      <a href="/assets/images/screenshots/{{ screenshot }}" class="lightbox">
-       <img src="/assets/images/screenshots/{{ screenshot }}" class="app__screenshot">
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Core features</p>
+      <h2>{{ site.data.strings.home.features_title }}</h2>
+    </div>
+    <div class="feature-grid">
+      {% for feature in site.data.app.features %}
+      <article class="feature-card">
+        <span class="feature-card__icon">{{ feature.icon }}</span>
+        <h3>{{ feature.title }}</h3>
+        <p>{{ feature.description }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--cobalt">
+  <div class="container">
+    <div class="section-heading section-heading--light">
+      <p class="eyebrow eyebrow--light">Treatment use cases</p>
+      <h2>{{ site.data.strings.home.regimens_title }}</h2>
+    </div>
+    <div class="regimen-grid">
+      {% for regimen in site.data.app.regimens %}
+      <a class="regimen-card" href="{{ regimen.url }}">
+        <h3>{{ regimen.title }}</h3>
+        <p>{{ regimen.description }}</p>
+        <span>Read guide</span>
       </a>
       {% endfor %}
     </div>
   </div>
 </section>
-<section class="app__fulldescription app__section container">
-  <h2 class="app__section-title">{{ site.data.strings.app.description }}</h2>
-  <div class="app__fulldescription-content">
-    <p>{{ site.data.app.full_description }}</p>
+
+<section class="section">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Education</p>
+      <h2>{{ site.data.strings.home.learn_title }}</h2>
+    </div>
+    <div class="learn-grid">
+      {% for item in site.data.app.learn_more %}
+      <a class="learn-card" href="{{ item.url }}">
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.description }}</p>
+      </a>
+      {% endfor %}
+    </div>
   </div>
 </section>
-<section class="app__featured app__section container">
-  <h2 class="app__section-title">{{ site.data.strings.app.featured }}</h2>
-  <div class="app__featured-content">
-    {% for company in site.data.app.companies %}
-    <a href="{{ company.url }}" target="_blank" class="app__featured-company">
-     <img src="/assets/images/companies/{{ company.image }}" class="app__featured-image">
+
+<section class="section">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Screenshots</p>
+      <h2>{{ site.data.strings.home.screenshots_title }}</h2>
+    </div>
+  </div>
+  <div class="screenshot-rail container-desktop">
+    {% for screenshot in site.data.app.screenshots %}
+    <a class="lightbox screenshot-rail__item" href="/assets/images/screenshots/{{ screenshot }}">
+      <img src="/assets/images/screenshots/{{ screenshot }}" alt="Track Hair screenshot {{ forloop.index }}" loading="lazy">
     </a>
     {% endfor %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Search-friendly questions</p>
+      <h2>{{ site.data.strings.home.faq_title }}</h2>
+    </div>
+    <div class="faq-list">
+      {% for item in site.data.strings.home.faq %}
+      <details class="faq-item">
+        <summary>{{ item.question }}</summary>
+        <p>{{ item.answer }}</p>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--final-cta">
+  <div class="container final-cta">
+    <div>
+      <p class="eyebrow eyebrow--light">Download Track Hair</p>
+      <h2>{{ site.data.strings.home.cta_title }}</h2>
+      <p>{{ site.data.strings.home.cta_subtitle }}</p>
+    </div>
+    <div class="final-cta__actions">
+      <a class="button button--light" href="{{ site.data.app.app_store_url }}" target="_blank" rel="noopener">{{ site.data.app.hero.primary_cta }}</a>
+      <p class="final-cta__trust">Privacy-first tracking. Informational support only, not medical advice.</p>
+    </div>
   </div>
 </section>

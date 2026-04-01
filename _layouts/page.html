@@ -1,14 +1,81 @@
 ---
 layout: default
 ---
-<article class="page">
+<article class="article-shell">
+  <div class="container">
+    {% include breadcrumbs.html %}
+    <header class="article-hero">
+      {% if page.hero_kicker %}
+      <p class="eyebrow">{{ page.hero_kicker }}</p>
+      {% endif %}
+      <h1>{{ page.title }}</h1>
+      {% if page.summary %}
+      <p class="article-hero__summary">{{ page.summary }}</p>
+      {% endif %}
+    </header>
 
-  <header class="page__header">
-    <h1 class="page__title">{{ page.title | escape }}</h1>
-  </header>
+    <div class="article-layout">
+      <div class="article-layout__main">
+        <div class="article-content">
+          {{ content }}
+        </div>
 
-  <div class="page__content">
-    {{ content }}
+        {% if page.faq %}
+        <section class="article-section">
+          <h2>{{ site.data.strings.medical.faq_title }}</h2>
+          <div class="faq-list">
+            {% for item in page.faq %}
+            <details class="faq-item">
+              <summary>{{ item.question }}</summary>
+              <p>{{ item.answer }}</p>
+            </details>
+            {% endfor %}
+          </div>
+        </section>
+        {% endif %}
+
+        {% if page.citations %}
+        <section class="article-section">
+          <h2>{{ site.data.strings.medical.citations_title }}</h2>
+          <ul class="source-list">
+            {% for source in page.citations %}
+            <li><a href="{{ source.url }}" target="_blank" rel="noopener">{{ source.label }}</a></li>
+            {% endfor %}
+          </ul>
+        </section>
+        {% endif %}
+
+        {% if page.related_pages %}
+        <section class="article-section">
+          <h2>{{ site.data.strings.medical.related_title }}</h2>
+          <div class="related-grid">
+            {% for item in page.related_pages %}
+            <a class="related-card" href="{{ item.url }}">
+              <h3>{{ item.title }}</h3>
+              <p>{{ item.description }}</p>
+            </a>
+            {% endfor %}
+          </div>
+        </section>
+        {% endif %}
+      </div>
+
+      <aside class="article-layout__aside">
+        {% unless page.hide_app_cta %}
+        <section class="aside-card aside-card--product">
+          <h2>{{ site.data.strings.medical.app_cta_title }}</h2>
+          <p>{{ site.data.strings.medical.app_cta_body }}</p>
+          <a class="button button--light" href="{{ site.data.app.app_store_url }}" target="_blank" rel="noopener">{{ site.data.strings.medical.app_cta_label }}</a>
+        </section>
+        {% endunless %}
+
+        {% unless page.hide_medical_disclaimer %}
+        <section class="aside-card">
+          <h2>{{ site.data.strings.medical.disclaimer_title }}</h2>
+          <p>{{ site.data.strings.medical.disclaimer_body }}</p>
+        </section>
+        {% endunless %}
+      </aside>
+    </div>
   </div>
-
 </article>
