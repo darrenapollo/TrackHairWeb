@@ -12,6 +12,9 @@ layout: default
       {% if page.summary %}
       <p class="article-hero__summary">{{ page.summary }}</p>
       {% endif %}
+      {% if page.last_modified_at %}
+      <p class="article-meta">Last updated <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: "%B %-d, %Y" }}</time></p>
+      {% endif %}
     </header>
 
     <div class="article-layout">
@@ -65,7 +68,7 @@ layout: default
         <section class="aside-card aside-card--product">
           <h2>{{ site.data.strings.medical.app_cta_title }}</h2>
           <p>{{ site.data.strings.medical.app_cta_body }}</p>
-          <a class="button button--light" href="{{ site.data.app.app_store_url }}" target="_blank" rel="noopener">{{ site.data.strings.medical.app_cta_label }}</a>
+          <a class="button button--light" href="{{ site.data.app.app_store_url }}" target="_blank" rel="noopener" data-cta="page_sidebar">{{ site.data.strings.medical.app_cta_label }}</a>
         </section>
         {% endunless %}
 

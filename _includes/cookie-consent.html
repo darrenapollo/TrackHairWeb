@@ -1,17 +1,61 @@
-<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<section class="analytics-consent" id="analytics-consent" role="dialog" aria-labelledby="analytics-consent-title" aria-describedby="analytics-consent-description" hidden>
+  <div class="analytics-consent__panel">
+    <div class="analytics-consent__copy">
+      <p class="eyebrow">Privacy choices</p>
+      <h2 id="analytics-consent-title">Help improve Track Hair</h2>
+      <p id="analytics-consent-description">
+        Optional Google Analytics helps us understand which guides are useful and which App Store links are clicked. It stays off unless you allow it, and we do not use it for advertising.
+      </p>
+      <a href="{{ '/privacy/' | relative_url }}">Read the privacy policy</a>
+    </div>
+    <div class="analytics-consent__actions">
+      <button class="button button--ghost" type="button" data-analytics-consent="denied">Reject analytics</button>
+      <button class="button" type="button" data-analytics-consent="granted">Allow analytics</button>
+    </div>
+  </div>
+</section>
+
 <script>
-window.addEventListener("load", function(){
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#000"
-    },
-    "button": {
-      "background": "#f1d600"
+  (function () {
+    var analytics = window.trackHairAnalytics;
+    var dialog = document.getElementById('analytics-consent');
+    if (!analytics || !dialog) return;
+
+    function showPreferences(moveFocus) {
+      dialog.hidden = false;
+      if (moveFocus) {
+        var selectedChoice = dialog.querySelector('[data-analytics-consent="' + (analytics.getConsent() || 'granted') + '"]');
+        if (selectedChoice) selectedChoice.focus();
+      }
     }
-  },
-  "position": "top",
-  "static": true
-})});
+
+    function hidePreferences() {
+      dialog.hidden = true;
+    }
+
+    dialog.addEventListener('click', function (event) {
+      var choice = event.target.closest('[data-analytics-consent]');
+      if (!choice) return;
+
+      if (choice.getAttribute('data-analytics-consent') === 'granted') {
+        analytics.grant();
+        hidePreferences();
+        return;
+      }
+
+      var requiresReload = analytics.deny();
+      hidePreferences();
+      if (requiresReload) window.location.reload();
+    });
+
+    document.addEventListener('click', function (event) {
+      var settingsButton = event.target.closest('[data-open-analytics-settings]');
+      if (!settingsButton) return;
+      showPreferences(true);
+    });
+
+    if (analytics.getConsent() === null) {
+      showPreferences(false);
+    }
+  }());
 </script>

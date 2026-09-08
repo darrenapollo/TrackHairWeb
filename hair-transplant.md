@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Hair Transplant Recovery Tracking Guide
-description: "Track hair transplant recovery with better structure, from early healing through the long regrowth phase, using reminders, notes, and progress photos."
+description: "Plan and track hair transplant recovery with better structure, from early healing through the long regrowth phase, using reminders, notes, and progress photos."
 permalink: /hair-transplant/
+last_modified_at: 2026-07-08
 hero_kicker: Hair transplant guide
-summary: Hair transplant results are judged over a long recovery and regrowth window. This guide focuses on realistic tracking, not instant-result expectations.
+summary: Hair transplant results are judged over a long recovery and regrowth window. This guide focuses on realistic recovery planning, aftercare tracking, and long-term photo review, not instant-result expectations.
 schema_type: MedicalWebPage
 section: treatments
 faq:
@@ -22,7 +23,7 @@ citations:
   - label: "Cleveland Clinic: Male Pattern Baldness"
     url: https://my.clevelandclinic.org/health/diseases/24515-male-pattern-baldness-androgenic-alopecia
 related_pages:
-  - title: Male pattern baldness guide
+  - title: Hair loss guide
     description: Understand where transplant surgery fits in the wider landscape of treatment decisions.
     url: /male-pattern-baldness/
   - title: PRP guide
@@ -36,7 +37,7 @@ A hair transplant moves donor hair from a fuller area of the scalp into thinning
 
 This is not a quick-fix category. The recovery and regrowth window is long, which is exactly why tracking matters.
 
-## How it fits into male pattern baldness care
+## How it fits into a broader hair loss plan
 
 Transplant surgery can improve distribution and framing, but it does not automatically solve the biology affecting non-transplanted hair. That is why many people still end up discussing a broader plan for stabilization with their clinician.
 
@@ -63,3 +64,5 @@ Surgery carries risks, recovery demands patience, and outcomes depend on individ
 3. Use notes to log milestones, clinic guidance, and any changes to the plan.
 4. Review regrowth at meaningful intervals instead of constantly checking early phases that mostly reflect healing.
 5. Track any supporting treatments separately so your full regimen remains understandable.
+
+Track Hair is useful after a transplant because the journey has phases: aftercare, healing, shedding, waiting, early regrowth, and longer-term review. Putting those phases in one timeline makes recovery easier to follow and gives your future photos the context they need.

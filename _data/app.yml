@@ -1,101 +1,123 @@
 name: Track Hair
-tagline: Hair loss tracker app for men
-description: Hair loss tracker app for men with treatment schedules, progress photos, and AI-guided Norwood stage check-ins.
-full_description: Track Hair helps you stay consistent with hair loss treatment schedules, document progress with repeatable photos, and understand your routine over time.
-app_store_url: https://apps.apple.com/id6740919537
+tagline: Hair loss tracker app for women and men
+description: Hair loss tracker app for women and men with treatment schedules, progress photos, regimen notes, and long-term review.
+full_description: Track Hair helps women and men track a hair loss journey, stay consistent with treatment schedules, document progress with repeatable photos, and understand a routine over time.
+app_store_url: https://apps.apple.com/app/id6740919537
 android: false
 web: false
 logo: /assets/images/THAppIcon.png
 screenshots:
-  - 1.png
-  - 2.png
-  - 3.png
-  - 4.png
+  - file: 1.jpg
+    alt: "Track Hair daily view showing the July calendar with finasteride, microneedling, and minoxidil marked complete for the day"
+  - file: 2.jpg
+    alt: "Treatment schedule listing microneedling, ketoconazole shampoo, minoxidil, finasteride, and a weekly progress photo reminder"
+  - file: 3.jpg
+    alt: "Editing a topical minoxidil treatment with dose, unit, frequency, and start date fields"
+  - file: 4.jpg
+    alt: "Photo library grid of repeatable crown and hairline progress photos grouped by month"
+  - file: 5.jpg
+    alt: "Progress report scheduling a follow-up to recapture the same angles three months after the baseline photo"
 
 hero:
-  eyebrow: Hair loss tracker app
-  title: Track treatments, photos, and progress in one place.
-  description: Track Hair gives you a dedicated hair loss tracking workflow for finasteride, minoxidil, microneedling, transplant recovery, and long-term routine consistency.
-  proof: Built for reminders, progress photos, and AI-assisted Norwood stage tracking.
+  eyebrow: Hair loss tracker app for women and men
+  title: Track your hair loss treatments, photos, and changes over months.
+  description: Track Hair brings female and male hair loss routines, minoxidil, finasteride, spironolactone, transplant recovery, PRP, microneedling, progress photos, regimen notes, and review timelines together so you can judge change with more context.
+  proof: Built for individual routines, long review windows, and treatment consistency. Not a generic habit tracker or one-off scanner.
   primary_cta: Download on the App Store
-  secondary_cta_label: Explore treatment guides
+  secondary_cta_label: Build a better routine
   secondary_cta_url: /treatments/
 
 story:
-  title: The app mirrors the routine you already follow.
-  intro: Designed like a focused treatment journal, not a generic habit app. Every screen is built around keeping a hair loss regimen consistent and measurable.
+  title: Hair growth is a long game. Your hair loss tracker should be built for that.
+  intro: Track Hair is designed like a treatment journal for your scalp, your plan, and your timeline. It helps you keep your hair loss routine stable enough to understand what is happening instead of guessing from memory.
   steps:
-    - title: Build a treatment plan
-      description: Add finasteride, minoxidil, microneedling, ketoconazole, PRP, or your own regimen with custom timing and dose details.
-    - title: Stay consistent every day
-      description: Mark treatments complete, keep your routine visible, and use reminders that match real-world schedules.
-    - title: Capture evidence over time
-      description: Save progress photos, compare changes month to month, and review your hair loss journey with more context than memory alone.
+    - title: Build your individual plan
+      description: Add minoxidil, finasteride, spironolactone, microneedling, ketoconazole, PRP, red light therapy, transplant recovery, or your own custom routine with timing and dose details.
+    - title: Follow it without losing context
+      description: Mark treatments complete, record missed days honestly, and keep the plan visible so changes in your routine do not disappear into memory.
+    - title: Review your journey over months
+      description: Save repeatable progress photos and notes so you can compare meaningful intervals, not emotional day-to-day mirror checks.
 
 features:
   - icon: Routine
-    title: Treatment schedules
-    description: Create a structured routine for daily, weekly, or post-procedure care without juggling separate reminder apps.
+    title: A real treatment plan
+    description: Create daily, weekly, session-based, or post-procedure schedules that reflect the routine you are actually following.
   - icon: Photos
-    title: Progress photos
-    description: Keep repeatable before-and-after photos in one timeline so changes are easier to judge over months.
+    title: Repeatable progress photos
+    description: Keep baseline and follow-up photos in one timeline so changes are easier to judge across months, not moods.
   - icon: Notes
-    title: Regimen details
-    description: Store dose, frequency, and notes for each treatment so your routine stays documented and easy to review.
+    title: Regimen history
+    description: Store dose, frequency, missed applications, shedding notes, side effects, and plan changes so every review has context.
   - icon: AI
-    title: Norwood tracking
-    description: Use AI-assisted analysis as an extra reference point when monitoring visible change over time.
+    title: AI as a reference, not the product
+    description: Use AI-assisted visible-change checks as one input alongside your photos, notes, and treatment history.
   - icon: Multi
-    title: Multi-treatment support
-    description: Track finasteride, minoxidil, transplant recovery, PRP, red light therapy, and more in the same plan.
+    title: Multi-treatment planning
+    description: Track minoxidil, finasteride, spironolactone, transplant recovery, PRP, red light therapy, microneedling, and custom routines in the same plan.
 
 regimens:
   - title: Finasteride and dutasteride
-    description: Keep daily 5-alpha-reductase inhibitor schedules consistent and compare long-term results against baseline photos.
+    description: Keep prescription schedules consistent, document dose changes, and compare long-term results against baseline photos.
     url: /finasteride/
   - title: Minoxidil routines
-    description: Track once-daily or twice-daily application habits and build a cleaner record of shedding and regrowth windows.
+    description: Track once-daily or twice-daily applications, missed doses, shedding windows, and photo checkpoints in one place.
     url: /minoxidil/
+  - title: Spironolactone routines
+    description: Keep clinician-prescribed schedules, dose changes, side effect notes, and long review windows connected to your female hair loss plan.
+    url: /spironolactone/
   - title: Microneedling and scalp stimulation
-    description: Log depth, session timing, and scalp response while coordinating with topical treatments.
+    description: Log session timing, depth if relevant, scalp response, and how each session fits around topical treatments.
     url: /microneedling/
   - title: Hair transplant recovery
-    description: Document post-op milestones, washing schedules, shedding, and regrowth from week one through month eighteen.
+    description: Plan recovery checkpoints, aftercare reminders, shedding notes, and regrowth photos from week one through the long review window.
     url: /hair-transplant/
 
 learn_more:
-  - title: Male pattern baldness guide
-    description: Understand androgenetic alopecia, DHT, the Norwood scale, and the main evidence-based treatment paths.
-    url: /male-pattern-baldness/
+  - title: Hair loss guide
+    description: Understand pattern hair loss, male and female presentation, common causes, and why a stable tracking plan matters.
+    url: /hair-loss/
+  - title: How to take progress photos
+    description: Learn the repeatable angles, lighting, and intervals that turn scattered selfies into a timeline you can actually compare.
+    url: /hair-loss-progress-photos/
+  - title: Female pattern hair loss guide
+    description: Learn how female hair loss routines can include minoxidil, spironolactone, photo tracking, lab follow-up, and clinician-guided review.
+    url: /female-pattern-hair-loss/
   - title: Hair loss treatment library
-    description: Browse practical overviews of finasteride, minoxidil, microneedling, PRP, red light therapy, and hair transplant recovery.
+    description: Compare how different treatments fit into a long-term routine and what to track for each one.
     url: /treatments/
+  - title: Best hair loss tracker apps
+    description: See how treatment-tracking journals and one-off AI scan apps compare, and which type actually shows whether a routine is working.
+    url: /best-hair-loss-tracker-apps/
   - title: Read the latest articles
-    description: Explore comparison posts and tracking guides aimed at common hair loss search questions.
+    description: Explore treatment comparisons, photo-tracking advice, and practical planning guides for long-term hair loss care.
     url: /blog/
 
 treatment_guides:
   - title: Minoxidil
-    description: How minoxidil works, what the timeline usually looks like, and how to track applications and photos.
+    description: How minoxidil fits into a routine, what the review timeline looks like, and how to track applications, shedding, and photos.
     url: /minoxidil/
     accent: Daily topical routine
   - title: Finasteride
-    description: What finasteride does, what it does not do, and how to monitor a daily oral regimen over time.
+    description: What finasteride does, what it does not do, and how to monitor a prescription routine across realistic review windows.
     url: /finasteride/
     accent: DHT-focused treatment
+  - title: Spironolactone
+    description: Where spironolactone may fit for female pattern hair loss, what to discuss with a clinician, and how to track a prescribed routine.
+    url: /spironolactone/
+    accent: Female hair loss prescription
   - title: Hair transplant
-    description: A practical recovery and progress-tracking guide from surgery through the long regrowth window.
+    description: A practical recovery and progress-planning guide from surgery through the long regrowth window.
     url: /hair-transplant/
     accent: Procedure recovery
   - title: PRP therapy
-    description: Session cadence, expected response windows, and how PRP usually fits into combination treatment plans.
+    description: Session cadence, follow-up timing, expected response windows, and how PRP fits into combination treatment plans.
     url: /prp-therapy/
     accent: In-clinic treatment
   - title: Microneedling
-    description: Session planning, safety notes, and coordination with minoxidil or other routines.
+    description: Session planning, safety notes, scalp response tracking, and coordination with minoxidil, spironolactone, or other routines.
     url: /microneedling/
     accent: Weekly stimulation
   - title: Red light therapy
-    description: A guide to low-level light therapy schedules, maintenance use, and progress monitoring.
+    description: A guide to device schedules, realistic consistency, maintenance use, and progress monitoring.
     url: /red-light-therapy/
     accent: Device-based support

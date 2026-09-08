@@ -5,7 +5,7 @@
 
 title: Track Hair
 email: hello@track.hair
-description: "Track Hair is a hair loss tracker app for men. Schedule finasteride and minoxidil, store progress photos, track Norwood changes, and stay consistent with long-term regimens."
+description: "Track Hair is a hair loss tracker app for women and men, with minoxidil, finasteride, spironolactone, progress photos, regimen notes, and long-term reviews."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://track.hair" # the base hostname & protocol for your site, e.g. http://example.com
 theme_color: '#0021AC'
@@ -14,9 +14,11 @@ lang: en
 github_username:  darrenapollo
 author: Darren Tracey
 logo: /assets/images/THAppIcon.png
+image: /assets/images/og-image.jpg # default social share card (1200x630)
 
 navigation_pages:
   - treatments.md
+  - female-pattern-hair-loss.md
   - male-pattern-baldness.md
   - norwood-scale.md
   - blog.md
@@ -35,18 +37,21 @@ webmaster_verifications:
    # - https://github.com/sandoche
 
 languages: ["en"]
-ampdir: amp
 
 github: https://github.com/darrenapollo
 
 ### Google webmaster tools, Google Analytics, Doorbell and Cookie consent uncomment and put the API key
-#google_analytics: UA-XXXXXXXXX-X
-google_analytics: false
+# Analytics only loads in production after a visitor allows optional analytics.
+# It includes privacy-safe App Store outbound-click tracking.
+# Mark `app_store_click` as a key event in GA4 after validating it in DebugView.
+# Prefer privacy-first analytics? Swap _includes/google-analytics.html for a
+# Plausible/Fathom snippet — the same App Store click listener works with either.
+google_analytics: "G-QNQD8FL3P2"
 #doorbell:
 #  id: doorbell_id
 #  appKey: doorbell_appKey
 
-#cookie_consent: true
+cookie_consent: true
 
 ### Build settings
 markdown: kramdown
@@ -55,7 +60,13 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - octopress-minify-html
-  - amp-jekyll
+
+### Default social share image for every page (jekyll-seo-tag reads page.image).
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/og-image.jpg
 
 ### Exclude from processing.
 exclude:

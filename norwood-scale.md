@@ -1,10 +1,11 @@
 ---
 layout: page
 title: Norwood Scale Guide for Male Pattern Baldness
-description: "Learn what the Norwood scale measures, how the stages are typically described, and how Track Hair helps you keep a more objective photo record over time."
+description: "Learn what the Norwood scale measures, how the stages are described, and how to pair stage awareness with long-term hair progress photos."
 permalink: /norwood-scale/
+last_modified_at: 2026-08-18
 hero_kicker: Norwood scale guide
-summary: The Norwood scale is a common way to describe the visible pattern and progression of male pattern baldness. It is useful for orientation, but it is not a substitute for diagnosis.
+summary: The Norwood scale is a common way to describe the visible pattern and progression of male pattern baldness. It is useful for orientation, but it becomes more practical when paired with repeatable photos, treatment history, and long-term review.
 schema_type: MedicalWebPage
 section: treatments
 faq:
@@ -22,7 +23,7 @@ citations:
   - label: "AAD: Finding the right treatments for genetic hair loss"
     url: https://www.aad.org/news/finding-the-right-treatments-for-genetic-hair-loss
 related_pages:
-  - title: Male pattern baldness guide
+  - title: Hair loss guide
     description: Start with the broader condition if you want context before stage labels.
     url: /male-pattern-baldness/
   - title: Hair loss treatments guide
@@ -60,6 +61,8 @@ Advanced loss patterns with less connecting hair across the top.
 
 The Norwood scale does not diagnose the root cause of hair loss, and it does not tell you which treatment is automatically right. It is one descriptive tool, not the whole picture.
 
+For a more detailed walk-through of stages I through VII, read the [complete Norwood stage guide](/blog/understanding-norwood-scale/). Use those labels as a common description, then rely on repeatable photos to judge whether the visible pattern is changing.
+
 ## How Track Hair helps
 
-Track Hair helps you capture repeatable photos and review them over time. That makes any stage estimate more useful because it sits alongside a real visual record instead of memory alone.
+Track Hair helps you capture repeatable photos, record your treatment plan, and review visible change over time. That makes any stage estimate more useful because it sits alongside a real visual record, adherence history, and regimen notes instead of memory alone.

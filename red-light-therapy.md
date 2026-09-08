@@ -3,8 +3,9 @@ layout: page
 title: Red Light Therapy Hair Loss Tracking Guide
 description: "A practical guide to red light therapy for hair loss, including where it fits in a routine, what to expect, and how to track consistency."
 permalink: /red-light-therapy/
+last_modified_at: 2026-07-08
 hero_kicker: Red light therapy guide
-summary: Red light therapy and low-level light therapy are often discussed as supportive options for hair growth. This guide focuses on realistic tracking and evidence-aware expectations.
+summary: Red light therapy and low-level light therapy are often discussed as supportive options for hair growth. This guide focuses on realistic planning, consistency tracking, and evidence-aware expectations.
 schema_type: MedicalWebPage
 section: treatments
 faq:
@@ -22,12 +23,15 @@ citations:
   - label: "Cleveland Clinic: Male Pattern Baldness"
     url: https://my.clevelandclinic.org/health/diseases/24515-male-pattern-baldness-androgenic-alopecia
 related_pages:
-  - title: Male pattern baldness guide
+  - title: Hair loss guide
     description: Understand the broader treatment landscape before adding device-based routines.
     url: /male-pattern-baldness/
   - title: Minoxidil guide
     description: Review one of the more established treatment options people often compare with device-based support.
     url: /minoxidil/
+  - title: Spironolactone guide
+    description: Understand how a female hair loss prescription routine can be tracked beside supportive therapies.
+    url: /spironolactone/
 ---
 
 ## What red light therapy is
@@ -60,3 +64,5 @@ Short-term use appears relatively well tolerated, but medical sources still note
 2. Log actual session completion rather than the ideal plan.
 3. Keep photo comparisons on a monthly or similarly structured cadence.
 4. Track it alongside the rest of your regimen so you can judge the full plan rather than one device in isolation.
+
+Track Hair is useful here because device routines can feel simple until life gets in the way. The app keeps the planned cadence, actual completion, notes, and long-term photos together so you can review consistency instead of relying on a vague sense that you used it "most weeks."

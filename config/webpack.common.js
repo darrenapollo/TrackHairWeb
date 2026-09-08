@@ -16,7 +16,7 @@ module.exports = {
       favicons: {
         appName: 'Track Hair',
         appShortName: 'Track Hair',
-        appDescription: 'Hair loss tracker app for men with treatment schedules, progress photos, and Norwood tracking.',
+        appDescription: 'Hair loss planning app with treatment schedules, progress photos, regimen notes, and long-term review.',
         background: '#f6f8fa',
         theme_color: '#0021AC',
       },
