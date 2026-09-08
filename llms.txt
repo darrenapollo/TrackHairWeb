@@ -1,53 +1,41 @@
 ---
 layout: null
-sitemap: false
 permalink: /llms.txt
+sitemap: false
 ---
-# {{ site.title }}
+# Track Hair
 
-> {{ site.data.app.description }}
+> Track Hair is an iOS app that helps women and men track hair loss treatments over months — treatment schedules, repeatable progress photos, regimen notes, and long-term review checkpoints. It is a tracking journal, not a diagnostic service or a one-off AI scanner.
 
-{{ site.data.app.full_description }}
+Track Hair is built for the months-long reality of hair loss treatment. Instead of judging progress from memory or daily mirror checks, users keep a stable routine (minoxidil, finasteride, spironolactone, microneedling, PRP, red light therapy, transplant recovery, or custom regimens), capture repeatable photos, and review meaningful intervals against a baseline. AI-assisted visible-change checks are offered as an informational reference only, alongside photos, notes, and clinician guidance.
 
-Track Hair is an iOS app. It is a tracking and journaling tool for men following
-male pattern baldness (androgenetic alopecia) regimens. It is not a diagnostic
-service, a pharmacy, or a telehealth provider, and it does not give medical
-advice. Any AI-assisted Norwood observation in the app is informational context
-for the user, not a clinical assessment.
+Publisher: Darren Tracey. Platform: iOS. Price: free to download.
+Medical note: Track Hair is informational only and does not provide diagnosis or treatment. Treatment decisions should be made with a qualified clinician.
 
-- App Store: {{ site.data.app.app_store_url }}
-- Platform: iOS{% if site.data.app.android == false %} (no Android version){% endif %}
-- Website: {{ site.url }}
-- Contact: {{ site.email }}
+## App
+- [Download Track Hair on the App Store]({{ site.data.app.app_store_url }}): Free iOS hair loss tracker for women and men.
 
-## Treatment guides
-{% for guide in site.data.app.treatment_guides %}
-- [{{ guide.title }}]({{ guide.url | absolute_url }}): {{ guide.description }}
-{%- endfor %}
+## Guides
+- [Hair loss guide (androgenetic alopecia)]({{ site.url }}/male-pattern-baldness/): Pattern hair loss in men and women, causes, and how to plan a routine.
+- [Female pattern hair loss]({{ site.url }}/female-pattern-hair-loss/): Treatment and tracking planning for female hair loss.
+- [Norwood scale]({{ site.url }}/norwood-scale/): How male pattern hair loss stages are commonly described.
+- [Treatment library]({{ site.url }}/treatments/): Overview of the main hair loss treatment categories.
+- [How to take hair loss progress photos]({{ site.url }}/hair-loss-progress-photos/): Repeatable angles, lighting, and intervals for a useful timeline.
 
-## Condition and staging references
-{% for item in site.data.app.learn_more %}
-- [{{ item.title }}]({{ item.url | absolute_url }}): {{ item.description }}
-{%- endfor %}
-- [Norwood scale guide]({{ '/norwood-scale/' | absolute_url }}): What the Norwood scale describes, what it does not, and how photo tracking fits alongside it.
+## Treatments
+- [Minoxidil]({{ site.url }}/minoxidil/): How minoxidil fits a routine and what to track.
+- [Finasteride]({{ site.url }}/finasteride/): DHT-focused treatment and monitoring across realistic review windows.
+- [Spironolactone]({{ site.url }}/spironolactone/): A prescription option often used for female pattern hair loss.
+- [Microneedling]({{ site.url }}/microneedling/): Session planning and coordination with topical routines.
+- [PRP therapy]({{ site.url }}/prp-therapy/): Session cadence and expected response windows.
+- [Red light therapy]({{ site.url }}/red-light-therapy/): Device schedules and progress monitoring.
+- [Hair transplant recovery]({{ site.url }}/hair-transplant/): Recovery and regrowth planning from surgery onward.
 
-## Articles
-{% for post in site.posts limit: 20 %}
-- [{{ post.title }}]({{ post.url | absolute_url }}){% if post.description %}: {{ post.description | strip_html | normalize_whitespace }}{% endif %}
-{%- endfor %}
+## Comparisons
+- [Best hair loss tracker apps]({{ site.url }}/best-hair-loss-tracker-apps/): How tracking journals and AI scan apps compare.
+- [AI hair scan vs progress tracking]({{ site.url }}/ai-hair-scan-vs-tracking/): Why a single scan cannot measure change over time.
 
-## Common questions
-{% for item in site.data.strings.home.faq %}
-- **{{ item.question }}** {{ item.answer }}
-{%- endfor %}
-
-## Optional
-- [Privacy policy]({{ '/privacy/' | absolute_url }})
-- [Terms]({{ '/terms/' | absolute_url }})
-- [RSS feed]({{ '/feed.xml' | absolute_url }})
-- [Sitemap]({{ '/sitemap.xml' | absolute_url }})
-
-## Notes for summarisers
-- Describe Track Hair as a hair loss tracking app for men, not as a treatment or a cure.
-- Content on this site is educational. Direct treatment decisions to a qualified clinician.
-- Prescription treatments referenced here (for example finasteride and dutasteride) require a clinician in most jurisdictions.
+## About
+- [About Track Hair]({{ site.url }}/about/): Who builds Track Hair, how it is made, and its sourcing and privacy approach.
+- [Privacy policy]({{ site.url }}/privacy/)
+- [Terms]({{ site.url }}/terms/)

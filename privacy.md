@@ -3,6 +3,8 @@ layout: page
 title: Privacy policy
 permalink: /privacy/
 summary: Privacy details for the Track Hair app and website.
+description: How Track Hair handles app and website data, including optional consent-based website analytics.
+last_modified_at: 2026-08-18
 schema_type: WebPage
 hide_medical_disclaimer: true
 hide_app_cta: true
@@ -10,9 +12,9 @@ body_class: page__legal
 ---
 
 Privacy Policy
-Last updated: 25/11/2025
+Last updated: 18/08/2026
 
-This Privacy Policy explains how Track Hair (“Track Hair”, “we”, “our”, or “us”) collects, uses, and shares information when you use our mobile application (the “App”).
+This Privacy Policy explains how Track Hair (“Track Hair”, “we”, “our”, or “us”) collects, uses, and shares information when you use our mobile application (the “App”) or visit our website (the “Website”).
 
 By using Track Hair, you agree to the collection and use of information in accordance with this Privacy Policy.
 
@@ -44,7 +46,23 @@ However, certain technical and transactional information may still be processed 
 
 Track Hair does not add additional analytics or advertising trackers on top of what is provided by Apple.
 
-1.3 Subscription and Purchase Information
+1.3 Website Analytics
+
+The Website uses Google Analytics only if you select “Allow analytics” in our privacy choices. We use Basic Consent Mode, so the Google Analytics tag does not load and no analytics data is sent to Google before you make that choice. Rejecting analytics does not affect your ability to use the Website.
+
+If you allow analytics, Google Analytics may process:
+	•	Pages viewed and referring pages
+	•	Browser, device, and general technical information
+	•	Approximate location derived from network information
+	•	Clicks on links to the Track Hair App Store listing
+
+We do not send your Track Hair App data, photos, treatment notes, journal contents, or other health-related information to Google Analytics. Advertising storage, advertising user data, advertising personalization, Google signals, and advertising-personalization signals are disabled.
+
+Your analytics choice is stored in your browser. You can change or withdraw it at any time using “Analytics settings” in the Website footer. If you withdraw consent after allowing analytics, the page reloads with Google Analytics disabled for future activity. Clearing your browser storage may cause the Website to ask for your choice again.
+
+For more about Google's handling of information, see the [Google Privacy Policy](https://policies.google.com/privacy).
+
+1.4 Subscription and Purchase Information
 
 If you purchase a subscription or in-app purchase:
 	•	Payments are processed by Apple’s App Store.
@@ -79,6 +97,7 @@ We use your information to:
 	•	Display your photos and journal entries by date
 	•	Sync data between your devices via iCloud (if enabled)
 	•	Manage subscriptions and premium access through RevenueCat
+	•	Understand Website usage and measure App Store link clicks, but only where you have allowed analytics
 	•	Comply with legal, accounting, and security obligations related to purchases
 
 We do not sell your personal data and do not use it for targeted advertising.
@@ -89,6 +108,7 @@ We do not sell your personal data and do not use it for targeted advertising.
 
 If you are located in the European Economic Area or the United Kingdom, we process your personal data under the following legal bases:
 	•	Consent – For health-related data (treatments, notes, photos) which you voluntarily enter into the App. You can withdraw consent by deleting the data and/or uninstalling the App.
+	•	Consent – For optional Website analytics. You can withdraw this consent at any time through “Analytics settings” in the Website footer.
 	•	Legitimate interests – For subscription management, basic app operation, and security, where our interests are not overridden by your rights.
 	•	Legal obligations – Where we must retain or process data to comply with applicable laws (e.g. accounting or tax rules related to purchases).
 
@@ -105,6 +125,8 @@ We use RevenueCat to manage subscriptions and entitlements. RevenueCat may proce
 	•	Subscription status and renewal information
 	•	Anonymized or pseudonymous identifiers required to manage your access to premium features
 RevenueCat acts as a service provider / data processor on our behalf and processes data only as necessary to provide subscription management.
+	•	Google Analytics (Optional Website Analytics)
+If you allow analytics, Google may process the Website usage and App Store link-click information described above to provide analytics reports to us. We configure the service without advertising personalization and do not use this information for targeted advertising.
 	•	Legal and safety requirements
 If required to do so by law, or in response to valid legal requests, or to protect the rights, property, or safety of Track Hair, our users, or others.
 	•	Business transfers
@@ -118,6 +140,7 @@ We do not share your journal contents, treatment data, or photos with advertiser
 	•	Your treatment data, notes, and photos remain on your device and/or in iCloud until you delete them or uninstall the App.
 	•	Subscription-related data is retained for as long as necessary to manage your subscription, comply with legal obligations (e.g. accounting/tax), and resolve disputes.
 	•	Any diagnostic or purchase-related data handled by Apple or RevenueCat is retained according to their respective policies.
+	•	Website analytics data is retained according to the retention setting in our Google Analytics property. Your browser keeps your analytics choice until you change it or clear browser storage.
 
 Uninstalling the App removes locally stored data from your device, but it does not automatically delete data stored in iCloud or in your device backups.
 
@@ -131,6 +154,7 @@ Depending on your location, you may have certain rights regarding your personal 
 	•	Deleting specific entries or photos
 	•	Restricting or objecting to certain processing
 	•	Withdrawing consent by deleting data or uninstalling the App
+	•	Withdrawing Website analytics consent through “Analytics settings” in the Website footer
 	•	Requesting data portability, where technically feasible
 
 Because Track Hair primarily stores your data on your device and/or in iCloud under your control, many actions (like deleting or editing entries) can be carried out directly in the App or via your device settings.
@@ -149,7 +173,7 @@ If you believe a child has provided us with personal information, please contact
 
 9. International Data Transfers
 
-Our service providers, including RevenueCat, may process data in countries outside your country of residence. Where required by law, we will ensure that appropriate safeguards are in place to protect your personal data in connection with such transfers.
+Our service providers, including RevenueCat and, where you allow Website analytics, Google, may process data in countries outside your country of residence. Where required by law, we will ensure that appropriate safeguards are in place to protect your personal data in connection with such transfers.
 
 ⸻
 

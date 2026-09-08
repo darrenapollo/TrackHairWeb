@@ -7,11 +7,12 @@
   "author": "Sandoche Adittane <sandoche@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "npm run-script clean:project && webpack --env config=dev --progress --profile --color && concurrently \"webpack-dev-server --env config=dev\" \"bundle exec jekyll serve\"",
-    "build": "npm run-script clean:project && cross-env NODE_ENV=production webpack --env config=prod --progress --profile --color && cross-env JEKYLL_ENV=production bundle exec jekyll build",
-    "build:pwa": "npm run-script clean:project && cross-env NODE_ENV=production webpack --env config=pwa --progress --profile --color && cross-env JEKYLL_ENV=pwa bundle exec jekyll build && workbox generateSW config/sw.config.js --verbose",
+    "start": "npm run-script clean:project && npm run images:responsive && webpack --env config=dev --progress --profile --color && concurrently \"webpack-dev-server --env config=dev\" \"bundle exec jekyll serve\"",
+    "build": "npm run-script clean:project && npm run images:responsive && cross-env NODE_ENV=production webpack --env config=prod --progress --profile --color && cross-env JEKYLL_ENV=production bundle exec jekyll build",
+    "build:pwa": "npm run-script clean:project && npm run images:responsive && cross-env NODE_ENV=production webpack --env config=pwa --progress --profile --color && cross-env JEKYLL_ENV=pwa bundle exec jekyll build && workbox generateSW config/sw.config.js --verbose",
     "serve:dist": "http-server _site",
-    "clean:project": "rimraf ./_site ./assets"
+    "clean:project": "rimraf ./_site ./assets",
+    "images:responsive": "node config/build-responsive-images.js"
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
@@ -42,8 +43,11 @@
     "postcss-loader": "^6.1.1",
     "postcss-scss": "^4.0.1",
     "rimraf": "^3.0.2",
+    "sass": "^1.101.0",
     "sass-loader": "^12.1.0",
+    "sharp": "^0.28.3",
     "style-loader": "^3.3.0",
+    "terser-webpack-plugin": "^5.3.14",
     "webpack": "^5.55.1",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.3.0",

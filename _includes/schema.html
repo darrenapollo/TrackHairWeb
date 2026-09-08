@@ -1,7 +1,7 @@
 {% assign page_title = page.title | default: site.title %}
 {% assign page_description = page.description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace %}
 {% assign page_url = page.url | absolute_url %}
-{% assign page_image = page.og_image | default: site.url | append: site.logo %}
+{% assign page_image = page.image | default: page.og_image | default: site.image | default: site.logo | absolute_url %}
 
 {% if page.layout == 'home' %}
 <script type="application/ld+json">
@@ -12,11 +12,12 @@
   "description": {{ site.description | jsonify }},
   "applicationCategory": "HealthApplication",
   "operatingSystem": "iOS",
+  "downloadUrl": {{ site.data.app.app_store_url | jsonify }},
   "url": {{ site.data.app.app_store_url | jsonify }},
   "installUrl": {{ site.data.app.app_store_url | jsonify }},
   "image": {{ page_image | jsonify }},
   {% assign app_screenshots = site.data.app.screenshots %}{% if app_screenshots and app_screenshots.size > 0 %}"screenshot": [
-    {% for shot in app_screenshots %}{{ '/assets/images/screenshots/' | append: shot | absolute_url | jsonify }}{% unless forloop.last %},
+    {% for shot in app_screenshots %}{{ '/assets/images/screenshots/' | append: shot.file | absolute_url | jsonify }}{% unless forloop.last %},
     {% endunless %}{% endfor %}
   ],
   {% endif %}{% if site.data.app.software_version and site.data.app.software_version != '' %}"softwareVersion": {{ site.data.app.software_version | jsonify }},
@@ -27,7 +28,15 @@
     "bestRating": "5",
     "worstRating": "1"
   },
-  {% endif %}"offers": {
+  {% endif %}"featureList": [
+    "Female and male hair loss routines",
+    "Hair loss treatment schedules",
+    "Minoxidil, finasteride, and spironolactone tracking",
+    "Progress photo tracking",
+    "Regimen notes",
+    "Long-term hair growth review"
+  ],
+  "offers": {
     "@type": "Offer",
     "price": "0",
     "priceCurrency": "USD"
@@ -50,8 +59,21 @@
   "description": {{ page_description | jsonify }},
   "url": {{ page_url | jsonify }},
   "image": {{ page_image | jsonify }},
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ page_url | jsonify }}
+  },
+  {% if page.last_modified_at %}
+  "dateModified": {{ page.last_modified_at | date_to_xmlschema | jsonify }},
+  {% endif %}
   {% if page.layout == 'post' %}
   "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  {% if page.author %}
+  "author": {
+    "@type": "Person",
+    "name": {{ page.author | jsonify }}
+  },
+  {% endif %}
   {% endif %}
   "publisher": {
     "@type": "Organization",
@@ -65,13 +87,16 @@
 </script>
 {% endif %}
 
-{% if page.faq %}
+{% comment %} Use page-level FAQ when present, otherwise the homepage FAQ from _data/strings.yml {% endcomment %}
+{% assign faq_items = page.faq %}
+{% if faq_items == nil and page.layout == 'home' %}{% assign faq_items = site.data.strings.home.faq %}{% endif %}
+{% if faq_items %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {% for item in page.faq %}
+    {% for item in faq_items %}
     {
       "@type": "Question",
       "name": {{ item.question | jsonify }},

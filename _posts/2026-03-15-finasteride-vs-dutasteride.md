@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Finasteride vs Dutasteride for Hair Loss: Which Is More Effective?"
-description: "A detailed comparison of finasteride and dutasteride for male pattern baldness. Mechanism, efficacy, side effects, dosing, and which one may be right for you."
+title: "Finasteride vs Dutasteride for Hair Loss"
+description: "Compare finasteride and dutasteride for male pattern baldness, plus prescription tracking context for spironolactone and female hair loss."
 author: Darren Tracey
-date: 2025-03-15
+date: 2026-03-15
 permalink: /blog/finasteride-vs-dutasteride/
 hero_kicker: Treatment comparison
 summary: A high-level comparison of two related prescription options that should always be discussed with a qualified clinician.
@@ -19,7 +19,7 @@ campaign_token: web-blog-fin-vs-dut
 
 Both finasteride and dutasteride are 5-alpha reductase inhibitors — oral medications that work by reducing dihydrotestosterone (DHT), the hormone responsible for follicle miniaturisation in androgenetic alopecia. But they're not the same drug, and the differences matter when choosing between them.
 
-This guide breaks down how each medication works, compares their efficacy, discusses side effect profiles, and explains how to track either one effectively.
+This guide breaks down how each medication works, compares evidence at a high level, discusses side effect profiles, and explains how to track either prescribed routine with enough context to review over time. It is separate from spironolactone, another anti-androgen prescription option most often discussed for women with female pattern hair loss.
 
 ## The Common Enemy: DHT
 
@@ -107,20 +107,21 @@ This is a decision for you and your prescribing physician. Some considerations:
 - You're experiencing rapid progression and want maximum DHT suppression
 - Your dermatologist recommends it based on your pattern and stage
 
-## Tracking Your 5-ARI Progress with Track Hair
+## Tracking Your 5-ARI Plan with Track Hair
 
-Regardless of which medication you choose, tracking is essential. Both finasteride and dutasteride take **6–24 months** to show their full effect — and without before-and-after photos, it's nearly impossible to objectively assess progress.
+Regardless of which medication you and your clinician choose, tracking is essential. These routines are usually reviewed across long windows, and without before-and-after photos, adherence history, and notes, it is difficult to assess what happened with any discipline.
 
 Here's how to track your 5-ARI regimen with Track Hair:
 
 1. **Add your medication as a daily treatment** with a once-daily reminder
 2. **Note your starting dose and medication** in the treatment details
-3. **Capture a baseline photo** (crown and front) before or on day 1
-4. **Monthly photo check-ins** — particularly crown shots, which typically show the most response
-5. **12-month review** — compare your month 12 photos to baseline to make an objective decision about whether to continue, adjust dose, or discuss alternatives with your doctor
+3. **Capture baseline photos** before or on day 1
+4. **Record changes** in dose, timing, missed days, side effects, or other treatments added to the plan, including minoxidil, spironolactone, procedures, or supportive routines if relevant
+5. **Use planned photo check-ins** so reviews happen at meaningful intervals
+6. **Prepare for clinician conversations** with a clearer timeline of what you took, what changed, and what the photos showed
 
 ---
 
-**Start tracking your hair loss treatment.** [Download Track Hair]({% include app-store-url.html ct=page.campaign_token %}) and set up your finasteride or dutasteride schedule today.
+**Start planning your hair loss treatment routine.** [Download Track Hair]({% include app-store-url.html ct=page.campaign_token %}) and set up your medication schedule, baseline photos, notes, and review checkpoints today.
 
-*Related reading: [How to Track Minoxidil Progress](/blog/how-to-track-minoxidil-progress/) | [Understanding the Norwood Scale](/blog/understanding-norwood-scale/) | [Finasteride Guide](/finasteride/)*
+*Related reading: [How to Track Minoxidil Progress](/blog/how-to-track-minoxidil-progress/) | [Spironolactone Guide](/spironolactone/) | [Understanding the Norwood Scale](/blog/understanding-norwood-scale/) | [Finasteride Guide](/finasteride/)*

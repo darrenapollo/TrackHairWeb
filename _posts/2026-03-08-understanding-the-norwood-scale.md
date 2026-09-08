@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Understanding the Norwood Scale: A Guide to All 7 Stages"
-description: "A complete guide to the Norwood scale stages I through VII. Learn what each stage means, what it looks like, and which treatments are most appropriate."
+description: "A complete guide to the Norwood scale stages I through VII, what each stage describes, and why stage tracking works best with photos and treatment history."
 author: Darren Tracey
-date: 2025-03-08
+date: 2026-03-08
 permalink: /blog/understanding-norwood-scale/
 hero_kicker: Pattern guide
 summary: An overview of the Norwood scale and why stage labels become more useful when they are paired with repeatable progress photos.
@@ -19,7 +19,7 @@ campaign_token: web-blog-norwood
 
 If you've started researching male hair loss, you've encountered the **Norwood scale** — the standard classification system that dermatologists, hair transplant surgeons, and hair loss forums use to describe and discuss the progression of androgenetic alopecia.
 
-Understanding your Norwood stage is one of the most useful things you can do early in your hair loss journey. It helps you benchmark where you are, understand the treatment options available at your stage, and track whether your treatments are working.
+Understanding your Norwood stage can be useful early in a male hair loss journey. It helps you benchmark where you are, understand the treatment options often discussed at that stage, and create a more structured plan for reviewing whether your routine is holding steady. Female pattern hair loss is usually described differently, and prescription options such as spironolactone belong in that separate clinician-guided discussion rather than being staged by Norwood.
 
 ## What Is the Norwood Scale?
 
@@ -41,7 +41,7 @@ A full hairline with no meaningful recession. Hair is dense from the front hairl
 
 Slight symmetrical recession at the temples. From the front, the hairline appears to have moved back slightly, forming shallow triangular recession on each side. The hairline remains largely intact.
 
-**Treatment:** Finasteride and/or minoxidil are effective at this stage, primarily as prevention to halt further progression.
+**Treatment:** Finasteride and/or minoxidil are commonly discussed at this stage, primarily as prevention to halt further progression.
 
 ---
 
@@ -51,7 +51,7 @@ The hairline has receded significantly at the temples, creating a pronounced M, 
 
 This is typically the stage at which men first seek treatment.
 
-**Treatment:** Finasteride and minoxidil are both effective. Hair transplants can address the temples if desired.
+**Treatment:** Finasteride and minoxidil are both commonly discussed. Hair transplants can address the temples if desired.
 
 ---
 
@@ -59,7 +59,7 @@ This is typically the stage at which men first seek treatment.
 
 Pronounced temple recession combined with clear thinning or a bald patch at the crown (vertex). The two areas of loss are separated by a band of hair crossing the top of the scalp. Hair density is noticeably reduced across the entire top of the scalp.
 
-**Treatment:** Finasteride and minoxidil should be started urgently if not already. Hair transplant is an option for suitable candidates.
+**Treatment:** Finasteride and minoxidil are often discussed urgently if not already started. Hair transplant is an option for suitable candidates.
 
 ---
 
@@ -99,9 +99,9 @@ The most severe form of male pattern baldness. Only a narrow horseshoe of hair r
 
 ## Tracking Your Norwood Stage Over Time
 
-One of the most powerful ways to assess whether your treatment is working is to track your Norwood stage over time. If you started finasteride at Stage III and two years later you're still at Stage III — your treatment is working. If you've progressed to Stage IV despite treatment, you may need to review your protocol.
+One useful way to assess whether your treatment plan is holding steady is to track your Norwood stage over time. If you started a clinician-guided routine at Stage III and two years later you are still around Stage III, that may be a useful stabilization signal. If you appear to progress despite treatment, it may be time to review the plan with a clinician.
 
-Track Hair's AI analyses your overhead photos to estimate your current Norwood stage, giving you an objective data point at each milestone to compare against.
+Track Hair can pair AI-assisted stage reference with your actual photo timeline, treatment schedule, and regimen notes. The point is not to treat AI as a diagnosis. The point is to keep every milestone attached to the routine you were following at the time.
 
 ## How to Identify Your Own Stage
 
@@ -116,6 +116,6 @@ If you're unsure between two stages, you're likely in the range between them. Th
 
 ---
 
-**Track your Norwood stage with AI.** [Download Track Hair]({% include app-store-url.html ct=page.campaign_token %}) and upload a photo for your first AI-powered hair assessment.
+**Track your stage as part of a real plan.** [Download Track Hair]({% include app-store-url.html ct=page.campaign_token %}) and keep your photos, treatments, notes, and review timeline together.
 
-*Related reading: [How to Track Minoxidil Progress](/blog/how-to-track-minoxidil-progress/) | [Hair Loss Treatments by Stage](/treatments/)*
+*Related reading: [How to Track Minoxidil Progress](/blog/how-to-track-minoxidil-progress/) | [Spironolactone Guide](/spironolactone/) | [Hair Loss Treatments by Stage](/treatments/)*

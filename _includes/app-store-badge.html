@@ -1,0 +1,7 @@
+{%- comment -%}
+Official App Store badge. `location` feeds the GA4 app_store_click event via
+data-cta; `ct` feeds Apple's App Analytics campaign attribution via the link.
+{%- endcomment -%}
+<a class="badge-link" href="{% include app-store-url.html ct=include.ct %}" target="_blank" rel="noopener" data-cta="{{ include.location | default: 'badge' }}" aria-label="Download Track Hair on the App Store">
+  <img src="/assets/images/badges/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the App Store" width="156" height="52" loading="lazy">
+</a>

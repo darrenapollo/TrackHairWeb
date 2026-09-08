@@ -4,7 +4,7 @@
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "/",
-  "description": "Hair loss tracker app for men with treatment schedules, progress photos, and Norwood tracking.",
+  "description": "Hair loss planning app with treatment schedules, progress photos, regimen notes, and long-term review.",
   "scope": "/",
   "theme_color": "#0021AC",
   "background_color": "#f6f8fa"

@@ -9,8 +9,11 @@
       {% for link in site.data.strings.footer.links %}
       <a href="{{ link.url }}">{{ link.title }}</a>
       {% endfor %}
+      {% if site.google_analytics and site.google_analytics != false and site.cookie_consent == true and jekyll.environment == 'production' %}
+      <button type="button" data-open-analytics-settings>Analytics settings</button>
+      {% endif %}
     </div>
 
-    <p class="footer__legal">{{ site.data.strings.footer.copyright }}</p>
+    <p class="footer__legal">{{ site.data.strings.footer.copyright }} {{ 'now' | date: "%Y" }}</p>
   </div>
 </footer>

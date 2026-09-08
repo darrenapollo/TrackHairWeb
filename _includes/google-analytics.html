@@ -1,8 +1,122 @@
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)};
-  gtag('js', new Date());
+  (function () {
+    var measurementId = {{ site.google_analytics | jsonify }};
+    var pageType = {{ page.layout | default: 'default' | jsonify }};
+    var pageSection = {{ page.section | default: page.layout | default: 'site' | jsonify }};
+    var storageKey = 'track_hair_analytics_consent';
+    var analyticsLoaded = false;
 
-  gtag('config', '{{ site.google_analytics }}');
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function () {
+      window.dataLayer.push(arguments);
+    };
+
+    // Consent defaults must be set before any Google tag is requested. Track
+    // Hair uses basic consent mode: the tag is not loaded at all until consent.
+    window.gtag('consent', 'default', {
+      analytics_storage: 'denied',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied'
+    });
+    window.gtag('set', 'ads_data_redaction', true);
+
+    function readConsent() {
+      try {
+        var value = window.localStorage.getItem(storageKey);
+        return value === 'granted' || value === 'denied' ? value : null;
+      } catch (error) {
+        return null;
+      }
+    }
+
+    function saveConsent(value) {
+      try {
+        window.localStorage.setItem(storageKey, value);
+      } catch (error) {
+        // A blocked storage API should not prevent the visitor's current choice.
+      }
+    }
+
+    function updateConsent(value) {
+      window.gtag('consent', 'update', {
+        analytics_storage: value,
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied'
+      });
+    }
+
+    function loadAnalytics() {
+      if (analyticsLoaded) return;
+
+      analyticsLoaded = true;
+      updateConsent('granted');
+      window.gtag('js', new Date());
+      window.gtag('config', measurementId, {
+        allow_google_signals: false,
+        allow_ad_personalization_signals: false,
+        content_group: pageSection,
+        page_type: pageType
+      });
+
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(measurementId);
+      document.head.appendChild(script);
+    }
+
+    window.trackHairAnalytics = {
+      getConsent: readConsent,
+      grant: function () {
+        saveConsent('granted');
+        loadAnalytics();
+      },
+      deny: function () {
+        var requiresReload = analyticsLoaded;
+        saveConsent('denied');
+        updateConsent('denied');
+        return requiresReload;
+      },
+      isLoaded: function () {
+        return analyticsLoaded;
+      }
+    };
+
+    if (readConsent() === 'granted') {
+      loadAnalytics();
+    }
+
+    // Track App Store clicks only after analytics consent. This deliberately
+    // ignores clicks made before consent instead of queueing them for later.
+    document.addEventListener('click', function (event) {
+      if (readConsent() !== 'granted' || !analyticsLoaded) return;
+
+      var target = event.target;
+      if (!(target instanceof Element)) return;
+
+      // Scoped to our own App Store id on purpose. The comparison pages link
+      // to competitor apps on apps.apple.com, and those clicks are not
+      // Track Hair installs.
+      var link = target.closest('a[href*="apps.apple.com"]');
+      if (!link || link.href.indexOf({{ site.data.app.apple_app_id | jsonify }}) === -1) return;
+
+      var linkText = link.textContent.trim().replace(/\s+/g, ' ').slice(0, 60);
+      var linkLocation = link.getAttribute('data-cta');
+      if (!linkLocation && link.closest('.article-content')) {
+        linkLocation = 'article_inline';
+      }
+
+      window.gtag('event', 'app_store_click', {
+        link_location: linkLocation || 'unspecified',
+        link_text: linkText,
+        link_url: link.href,
+        page_path: window.location.pathname,
+        page_title: document.title,
+        page_section: pageSection,
+        page_type: pageType,
+        transport_type: 'beacon'
+      });
+    });
+  }());
 </script>
