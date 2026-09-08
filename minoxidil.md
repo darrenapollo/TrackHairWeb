@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Minoxidil Progress Tracker for Hair Loss
-description: "Learn how to track minoxidil for female and male hair loss, including applications, shedding notes, progress photos, finasteride, and spironolactone."
+description: "Learn how to track minoxidil applications, shedding notes, side effects, and progress photos within female or male hair loss treatment routines over time."
 permalink: /minoxidil/
-last_modified_at: 2026-08-18
+last_modified_at: 2026-09-08
 hero_kicker: Minoxidil guide
 summary: Minoxidil is one of the most widely used hair loss treatments. This guide explains what it does, where its limits are, and how to plan a minoxidil routine with enough consistency and context to review over time.
 schema_type: MedicalWebPage

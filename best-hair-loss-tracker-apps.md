@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Best Hair Loss Tracker Apps (2026)
-description: "Compare the best hair loss tracker apps for progress photos, treatment routines, AI scans, and clinician care, including what each app does best."
+description: "Compare the best hair loss tracker apps for progress photos, treatment schedules, regimen notes, AI scans, privacy, and useful long-term review features."
 permalink: /best-hair-loss-tracker-apps/
-last_modified_at: 2026-08-18
+last_modified_at: 2026-09-08
 hero_kicker: Comparison
 summary: Hair loss tracker apps now range from treatment journals and aligned progress-photo tools to AI scanners and clinician-care platforms. This guide compares the main approaches and explains which type fits each goal.
 schema_type: WebPage

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Norwood Scale Guide for Male Pattern Baldness
-description: "Learn what the Norwood scale measures, how the stages are described, and how to pair stage awareness with long-term hair progress photos."
+description: "Learn what each Norwood scale stage means for male pattern baldness and how consistent progress photos can help you track visible changes over time at home."
 permalink: /norwood-scale/
-last_modified_at: 2026-08-18
+last_modified_at: 2026-09-08
 hero_kicker: Norwood scale guide
 summary: The Norwood scale is a common way to describe the visible pattern and progression of male pattern baldness. It is useful for orientation, but it becomes more practical when paired with repeatable photos, treatment history, and long-term review.
 schema_type: MedicalWebPage

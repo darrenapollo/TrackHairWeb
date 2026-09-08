@@ -1,8 +1,9 @@
 ---
 layout: blog
 title: Hair Loss Tracking Guides & Treatment Articles
-description: "Practical hair loss tracking guides covering progress photos, minoxidil, finasteride, spironolactone, treatment routines, and long-term reviews."
+description: "Read practical hair loss tracking guides covering progress photos, minoxidil, finasteride, shedding, treatment routines, and meaningful long-term reviews."
 permalink: /blog/
+last_modified_at: 2026-09-08
 section: blog
 ---
 

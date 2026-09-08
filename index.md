@@ -4,5 +4,6 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 title: Hair Loss Tracker App for Women and Men
-description: "Track Hair helps women and men track hair loss treatments, minoxidil, finasteride, spironolactone, progress photos, notes, and long-term reviews."
+description: "Track hair loss treatments, schedules, progress photos, shedding notes, and regimen changes over time with Track Hair, an iOS hair loss tracker app for iPhone."
+last_modified_at: 2026-09-08
 ---

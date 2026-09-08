@@ -1,9 +1,9 @@
 ---
 layout: page
 title: AI Hair Scan vs Progress Tracking
-description: "AI hair scans give you a score in seconds, but they cannot measure change. Here is why progress tracking over months is what actually tells you if treatment works."
+description: "Compare one-off AI hair scans with long-term hair loss tracking, and learn why consistent photos and treatment records provide more useful context over time."
 permalink: /ai-hair-scan-vs-tracking/
-last_modified_at: 2026-07-08
+last_modified_at: 2026-09-08
 hero_kicker: How to measure progress
 summary: An AI hair scan can estimate your hair loss stage in seconds. Progress tracking follows your routine and photos over months. They sound similar, but only one can answer the question that matters — is your treatment working? Here is the difference.
 schema_type: WebPage

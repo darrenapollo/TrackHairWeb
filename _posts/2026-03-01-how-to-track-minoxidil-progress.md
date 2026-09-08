@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "How to Track Minoxidil Progress: A Complete Photo Guide"
-description: "Step-by-step guide to minoxidil progress photos, review checkpoints, applications, and routines with finasteride or spironolactone."
+description: "Learn how to track minoxidil progress with consistent photos, application logs, shedding notes, review checkpoints, and realistic long-term treatment routines."
 author: Darren Tracey
 date: 2026-03-01
+last_modified_at: 2026-09-08
 permalink: /blog/how-to-track-minoxidil-progress/
 hero_kicker: Tracking guide
 summary: A practical walkthrough for judging minoxidil progress without relying on memory or daily mirror checks.

@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Norwood Scale Quiz - Estimate Your Norwood Stage
-description: "A free Norwood scale quiz for men. Answer six questions about your hairline, crown, and scalp coverage to get an estimated Norwood stage and a photo tracking plan."
+description: "Take a free six-question Norwood scale quiz to estimate your male pattern hair loss stage, then get a practical plan for consistent progress photos at home."
 permalink: /norwood-scale/quiz/
+last_modified_at: 2026-09-08
 hero_kicker: Norwood scale quiz
 summary: Answer six questions about your hairline and crown to get an estimated Norwood stage, plus a repeatable photo routine that makes future comparisons meaningful. Everything is calculated in your browser, and nothing you enter is sent anywhere.
 schema_type: MedicalWebPage

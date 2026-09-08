@@ -3,8 +3,8 @@ layout: page
 title: Privacy policy
 permalink: /privacy/
 summary: Privacy details for the Track Hair app and website.
-description: How Track Hair handles app and website data, including optional consent-based website analytics.
-last_modified_at: 2026-08-18
+description: "Learn how Track Hair handles app and website data, including progress photos, treatment records, iCloud storage, subscriptions, and optional analytics."
+last_modified_at: 2026-09-08
 schema_type: WebPage
 hide_medical_disclaimer: true
 hide_app_cta: true

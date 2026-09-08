@@ -3,6 +3,8 @@ layout: page
 title: Terms of Use
 permalink: /terms/
 summary: Terms governing use of the Track Hair app and website.
+description: "Read the terms governing use of the Track Hair app and website, including subscriptions, health information, acceptable use, disclaimers, and liability."
+last_modified_at: 2026-09-08
 schema_type: WebPage
 hide_medical_disclaimer: true
 hide_app_cta: true

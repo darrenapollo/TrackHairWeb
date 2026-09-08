@@ -8,6 +8,14 @@ NODE_VERSION = "14.18.0"
 PYTHON = "python3.10"
 SHARP_IGNORE_GLOBAL_LIBVIPS = "1"
 
+# Notify participating search engines only after a production deploy succeeds.
+[[context.production.plugins]]
+package = "./plugins/indexnow"
+
+  [context.production.plugins.inputs]
+  host = "track.hair"
+  key = "ec1cc71e359745789540fa5611ca5fd8"
+
 # The AMP variants of the blog posts were removed. They were orphaned
 # duplicates (no rel="amphtml" pairing) that the sitemap still advertised, and
 # AMP no longer carries any ranking benefit. Redirect the old URLs to the

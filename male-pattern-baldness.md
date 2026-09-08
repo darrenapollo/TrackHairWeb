@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Hair Loss and Androgenetic Alopecia Guide
-description: "A practical guide to hair loss, male and female pattern hair loss, treatment categories, and how to plan and track a long-term routine."
+description: "Learn how male and female pattern hair loss develops, which treatments may be discussed, and how to track a long-term routine with useful context over time."
 permalink: /male-pattern-baldness/
-last_modified_at: 2026-07-08
+last_modified_at: 2026-09-08
 hero_kicker: Pattern hair loss
 summary: Pattern hair loss, also called androgenetic alopecia, is one of the most common forms of hair loss in both men and women. This page explains common patterns, treatment categories, and why a structured long-term plan is more useful than scattered notes, daily mirror checks, or one-off scans.
 schema_type: MedicalWebPage

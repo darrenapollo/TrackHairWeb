@@ -1,12 +1,12 @@
 ---
 layout: page
 title: About Track Hair
-description: "Who builds Track Hair, how the app and guides are made, and the sourcing, privacy, and medical-safety approach behind them."
+description: "Learn who builds Track Hair, how its hair loss guides are researched, and the privacy, independence, and medical-safety principles behind the app and website."
 permalink: /about/
 hero_kicker: About
 summary: Track Hair is an independent iOS app for tracking hair loss treatments over months. This page explains who makes it, how the guides are researched, and the privacy and medical-safety principles behind the product.
 schema_type: AboutPage
-last_modified_at: 2026-08-18
+last_modified_at: 2026-09-08
 hide_medical_disclaimer: true
 related_pages:
   - title: Hair loss guide

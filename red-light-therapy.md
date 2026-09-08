@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Red Light Therapy Hair Loss Tracking Guide
-description: "A practical guide to red light therapy for hair loss, including where it fits in a routine, what to expect, and how to track consistency."
+description: "Learn how red light therapy may fit into a hair loss routine, what evidence and safety points matter, and how to track sessions and progress photos over time."
 permalink: /red-light-therapy/
-last_modified_at: 2026-07-08
+last_modified_at: 2026-09-08
 hero_kicker: Red light therapy guide
 summary: Red light therapy and low-level light therapy are often discussed as supportive options for hair growth. This guide focuses on realistic planning, consistency tracking, and evidence-aware expectations.
 schema_type: MedicalWebPage

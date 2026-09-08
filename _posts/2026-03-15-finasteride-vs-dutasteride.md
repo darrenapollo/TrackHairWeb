@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Finasteride vs Dutasteride for Hair Loss"
-description: "Compare finasteride and dutasteride for male pattern baldness, plus prescription tracking context for spironolactone and female hair loss."
+description: "Compare finasteride and dutasteride for male pattern hair loss, including effectiveness, safety, clinician guidance, and long-term treatment tracking."
 author: Darren Tracey
 date: 2026-03-15
+last_modified_at: 2026-09-08
 permalink: /blog/finasteride-vs-dutasteride/
 hero_kicker: Treatment comparison
 summary: A high-level comparison of two related prescription options that should always be discussed with a qualified clinician.

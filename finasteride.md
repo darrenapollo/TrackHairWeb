@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Finasteride Hair Loss Tracker Guide
-description: "A practical guide to finasteride for hair loss planning, how it differs from minoxidil and spironolactone, and how to track a prescribed routine."
+description: "Learn how finasteride fits into male pattern hair loss care, how it differs from minoxidil and spironolactone, and how to track a prescribed routine over time."
 permalink: /finasteride/
-last_modified_at: 2026-08-18
+last_modified_at: 2026-09-08
 hero_kicker: Finasteride guide
 summary: Finasteride is one of the most established prescription treatments for male pattern baldness in men. This guide explains how it fits into a long-term plan and how to track a prescribed routine with more discipline and context.
 schema_type: MedicalWebPage

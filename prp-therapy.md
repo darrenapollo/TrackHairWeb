@@ -1,9 +1,9 @@
 ---
 layout: page
 title: PRP Therapy Hair Loss Tracking Guide
-description: "Learn how PRP therapy is typically positioned in hair loss care and how to track sessions, intervals, and progress photos with Track Hair."
+description: "Learn how PRP therapy may fit into hair loss care and how to track clinic sessions, treatment intervals, follow-up notes, and consistent progress photos."
 permalink: /prp-therapy/
-last_modified_at: 2026-07-08
+last_modified_at: 2026-09-08
 hero_kicker: PRP guide
 summary: PRP is usually an in-clinic option used as part of a larger hair loss plan. This guide focuses on realistic session planning, follow-up tracking, and expectation management.
 schema_type: MedicalWebPage
