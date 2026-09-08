@@ -23,6 +23,9 @@ citations:
   - label: "MedlinePlus: Female Pattern Baldness"
     url: https://medlineplus.gov/ency/article/001173.htm
 related_pages:
+  - title: Ludwig scale quiz
+    description: Estimate a Ludwig stage from six questions about your part line and crown, then start a photo baseline.
+    url: /ludwig-scale/
   - title: Female pattern hair loss guide
     description: Start with the broader female hair loss planning workflow before reviewing individual prescriptions.
     url: /female-pattern-hair-loss/

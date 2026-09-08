@@ -95,6 +95,9 @@ learn_more:
   - title: Norwood scale quiz
     description: Estimate your Norwood stage from six questions, then start a photo baseline you can actually compare against.
     url: /norwood-scale/quiz/
+  - title: Ludwig scale quiz
+    description: The female pattern equivalent. Estimate a Ludwig stage from your part line and crown, and flag what belongs with a clinician.
+    url: /ludwig-scale/
   - title: Hair loss guide
     description: Understand pattern hair loss, male and female presentation, common causes, and why a stable tracking plan matters.
     url: /hair-loss/

@@ -25,6 +25,9 @@ citations:
   - label: "MedlinePlus: Spironolactone drug information"
     url: https://medlineplus.gov/druginfo/meds/a682627.html
 related_pages:
+  - title: Ludwig scale quiz
+    description: Estimate a Ludwig stage from six questions about your part line and crown, then start a photo baseline.
+    url: /ludwig-scale/
   - title: Spironolactone guide
     description: Learn how a prescribed spironolactone routine can be tracked with dose, notes, side effects, and progress photos.
     url: /spironolactone/

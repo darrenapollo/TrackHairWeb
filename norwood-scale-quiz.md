@@ -28,6 +28,9 @@ citations:
   - label: "AAD: Finding the right treatments for genetic hair loss"
     url: https://www.aad.org/news/finding-the-right-treatments-for-genetic-hair-loss
 related_pages:
+  - title: Ludwig scale quiz
+    description: Estimate a Ludwig stage from six questions about your part line and crown, then start a photo baseline.
+    url: /ludwig-scale/
   - title: Norwood scale guide
     description: The stages explained in full, and what the scale can and cannot tell you.
     url: /norwood-scale/
@@ -330,8 +333,9 @@ Repeatable photos are what make the difference visible. The same four angles, th
     result.hidden = false;
     result.focus();
 
-    if (typeof window.plausible === 'function') {
-      window.plausible('Norwood quiz completed', { props: { stage: info.label } });
+    var analytics = window.trackHairAnalytics;
+    if (analytics && analytics.isLoaded() && typeof window.gtag === 'function') {
+      window.gtag('event', 'norwood_quiz_completed', { stage: info.label });
     }
   }
 

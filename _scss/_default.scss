@@ -1399,3 +1399,34 @@ input:focus-visible {
     width: 100%;
   }
 }
+
+/* Ludwig quiz: clinician-routing callout. Deliberately warmer than the brand
+   blue so it reads as "act on this", not as another product panel. */
+
+.quiz__flags {
+  margin-top: 1.5rem;
+  padding: 1.2rem 1.3rem;
+  border: 1px solid rgba(179, 38, 30, 0.22);
+  border-radius: var(--radius-md);
+  background: rgba(179, 38, 30, 0.05);
+}
+
+.quiz__flags h4 {
+  margin: 0 0 0.7rem;
+  font-size: 1.05rem;
+  color: #8c1d18;
+}
+
+.quiz__flags ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  display: grid;
+  gap: 0.6rem;
+  color: var(--color-ink);
+}
+
+.quiz__flags a {
+  color: #8c1d18;
+  font-weight: 700;
+  text-decoration: underline;
+}
