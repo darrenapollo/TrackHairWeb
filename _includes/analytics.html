@@ -1,0 +1,16 @@
+{%- comment -%}
+Site analytics. Nothing loads unless one of these is configured in _config.yml.
+
+  plausible_domain: track.hair   # privacy-first, cookieless, ~1KB
+  google_analytics: G-XXXXXXXXXX # GA4, requires the cookie consent banner
+
+The Plausible `outbound-links` build reports clicks on external links, so every
+App Store button is measured as a goal without extra markup.
+{%- endcomment -%}
+{% if site.plausible_domain %}
+<script defer data-domain="{{ site.plausible_domain }}" src="{{ site.plausible_src | default: 'https://plausible.io/js/script.outbound-links.js' }}"></script>
+{% endif %}
+
+{% if site.google_analytics %}
+{% include google-analytics.html %}
+{% endif %}

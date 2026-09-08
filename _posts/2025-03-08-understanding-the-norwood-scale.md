@@ -115,6 +115,6 @@ If you're unsure between two stages, you're likely in the range between them. Th
 
 ---
 
-**Track your Norwood stage with AI.** [Download Track Hair](https://apps.apple.com/id6740919537) and upload a photo for your first AI-powered hair assessment.
+**Track your Norwood stage with AI.** [Download Track Hair]({% include app-store-url.html ct='blog-body-understanding-the-norwood-scale' %}) and upload a photo for your first AI-powered hair assessment.
 
 *Related reading: [How to Track Minoxidil Progress](/blog/how-to-track-minoxidil-progress/) | [Hair Loss Treatments by Stage](/treatments/)*

@@ -1,0 +1,42 @@
+---
+layout: null
+sitemap: false
+permalink: /robots.txt
+---
+# https://track.hair/robots.txt
+
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+# AI assistants and answer engines are allowed on purpose: being cited in an
+# AI answer for "hair loss tracker app" is a discoverability channel, not a
+# leak. To opt a crawler out, change its Allow to Disallow below.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: {{ '/sitemap.xml' | absolute_url }}

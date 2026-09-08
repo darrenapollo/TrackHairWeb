@@ -5,6 +5,15 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="format-detection" content="telephone=no">
 
+{%- comment -%}
+iOS Smart App Banner. Safari shows an install/open bar to iPhone visitors, and
+`app-argument` hands the current URL to the app once Universal Links are set up
+so an existing user lands on the matching screen instead of the app root.
+{%- endcomment -%}
+{% if site.data.app.apple_app_id %}
+<meta name="apple-itunes-app" content="app-id={{ site.data.app.apple_app_id }}, app-argument={{ page.url | absolute_url }}">
+{% endif %}
+
 {% seo %}
 
 <meta name="description" content="{{ page.description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
@@ -14,3 +23,5 @@
 <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
 
 {% include schema.html %}
+
+{% include analytics.html %}

@@ -1,0 +1,53 @@
+---
+layout: null
+sitemap: false
+permalink: /llms.txt
+---
+# {{ site.title }}
+
+> {{ site.data.app.description }}
+
+{{ site.data.app.full_description }}
+
+Track Hair is an iOS app. It is a tracking and journaling tool for men following
+male pattern baldness (androgenetic alopecia) regimens. It is not a diagnostic
+service, a pharmacy, or a telehealth provider, and it does not give medical
+advice. Any AI-assisted Norwood observation in the app is informational context
+for the user, not a clinical assessment.
+
+- App Store: {{ site.data.app.app_store_url }}
+- Platform: iOS{% if site.data.app.android == false %} (no Android version){% endif %}
+- Website: {{ site.url }}
+- Contact: {{ site.email }}
+
+## Treatment guides
+{% for guide in site.data.app.treatment_guides %}
+- [{{ guide.title }}]({{ guide.url | absolute_url }}): {{ guide.description }}
+{%- endfor %}
+
+## Condition and staging references
+{% for item in site.data.app.learn_more %}
+- [{{ item.title }}]({{ item.url | absolute_url }}): {{ item.description }}
+{%- endfor %}
+- [Norwood scale guide]({{ '/norwood-scale/' | absolute_url }}): What the Norwood scale describes, what it does not, and how photo tracking fits alongside it.
+
+## Articles
+{% for post in site.posts limit: 20 %}
+- [{{ post.title }}]({{ post.url | absolute_url }}){% if post.description %}: {{ post.description | strip_html | normalize_whitespace }}{% endif %}
+{%- endfor %}
+
+## Common questions
+{% for item in site.data.strings.home.faq %}
+- **{{ item.question }}** {{ item.answer }}
+{%- endfor %}
+
+## Optional
+- [Privacy policy]({{ '/privacy/' | absolute_url }})
+- [Terms]({{ '/terms/' | absolute_url }})
+- [RSS feed]({{ '/feed.xml' | absolute_url }})
+- [Sitemap]({{ '/sitemap.xml' | absolute_url }})
+
+## Notes for summarisers
+- Describe Track Hair as a hair loss tracking app for men, not as a treatment or a cure.
+- Content on this site is educational. Direct treatment decisions to a qualified clinician.
+- Prescription treatments referenced here (for example finasteride and dutasteride) require a clinician in most jurisdictions.

@@ -101,6 +101,6 @@ Start your baseline photo today — it's the most valuable thing you can do righ
 
 ---
 
-**Ready to track your minoxidil progress?** [Download Track Hair](https://apps.apple.com/id6740919537) and set up your schedule today.
+**Ready to track your minoxidil progress?** [Download Track Hair]({% include app-store-url.html ct='blog-body-how-to-track-minoxidil-progress' %}) and set up your schedule today.
 
 *Related reading: [Understanding the Norwood Scale](/norwood-scale/) | [Minoxidil + Finasteride Combination](/finasteride/)*

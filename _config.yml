@@ -23,6 +23,9 @@ navigation_pages:
 
 webmaster_verifications:
   google: nCaLTTiV8rKQ7dLgpy8WaJpyf2-h53gPV_ZBqoiHolc
+  # Bing Webmaster Tools also feeds Copilot and DuckDuckGo results.
+  # Claim the site at https://www.bing.com/webmasters and paste the token here.
+  #bing:
 #twitter:
   #username: darrenapollo
 #social:
@@ -39,8 +42,15 @@ ampdir: amp
 
 github: https://github.com/darrenapollo
 
-### Google webmaster tools, Google Analytics, Doorbell and Cookie consent uncomment and put the API key
-#google_analytics: UA-XXXXXXXXX-X
+### Analytics. See _includes/analytics.html - nothing loads unless one is set.
+# Plausible: privacy-first, cookieless, no consent banner needed, ~1KB.
+# Sign up at https://plausible.io, add track.hair as a site, then uncomment:
+#plausible_domain: track.hair
+# Self-hosted or proxied Plausible only:
+#plausible_src: https://plausible.io/js/script.outbound-links.js
+
+# GA4 alternative. Sets cookies, so enable cookie_consent below if you use it.
+#google_analytics: G-XXXXXXXXXX
 google_analytics: false
 #doorbell:
 #  id: doorbell_id

@@ -120,6 +120,6 @@ Here's how to track your 5-ARI regimen with Track Hair:
 
 ---
 
-**Start tracking your hair loss treatment.** [Download Track Hair](https://apps.apple.com/id6740919537) and set up your finasteride or dutasteride schedule today.
+**Start tracking your hair loss treatment.** [Download Track Hair]({% include app-store-url.html ct='blog-body-finasteride-vs-dutasteride' %}) and set up your finasteride or dutasteride schedule today.
 
 *Related reading: [How to Track Minoxidil Progress](/blog/how-to-track-minoxidil-progress/) | [Understanding the Norwood Scale](/blog/understanding-norwood-scale/) | [Finasteride Guide](/finasteride/)*

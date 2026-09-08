@@ -1,0 +1,19 @@
+{%- comment -%}
+Builds the App Store URL with App Analytics campaign tokens so App Store Connect
+can attribute installs to the placement that drove them.
+
+  {% include app-store-url.html ct="home_hero" %}
+
+`pt` (provider token) comes from App Store Connect > App Analytics > Campaigns.
+Until `app_store_provider_token` is set in _data/app.yml, only `ct` is appended,
+which is harmless but is not reported on by Apple.
+{%- endcomment -%}
+{%- assign as_base = site.data.app.app_store_url -%}
+{%- assign as_ct = include.ct | default: 'web' | slugify -%}
+{%- assign as_pt = site.data.app.app_store_provider_token | default: '' -%}
+{%- if as_pt != '' -%}
+{%- assign as_query = 'pt=' | append: as_pt | append: '&amp;ct=' | append: as_ct | append: '&amp;mt=8' -%}
+{%- else -%}
+{%- assign as_query = 'ct=' | append: as_ct | append: '&amp;mt=8' -%}
+{%- endif -%}
+{{- as_base | append: '?' | append: as_query -}}
