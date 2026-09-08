@@ -6,6 +6,11 @@ assets
 yarn-error.log
 .yarnclean
 
+# Netlify CLI machine state. Holds the linked site id and an absolute publish
+# path from whichever machine ran `netlify link`, so it is per-developer state,
+# not project config. The committed build settings live in the root netlify.toml.
+.netlify
+
 # editors
 .idea
 .jekyll-cache
