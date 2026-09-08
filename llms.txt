@@ -19,6 +19,7 @@ Medical note: Track Hair is informational only and does not provide diagnosis or
 - [Hair loss guide (androgenetic alopecia)]({{ site.url }}/male-pattern-baldness/): Pattern hair loss in men and women, causes, and how to plan a routine.
 - [Female pattern hair loss]({{ site.url }}/female-pattern-hair-loss/): Treatment and tracking planning for female hair loss.
 - [Norwood scale]({{ site.url }}/norwood-scale/): How male pattern hair loss stages are commonly described.
+- [Norwood scale quiz]({{ site.url }}/norwood-scale/quiz/): Estimate a Norwood stage from six questions, then start a photo baseline.
 - [Treatment library]({{ site.url }}/treatments/): Overview of the main hair loss treatment categories.
 - [How to take hair loss progress photos]({{ site.url }}/hair-loss-progress-photos/): Repeatable angles, lighting, and intervals for a useful timeline.
 
