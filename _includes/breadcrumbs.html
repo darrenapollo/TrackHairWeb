@@ -1,7 +1,10 @@
 {% if page.url != '/' %}
 <nav class="breadcrumbs" aria-label="Breadcrumb">
   <a href="/">Home</a>
-  {% if page.section == 'treatments' %}
+  {% if page.breadcrumb_parent %}
+  <span>/</span>
+  <a href="{{ page.breadcrumb_parent.url }}">{{ page.breadcrumb_parent.title }}</a>
+  {% elsif page.section == 'treatments' %}
   <span>/</span>
   <a href="/treatments/">Treatments</a>
   {% elsif page.layout == 'post' or page.section == 'blog' %}

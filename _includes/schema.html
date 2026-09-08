@@ -97,7 +97,19 @@
       "position": 1,
       "name": "Home",
       "item": {{ site.url | append: '/' | jsonify }}
-    }{% if page.section == 'treatments' %},
+    }{% if page.breadcrumb_parent %},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ page.breadcrumb_parent.title | jsonify }},
+      "item": {{ page.breadcrumb_parent.url | absolute_url | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ page_title | jsonify }},
+      "item": {{ page_url | jsonify }}
+    }{% elsif page.section == 'treatments' %},
     {
       "@type": "ListItem",
       "position": 2,

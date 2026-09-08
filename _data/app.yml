@@ -80,6 +80,9 @@ regimens:
     url: /hair-transplant/
 
 learn_more:
+  - title: Norwood scale quiz
+    description: Estimate your Norwood stage from six questions, then start a photo baseline you can actually compare against.
+    url: /norwood-scale/quiz/
   - title: Male pattern baldness guide
     description: Understand androgenetic alopecia, DHT, the Norwood scale, and the main evidence-based treatment paths.
     url: /male-pattern-baldness/

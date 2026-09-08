@@ -22,6 +22,9 @@ citations:
   - label: "AAD: Finding the right treatments for genetic hair loss"
     url: https://www.aad.org/news/finding-the-right-treatments-for-genetic-hair-loss
 related_pages:
+  - title: Norwood scale quiz
+    description: Answer six questions about your hairline and crown to get an estimated Norwood stage and a photo tracking plan.
+    url: /norwood-scale/quiz/
   - title: Male pattern baldness explained
     description: A higher-level guide to androgenetic alopecia, DHT, and where treatment decisions usually fit.
     url: /male-pattern-baldness/
