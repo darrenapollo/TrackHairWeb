@@ -30,6 +30,7 @@ related_pages:
   - title: Hair loss treatments guide
     description: Review the main treatment categories discussed for androgenetic alopecia.
     url: /treatments/
+campaign_token: web-male-pattern-baldness
 ---
 
 ## What male pattern baldness is

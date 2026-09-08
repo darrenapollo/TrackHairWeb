@@ -14,6 +14,7 @@ citations:
     url: https://medlineplus.gov/druginfo/meds/a682608.html
   - label: "Cleveland Clinic: Hair Loss Treatments"
     url: https://my.clevelandclinic.org/health/treatments/8307-hair-loss-treatments
+campaign_token: web-blog-minoxidil
 ---
 
 Minoxidil is a marathon, not a sprint. With results taking 6–12 months to become clearly visible, the biggest challenge isn't applying it twice a day — it's staying motivated when you can't see obvious changes in the mirror. That's where consistent photo tracking transforms the experience.
@@ -101,6 +102,6 @@ Start your baseline photo today — it's the most valuable thing you can do righ
 
 ---
 
-**Ready to track your minoxidil progress?** [Download Track Hair]({% include app-store-url.html ct='blog-body-how-to-track-minoxidil-progress' %}) and set up your schedule today.
+**Ready to track your minoxidil progress?** [Download Track Hair]({% include app-store-url.html ct=page.campaign_token %}) and set up your schedule today.
 
 *Related reading: [Understanding the Norwood Scale](/norwood-scale/) | [Minoxidil + Finasteride Combination](/finasteride/)*

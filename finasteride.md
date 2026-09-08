@@ -28,6 +28,7 @@ related_pages:
   - title: Male pattern baldness guide
     description: Review the bigger picture before deciding how finasteride fits into your plan.
     url: /male-pattern-baldness/
+campaign_token: web-finasteride
 ---
 
 ## What finasteride is

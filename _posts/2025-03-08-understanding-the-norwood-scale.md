@@ -14,6 +14,7 @@ citations:
     url: https://medlineplus.gov/hairloss.html
   - label: "Cleveland Clinic: Male Pattern Baldness"
     url: https://my.clevelandclinic.org/health/diseases/24515-male-pattern-baldness-androgenic-alopecia
+campaign_token: web-blog-norwood
 ---
 
 If you've started researching male hair loss, you've encountered the **Norwood scale** — the standard classification system that dermatologists, hair transplant surgeons, and hair loss forums use to describe and discuss the progression of androgenetic alopecia.
@@ -115,6 +116,6 @@ If you're unsure between two stages, you're likely in the range between them. Th
 
 ---
 
-**Track your Norwood stage with AI.** [Download Track Hair]({% include app-store-url.html ct='blog-body-understanding-the-norwood-scale' %}) and upload a photo for your first AI-powered hair assessment.
+**Track your Norwood stage with AI.** [Download Track Hair]({% include app-store-url.html ct=page.campaign_token %}) and upload a photo for your first AI-powered hair assessment.
 
 *Related reading: [How to Track Minoxidil Progress](/blog/how-to-track-minoxidil-progress/) | [Hair Loss Treatments by Stage](/treatments/)*

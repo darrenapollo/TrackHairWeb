@@ -31,6 +31,7 @@ related_pages:
   - title: Hair loss treatments guide
     description: Move from pattern recognition into the main treatment categories.
     url: /treatments/
+campaign_token: web-norwood-scale
 ---
 
 ## What the Norwood scale is

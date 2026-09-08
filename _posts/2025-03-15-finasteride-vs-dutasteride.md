@@ -14,6 +14,7 @@ citations:
     url: https://medlineplus.gov/druginfo/meds/a698016.html
   - label: "Cleveland Clinic: Male Pattern Baldness"
     url: https://my.clevelandclinic.org/health/diseases/24515-male-pattern-baldness-androgenic-alopecia
+campaign_token: web-blog-fin-vs-dut
 ---
 
 Both finasteride and dutasteride are 5-alpha reductase inhibitors — oral medications that work by reducing dihydrotestosterone (DHT), the hormone responsible for follicle miniaturisation in androgenetic alopecia. But they're not the same drug, and the differences matter when choosing between them.
@@ -120,6 +121,6 @@ Here's how to track your 5-ARI regimen with Track Hair:
 
 ---
 
-**Start tracking your hair loss treatment.** [Download Track Hair]({% include app-store-url.html ct='blog-body-finasteride-vs-dutasteride' %}) and set up your finasteride or dutasteride schedule today.
+**Start tracking your hair loss treatment.** [Download Track Hair]({% include app-store-url.html ct=page.campaign_token %}) and set up your finasteride or dutasteride schedule today.
 
 *Related reading: [How to Track Minoxidil Progress](/blog/how-to-track-minoxidil-progress/) | [Understanding the Norwood Scale](/blog/understanding-norwood-scale/) | [Finasteride Guide](/finasteride/)*

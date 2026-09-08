@@ -31,6 +31,7 @@ related_pages:
   - title: Norwood scale guide
     description: Learn how the Norwood scale describes the visible progression of male pattern baldness.
     url: /norwood-scale/
+campaign_token: web-treatments
 ---
 
 ## Choose the right guide for your routine

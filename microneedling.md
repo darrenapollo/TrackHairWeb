@@ -28,6 +28,7 @@ related_pages:
   - title: PRP guide
     description: Compare another procedure-oriented approach that some clinics use in broader plans.
     url: /prp-therapy/
+campaign_token: web-microneedling
 ---
 
 ## What microneedling is

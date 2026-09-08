@@ -9,9 +9,15 @@
 iOS Smart App Banner. Safari shows an install/open bar to iPhone visitors, and
 `app-argument` hands the current URL to the app once Universal Links are set up
 so an existing user lands on the matching screen instead of the app root.
+
+`affiliate-data` carries the campaign tokens, so banner installs are attributed
+separately from the in-page buttons rather than landing in App Analytics as
+untracked traffic. It is only emitted once a provider token exists, since `ct`
+without `pt` is not attributed.
 {%- endcomment -%}
 {% if site.data.app.apple_app_id %}
-<meta name="apple-itunes-app" content="app-id={{ site.data.app.apple_app_id }}, app-argument={{ page.url | absolute_url }}">
+{%- assign banner_pt = site.data.app.app_store_provider_token | default: '' -%}
+<meta name="apple-itunes-app" content="app-id={{ site.data.app.apple_app_id }}{% if banner_pt != '' %}, affiliate-data=pt={{ banner_pt }}&ct=web-smart-banner{% endif %}, app-argument={{ page.url | absolute_url }}">
 {% endif %}
 
 {% seo %}

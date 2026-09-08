@@ -37,6 +37,7 @@ related_pages:
   - title: Hair loss treatments guide
     description: Move from pattern recognition into the main treatment categories.
     url: /treatments/
+campaign_token: web-quiz
 ---
 
 ## Estimate your Norwood stage
@@ -129,7 +130,7 @@ Treat the result as a label for the pattern you just described, not as a diagnos
     <p class="quiz__disclaimer">This estimate describes a pattern, not a cause. It is not a diagnosis and it is not medical advice. If your hair loss is sudden, patchy, painful, or comes with scalp symptoms, see a clinician rather than a staging chart.</p>
 
     <div class="quiz__cta">
-      <a class="button" href="{% include app-store-url.html ct='norwood-quiz-result' %}" target="_blank" rel="noopener">Track this stage in Track Hair</a>
+      <a class="button" href="{% include app-store-url.html ct='web-quiz-result' %}" target="_blank" rel="noopener">Track this stage in Track Hair</a>
       <button type="button" class="button button--ghost" id="quiz-restart">Start again</button>
     </div>
   </div>
@@ -152,7 +153,7 @@ A stage estimate is a snapshot description. It cannot tell you whether you are s
 
 Repeatable photos are what make the difference visible. The same four angles, the same lighting, the same distance, at a fixed interval, give you a record you can actually compare instead of an impression that shifts with the bathroom mirror. That record is also far more useful in a consultation than a remembered stage number.
 
-[Track Hair]({% include app-store-url.html ct='norwood-quiz-body' %}) is built around exactly that routine: scheduled treatments, prompts for repeat photos, and a timeline you can scroll back through.
+[Track Hair]({% include app-store-url.html ct='web-quiz-body' %}) is built around exactly that routine: scheduled treatments, prompts for repeat photos, and a timeline you can scroll back through.
 
 {% raw %}
 <script>

@@ -10,7 +10,7 @@
       {% for link in site.data.strings.nav.links %}
       <a class="nav__link{% if page.url == link.url %} nav__link--active{% endif %}" href="{{ link.url }}">{{ link.title }}</a>
       {% endfor %}
-      <a class="button button--nav" href="{% include app-store-url.html ct='nav-desktop' %}" target="_blank" rel="noopener">{{ site.data.strings.nav.cta_label }}</a>
+      <a class="button button--nav" href="{% include app-store-url.html ct='web-nav-desktop' %}" target="_blank" rel="noopener">{{ site.data.strings.nav.cta_label }}</a>
     </div>
 
     <label class="nav__menu-button" for="nav-toggle" aria-label="Open navigation">
@@ -24,6 +24,6 @@
     {% for link in site.data.strings.nav.links %}
     <a class="nav__mobile-link{% if page.url == link.url %} nav__mobile-link--active{% endif %}" href="{{ link.url }}">{{ link.title }}</a>
     {% endfor %}
-    <a class="button button--mobile" href="{% include app-store-url.html ct='nav-mobile' %}" target="_blank" rel="noopener">{{ site.data.strings.nav.cta_label }}</a>
+    <a class="button button--mobile" href="{% include app-store-url.html ct='web-nav-mobile' %}" target="_blank" rel="noopener">{{ site.data.strings.nav.cta_label }}</a>
   </div>
 </nav>

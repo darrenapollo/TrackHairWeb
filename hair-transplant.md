@@ -28,6 +28,7 @@ related_pages:
   - title: PRP guide
     description: Compare another clinic-based pathway used in hair restoration care.
     url: /prp-therapy/
+campaign_token: web-hair-transplant
 ---
 
 ## What a hair transplant is

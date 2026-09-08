@@ -28,6 +28,7 @@ related_pages:
   - title: Minoxidil guide
     description: Review one of the more established treatment options people often compare with device-based support.
     url: /minoxidil/
+campaign_token: web-red-light-therapy
 ---
 
 ## What red light therapy is

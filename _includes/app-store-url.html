@@ -5,11 +5,23 @@ can attribute installs to the placement that drove them.
   {% include app-store-url.html ct="home_hero" %}
 
 `pt` (provider token) comes from App Store Connect > App Analytics > Campaigns.
-Until `app_store_provider_token` is set in _data/app.yml, only `ct` is appended,
-which is harmless but is not reported on by Apple.
+It is the same for every campaign and is generated the first time you create a
+campaign link. Until `app_store_provider_token` is set in _data/app.yml, only
+`ct` is appended, which is harmless but is not attributed by Apple.
+
+Apple caps the campaign token at 30 characters, so it is slugified and hard
+truncated here. Pages that do not pass an explicit `ct` fall back to a token
+derived from their URL. Keep tokens coarse: App Analytics only reports a
+campaign once it has passed 5 downloads, so splitting traffic across many
+near-identical tokens buys granularity at the cost of seeing any data at all.
 {%- endcomment -%}
 {%- assign as_base = site.data.app.app_store_url -%}
-{%- assign as_ct = include.ct | default: 'web' | slugify -%}
+{%- if include.ct -%}
+{%- assign as_ct = include.ct | slugify -%}
+{%- else -%}
+{%- assign as_ct = page.url | prepend: 'web' | slugify -%}
+{%- endif -%}
+{%- assign as_ct = as_ct | truncate: 30, '' -%}
 {%- assign as_pt = site.data.app.app_store_provider_token | default: '' -%}
 {%- if as_pt != '' -%}
 {%- assign as_query = 'pt=' | append: as_pt | append: '&amp;ct=' | append: as_ct | append: '&amp;mt=8' -%}

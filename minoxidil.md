@@ -28,6 +28,7 @@ related_pages:
   - title: Microneedling guide
     description: See how some users coordinate microneedling with topical routines.
     url: /microneedling/
+campaign_token: web-minoxidil
 ---
 
 ## What minoxidil is
