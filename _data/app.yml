@@ -2,7 +2,10 @@ name: Track Hair
 tagline: Hair loss tracker app for men
 description: Hair loss tracker app for men with treatment schedules, progress photos, and AI-guided Norwood stage check-ins.
 full_description: Track Hair helps you stay consistent with hair loss treatment schedules, document progress with repeatable photos, and understand your routine over time.
-app_store_url: https://apps.apple.com/id6740919537
+# Apple's own campaign-link form. The shorter apps.apple.com/id<id> URL
+# redirects here, and campaign tokens riding through a redirect are an
+# unnecessary risk, so links are built on the form App Store Connect generates.
+app_store_url: https://apps.apple.com/app/apple-store/id6740919537
 
 # Numeric App Store id. Drives the iOS Smart App Banner and structured data.
 apple_app_id: "6740919537"
@@ -10,7 +13,7 @@ apple_app_id: "6740919537"
 # App Store Connect > App Analytics > Campaigns. Once set, every outbound App
 # Store link on the site carries pt/ct/mt tokens so installs are attributable
 # to the page that drove them. See _includes/app-store-url.html.
-app_store_provider_token: ""
+app_store_provider_token: "120937193"
 
 # Structured data extras. Leave rating fields empty unless the numbers are the
 # real, current App Store values: inventing them is a manual-action risk and
