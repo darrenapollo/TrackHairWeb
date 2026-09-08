@@ -7,3 +7,50 @@ RUBY_VERSION = "3.1.4"
 NODE_VERSION = "14.18.0"
 PYTHON = "python3.10"
 SHARP_IGNORE_GLOBAL_LIBVIPS = "1"
+
+# The AMP variants of the blog posts were removed. They were orphaned
+# duplicates (no rel="amphtml" pairing) that the sitemap still advertised, and
+# AMP no longer carries any ranking benefit. Redirect the old URLs to the
+# canonical posts they already pointed at rather than serving 404s.
+[[redirects]]
+  from = "/amp/blog/finasteride-vs-dutasteride"
+  to = "/blog/finasteride-vs-dutasteride/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/amp/blog/finasteride-vs-dutasteride.html"
+  to = "/blog/finasteride-vs-dutasteride/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/amp/blog/how-to-track-minoxidil-progress"
+  to = "/blog/how-to-track-minoxidil-progress/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/amp/blog/how-to-track-minoxidil-progress.html"
+  to = "/blog/how-to-track-minoxidil-progress/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/amp/blog/understanding-the-norwood-scale"
+  to = "/blog/understanding-norwood-scale/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/amp/blog/understanding-the-norwood-scale.html"
+  to = "/blog/understanding-norwood-scale/"
+  status = 301
+  force = true
+
+# Anything else that was ever published under /amp/.
+[[redirects]]
+  from = "/amp/*"
+  to = "/blog/"
+  status = 301
+  force = true

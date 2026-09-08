@@ -38,7 +38,6 @@ webmaster_verifications:
    # - https://github.com/sandoche
 
 languages: ["en"]
-ampdir: amp
 
 github: https://github.com/darrenapollo
 
@@ -65,7 +64,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - octopress-minify-html
-  - amp-jekyll
 
 ### Exclude from processing.
 exclude:
