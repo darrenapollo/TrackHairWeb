@@ -1,28 +1,3 @@
-@font-face {
-  font-family: "Bricolage Grotesque";
-  src: url("/assets/images/fonts/bricolage-grotesque-500.woff2") format("woff2");
-  font-weight: 500;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Bricolage Grotesque";
-  src: url("/assets/images/fonts/bricolage-grotesque-600.woff2") format("woff2");
-  font-weight: 600;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Bricolage Grotesque";
-  src: url("/assets/images/fonts/bricolage-grotesque-700.woff2") format("woff2");
-  font-weight: 700;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Bricolage Grotesque";
-  src: url("/assets/images/fonts/bricolage-grotesque-800.woff2") format("woff2");
-  font-weight: 800;
-  font-display: swap;
-}
-
 :root {
   --color-brand: #1237b5;
   --color-brand-strong: #0a2477;
@@ -46,7 +21,10 @@
   --container: 1160px;
   --gutter: 28px;
   --font-body: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --font-display: "Bricolage Grotesque", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  /* Headings use the platform UI font: real SF Pro Display/Text on Apple
+     devices, and the closest neutral grotesque elsewhere. No webfont, so
+     headings paint on the first frame with no swap. */
+  --font-display: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 *,
@@ -75,11 +53,7 @@ h3,
 .story-step__marker {
   font-family: var(--font-display);
   font-weight: 700;
-  letter-spacing: -0.02em;
-}
-
-h1 {
-  font-weight: 800;
+  letter-spacing: -0.01em;
 }
 
 img {
@@ -119,8 +93,8 @@ select {
   margin: 0 0 0.85rem;
   color: var(--color-accent);
   font-size: 0.9rem;
-  font-weight: 700;
-  letter-spacing: 0;
+  font-weight: 600;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
@@ -278,7 +252,7 @@ select {
   margin: 0;
   font-size: clamp(2.25rem, 5vw, 3.8rem);
   line-height: 1.04;
-  letter-spacing: 0;
+  letter-spacing: -0.022em;
 }
 
 .hero__lede,
@@ -324,30 +298,63 @@ select {
   background: radial-gradient(120% 90% at 70% 20%, rgba(23, 122, 107, 0.16), rgba(18, 55, 181, 0.1) 55%, transparent 75%);
 }
 
-.device {
-  position: relative;
-  overflow: hidden;
-  border-radius: 44px;
-  border: 12px solid #061330;
-  background: #061330;
-  box-shadow: 0 30px 70px rgba(10, 36, 119, 0.28);
-}
-
-.device img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  display: block;
-}
+/* Device frames
+   The iPhone 17 Pro Max frame is a real Apple bezel PNG with the screen area
+   cut out of the alpha channel, laid over the screenshot as a ::after overlay.
+   Percentages come from the source render (1470x3000): the aperture sits at
+   x 75-1394, y 66-2933, so the insets are 5.1% and 2.2%. The screen box is
+   pulled ~0.1% wider than the true aperture so its edge tucks under the
+   frame's antialiased inner rim instead of leaving a hairline seam. */
 
 .device picture,
 .screenshot-rail__item picture {
+  position: relative;
   display: block;
+  aspect-ratio: 1470 / 3000;
+}
+
+.device img,
+.screenshot-rail__item img {
+  position: absolute;
+  top: 2.1%;
+  left: 5%;
+  width: 90%;
+  height: 95.8%;
+  border-radius: 14.1% / 6.5%;
+  background: #000;
+  object-fit: cover;
+}
+
+.device picture::after,
+.screenshot-rail__item picture::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  /* Plain url() first so Safari below 17, which only knows the prefixed form,
+     still gets a frame rather than dropping the declaration outright. */
+  background-image: url("/assets/images/bezels/iphone-17-pro-max-portrait-720.webp");
+  background-image: -webkit-image-set(
+    url("/assets/images/bezels/iphone-17-pro-max-portrait-360.webp") 1x,
+    url("/assets/images/bezels/iphone-17-pro-max-portrait-720.webp") 2x
+  );
+  background-image: image-set(
+    url("/assets/images/bezels/iphone-17-pro-max-portrait-360.webp") 1x,
+    url("/assets/images/bezels/iphone-17-pro-max-portrait-720.webp") 2x
+  );
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+.device picture {
+  /* drop-shadow follows the frame's alpha silhouette; box-shadow would trace
+     the square bounding box and read as a floating card behind the phone. */
+  filter: drop-shadow(0 26px 52px rgba(10, 36, 119, 0.26));
 }
 
 .device--hero {
   width: 100%;
-  max-width: 288px;
+  max-width: 300px;
   transform: rotate(-2deg);
 }
 
@@ -473,7 +480,7 @@ select {
   margin: 0;
   font-size: clamp(2rem, 4vw, 3.25rem);
   line-height: 1.08;
-  letter-spacing: 0;
+  letter-spacing: -0.021em;
 }
 
 .section-heading p:last-child {
@@ -651,13 +658,6 @@ select {
   padding: 0.7rem;
 }
 
-.screenshot-rail__item img {
-  width: 100%;
-  height: auto;
-  border-radius: 26px;
-  border: 8px solid #0b1224;
-}
-
 .faq-list {
   display: grid;
   gap: 0.9rem;
@@ -709,6 +709,7 @@ select {
   margin: 0 0 0.6rem;
   font-size: clamp(2rem, 4vw, 3rem);
   line-height: 1.04;
+  letter-spacing: -0.021em;
 }
 
 .final-cta__trust {
@@ -1091,13 +1092,8 @@ select {
     margin-top: 1rem;
   }
 
-  .device {
-    border-width: 10px;
-    border-radius: 38px;
-  }
-
   .device--hero {
-    max-width: 250px;
+    max-width: 260px;
   }
 
   .hero__timeline {

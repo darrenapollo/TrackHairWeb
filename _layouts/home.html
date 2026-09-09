@@ -21,7 +21,7 @@ body_class: page-home
     <div class="hero__showcase">
       <div class="device device--hero">
         <picture>
-          <source type="image/webp" srcset="/assets/images/screenshots/1-360.webp 360w, /assets/images/screenshots/1-720.webp 720w" sizes="(max-width: 760px) 72vw, 288px">
+          <source type="image/webp" srcset="/assets/images/screenshots/1-360.webp 360w, /assets/images/screenshots/1-720.webp 720w" sizes="(max-width: 760px) 65vw, 270px">
           <img src="/assets/images/screenshots/1.jpg" width="720" height="1565" alt="Track Hair daily view showing today's finasteride, minoxidil, and microneedling marked complete" fetchpriority="high" decoding="async">
         </picture>
       </div>
@@ -121,7 +121,7 @@ body_class: page-home
     {% assign screenshot_id = screenshot.file | remove: '.jpg' %}
     <a class="lightbox screenshot-rail__item" href="/assets/images/screenshots/{{ screenshot_id }}-720.webp">
       <picture>
-        <source type="image/webp" srcset="/assets/images/screenshots/{{ screenshot_id }}-360.webp 360w, /assets/images/screenshots/{{ screenshot_id }}-720.webp 720w" sizes="(max-width: 760px) 82vw, 230px">
+        <source type="image/webp" srcset="/assets/images/screenshots/{{ screenshot_id }}-360.webp 360w, /assets/images/screenshots/{{ screenshot_id }}-720.webp 720w" sizes="(max-width: 760px) 74vw, 207px">
         <img src="/assets/images/screenshots/{{ screenshot.file }}" width="720" height="1565" alt="{{ screenshot.alt }}" loading="lazy" decoding="async">
       </picture>
     </a>
