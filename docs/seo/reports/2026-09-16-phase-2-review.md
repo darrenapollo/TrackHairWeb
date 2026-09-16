@@ -11,7 +11,9 @@ Comparison period: 2026-07-22 to 2026-08-18
 - [ ] Mobile and desktop exports are retained separately.
 - [ ] GA4 consented traffic is present throughout the comparison period. **Cannot be met.** See the reporting gap in Notes: GA4 began collecting at the Phase 2 deployment, so the comparison period has no GA4 data at all.
 - [x] `app_store_click` is configured as a key event. Confirmed by the site owner on 2026-09-08.
-- [ ] No deployment changed the five Phase 2 source pages during the window.
+- [ ] No deployment changed the five Phase 2 source pages during the window. **Not met.**
+      See the mid-window description change in Notes: three of the five pages had their
+      meta descriptions rewritten on 2026-09-08, seven days before the window closed.
 
 ## Site-wide organic performance
 
@@ -95,6 +97,32 @@ Two consequences when interpreting it:
   subset of real traffic rather than a measure of it. The ratio between GA4
   metrics is comparable over time; the absolute numbers are not comparable with
   Search Console clicks.
+
+### Mid-window change to three source pages
+
+Commit `30eba8d` ("Configure IndexNow and improve SEO descriptions", 2026-09-08
+22:08 +0100) rewrote the meta description of three of the five Phase 2 source
+pages, seven days before the measurement window closed on 2026-09-15:
+
+| Page | Change |
+| --- | --- |
+| `/best-hair-loss-tracker-apps/` | description rewritten, `last_modified_at` moved to 2026-09-08 |
+| `/blog/` | description rewritten, `last_modified_at` added |
+| `/hair-loss/` | description rewritten, `last_modified_at` moved to 2026-09-08 |
+
+`/treatments/` and `/hair-loss-progress-photos/` were not touched.
+
+The meta description is the variable Phase 2 set out to test, and CTR is the
+metric it moves, so the CTR and click figures for those three pages cover two
+different snippets rather than one. Treat their before/after CTR as
+uninterpretable this cycle, and take the position and impression figures, which
+the description does not directly drive, as the usable signal. `/treatments/`
+and `/hair-loss-progress-photos/` remain clean comparisons.
+
+The rewritten descriptions are also outside the 144 to 152 character range the
+Phase 2 validation specifies: 153, 154 and 158 characters respectively. Worth
+correcting, but not before the numbers for this review are exported, so that the
+snippet does not change a third time mid-measurement.
 
 ### Source-page freeze
 

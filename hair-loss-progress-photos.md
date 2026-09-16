@@ -22,6 +22,9 @@ citations:
   - label: "Cleveland Clinic: Hair Loss"
     url: https://my.clevelandclinic.org/health/diseases/16921-hair-loss
 related_pages:
+  - title: Ludwig scale quiz
+    description: Estimate a Ludwig stage from the part line these photos capture.
+    url: /ludwig-scale/
   - title: Hair loss guide
     description: Understand the common types of hair loss and how to plan a routine.
     url: /hair-loss/
