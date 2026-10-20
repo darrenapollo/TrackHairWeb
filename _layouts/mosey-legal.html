@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="referrer" content="no-referrer">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="{{ page.description | escape }}">
+  <title>{{ page.title | escape }} · Mosey</title>
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <style>
+    :root { color-scheme: light dark; --paper: #fbfaf6; --ink: #293c38; --muted: #596b63; --line: #dce3dc; --accent: #3b614e; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.75 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; -webkit-font-smoothing: antialiased; }
+    .shell { width: min(100% - 40px, 740px); margin: 0 auto; }
+    header { padding: 44px 0 24px; border-bottom: 1px solid var(--line); }
+    .wordmark { margin: 0; font-size: 25px; font-weight: 650; letter-spacing: -.04em; }
+    nav { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-top: 12px; font-size: 15px; }
+    a { color: var(--accent); text-underline-offset: 3px; overflow-wrap: anywhere; }
+    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; border-radius: 2px; }
+    [aria-current="page"] { font-weight: 650; }
+    main { padding: 36px 0 48px; }
+    h1, h2 { line-height: 1.25; letter-spacing: -.025em; }
+    h1 { font-size: clamp(32px, 7vw, 44px); margin: 0 0 12px; }
+    h2 { font-size: 23px; margin: 40px 0 12px; }
+    p, ul { margin: 0 0 18px; }
+    ul { padding-left: 23px; }
+    li + li { margin-top: 8px; }
+    .updated, footer { color: var(--muted); font-size: 15px; }
+    .intro { font-size: 19px; margin: 28px 0; }
+    footer { border-top: 1px solid var(--line); padding: 24px 0 40px; }
+    .skip-link { position: absolute; top: -100px; left: 20px; padding: 8px 16px; background: var(--paper); }
+    .skip-link:focus { top: 8px; }
+    @media (prefers-color-scheme: dark) { :root { --paper: #18231f; --ink: #edf2eb; --muted: #b0beb4; --line: #3c4d42; --accent: #b8d5bc; } }
+    @media print { body { background: white; color: black; font-size: 11pt; } nav, .skip-link { display: none; } .shell { width: 100%; } header, main { padding: 12px 0; } h2 { break-after: avoid; } }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <div class="shell">
+    <header>
+      <p class="wordmark">mosey</p>
+      <nav aria-label="Mosey legal pages">
+        <a href="/mosey/privacy/"{% if page.legal_page == 'privacy' %} aria-current="page"{% endif %}>Privacy policy</a>
+        <a href="/mosey/terms/"{% if page.legal_page == 'terms' %} aria-current="page"{% endif %}>Terms of use</a>
+      </nav>
+    </header>
+    <main id="content">
+      <h1>{{ page.title }}</h1>
+      <p class="updated">Effective and last updated: <time datetime="2026-10-20">20 October 2026</time></p>
+      {{ content }}
+    </main>
+    <footer>
+      <p>© {{ site.time | date: '%Y' }} Darren Tracey · Mosey</p>
+      <p>Questions? <a href="mailto:hello@track.hair">hello@track.hair</a> · Please mention Mosey.</p>
+    </footer>
+  </div>
+</body>
+</html>

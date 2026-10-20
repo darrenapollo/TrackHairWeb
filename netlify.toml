@@ -62,3 +62,10 @@ package = "./plugins/indexnow"
   to = "/blog/"
   status = 301
   force = true
+
+
+# Mosey policies are public by direct link, but are not search landing pages.
+[[headers]]
+  for = "/mosey/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"
