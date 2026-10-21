@@ -79,6 +79,7 @@ h3 { margin-top: 20px; font: 600 32px/1.15 var(--serif); letter-spacing: -1.1px;
   .site-header { min-height: 108px; }
   .hero-inner { min-height: 620px; gap: 15px; padding-top: 38px; }
   .hero-description { font-size: 20px; }
+  .mascot-hero { width: 400px; margin-left: -50px; }
   .hero-actions { gap: 18px; }
   .hero-actions .button { padding-inline: 30px; }
   .text-link { font-size: 18px; gap: 7px; }
