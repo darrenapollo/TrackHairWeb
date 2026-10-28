@@ -64,8 +64,15 @@ package = "./plugins/indexnow"
   force = true
 
 
-# Mosey policies are public by direct link, but are not search landing pages.
-[[headers]]
-  for = "/mosey/*"
-  [headers.values]
-    X-Robots-Tag = "noindex, nofollow, noarchive"
+# Mosey moved to its own domain. Keep old links (incl. App Store policy URLs) working.
+[[redirects]]
+  from = "/mosey"
+  to = "https://trymosey.app/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mosey/*"
+  to = "https://trymosey.app/:splat"
+  status = 301
+  force = true
