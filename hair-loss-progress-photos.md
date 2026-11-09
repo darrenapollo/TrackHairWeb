@@ -90,6 +90,6 @@ Taking photos more often is fine, but resist judging them more often — early w
 
 ## Turning photos into a timeline
 
-Loose photos in a camera roll drift out of alignment and lose their dates and context. A useful record keeps three things together: the photo, when it was taken, and what your routine was at the time. That way, when you compare month six to baseline, you also know what treatment you were actually following and how consistent you were.
+Loose photos in a camera roll drift out of alignment and lose their dates and context. A useful record keeps three things together: the photo, when it was taken, and what your routine was at the time. That way, when you compare month six to baseline, you also know what treatment you were actually following and how consistent you were. The [treatment progress tracking guide](/blog/how-to-track-hair-loss-treatment-progress/) sets out the whole record in six steps.
 
 This is exactly what Track Hair is built to do: it keeps your reference angles, reminds you when a checkpoint is due, and stores photos beside your treatment schedule and notes so a review reflects what really happened. If you are comparing tools for that job, see the [best hair loss tracker apps](/best-hair-loss-tracker-apps/) and how their approaches differ. If you are starting a routine, take your baseline set today — it is the one photo you cannot go back and capture later.

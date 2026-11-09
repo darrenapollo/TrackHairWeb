@@ -84,4 +84,4 @@ Set up your treatment and take your baseline photo today, so the version of you 
 
 **Before you write off a treatment, make sure you gave it a fair test.** [Download Track Hair]({% include app-store-url.html ct=page.campaign_token %}) to log your routine, capture baseline and progress photos, and review on the timeline that actually matters.
 
-*Related reading: [AI hair scan vs progress tracking](/ai-hair-scan-vs-tracking/) | [How to take progress photos](/hair-loss-progress-photos/) | [Is your hair shedding normal?](/blog/is-hair-shedding-normal/) | [Finasteride guide](/finasteride/)*
+*Related reading: [How to track hair loss treatment progress](/blog/how-to-track-hair-loss-treatment-progress/) | [AI hair scan vs progress tracking](/ai-hair-scan-vs-tracking/) | [How to take progress photos](/hair-loss-progress-photos/) | [Is your hair shedding normal?](/blog/is-hair-shedding-normal/) | [Finasteride guide](/finasteride/)*

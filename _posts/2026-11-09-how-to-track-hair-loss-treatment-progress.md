@@ -3,6 +3,7 @@ layout: post
 title: "How to Track Hair Loss Treatment Progress"
 description: "Learn how to track hair loss treatment progress with baseline photos, routine logs, review checkpoints, and useful notes for clinician appointments."
 author: Darren Tracey
+date: 2026-11-09
 permalink: /blog/how-to-track-hair-loss-treatment-progress/
 hero_kicker: Tracking guide
 summary: A practical six-step system for keeping treatment use, repeatable photos, shedding notes, and review checkpoints in one record.
@@ -142,7 +143,7 @@ Use this structure whether you track in an app, spreadsheet, notebook, or calend
 
 Track Hair is designed around this workflow. Each treatment has its own schedule, completed and missed entries stay attached to the timeline, repeatable photos provide visual checkpoints, and notes preserve the context surrounding a change.
 
-The app does not diagnose hair loss or decide which treatment belongs in your plan. Its job is to make the plan you are following easier to document and review over time.
+The app does not diagnose hair loss or decide which treatment belongs in your plan. Track Hair does not recommend medication. Its job is to make the plan you are following easier to document and review over time.
 
 Start with three actions: add the routine you are currently following, take a consistent baseline photo set, and schedule the review date you were given. That gives the next few months a clear reference point instead of leaving them to memory.
 

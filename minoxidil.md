@@ -65,7 +65,7 @@ It may be less useful when the goal is to reverse extensive, longstanding bald a
 | Months 3 to 6 | Early comparisons may become more useful |
 | Months 6 to 12 | Better point for reviewing photos and deciding whether the routine is worthwhile |
 
-For a photo-by-photo workflow, use the [minoxidil progress guide](/blog/how-to-track-minoxidil-progress/). If you are considering stopping because nothing appears to be happening, first separate an early review, inconsistent use, and a genuine lack of response with the [hair-treatment review checklist](/blog/hair-treatment-not-working/).
+For a photo-by-photo workflow, use the [minoxidil progress guide](/blog/how-to-track-minoxidil-progress/). To keep minoxidil in one record with any other treatments, follow the [treatment progress tracking guide](/blog/how-to-track-hair-loss-treatment-progress/). If you are considering stopping because nothing appears to be happening, first separate an early review, inconsistent use, and a genuine lack of response with the [hair-treatment review checklist](/blog/hair-treatment-not-working/).
 
 ## Side effects and risks
 
