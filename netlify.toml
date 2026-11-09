@@ -3,8 +3,8 @@ publish = "_site/"
 command = "npm run build && cp -R assets _site/"
 
 [build.environment]
-RUBY_VERSION = "3.1.4"
-NODE_VERSION = "14.18.0"
+RUBY_VERSION = "3.2.4"
+NODE_VERSION = "22"
 PYTHON = "python3.10"
 SHARP_IGNORE_GLOBAL_LIBVIPS = "1"
 

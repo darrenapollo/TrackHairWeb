@@ -4,7 +4,7 @@ const CommonConfig = require('./webpack.common.js');
 const path = require('path');
 const webpack = require('webpack');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const ImageminPlugin = require('imagemin-webpack-plugin').default;
+const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
 const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = Merge(CommonConfig, {
@@ -28,6 +28,18 @@ module.exports = Merge(CommonConfig, {
       minimize: true,
       debug: false,
     }),
-    new ImageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i }),
+    // Lossless PNG recompression, like the old imagemin (optipng) step. JPEGs
+    // ship as-is: sharp can only re-encode them lossily, which jpegtran never did.
+    new ImageMinimizerPlugin({
+      test: /\.png$/i,
+      minimizer: {
+        implementation: ImageMinimizerPlugin.sharpMinify,
+        options: {
+          encodeOptions: {
+            png: { compressionLevel: 9, adaptiveFiltering: false },
+          },
+        },
+      },
+    }),
   ],
 });
