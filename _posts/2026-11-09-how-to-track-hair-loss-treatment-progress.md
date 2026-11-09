@@ -11,11 +11,11 @@ schema_type: Article
 section: blog
 faq:
   - question: What should I record when tracking hair loss treatment?
-    answer: Keep the treatment name, intended schedule, what you actually completed, changes or missed days, repeatable photos, shedding or side-effect notes, and the dates of clinician reviews. Tracking should document the plan you were given rather than create a medical plan for you.
+    answer: Keep the treatment name, intended schedule, what you actually completed, changes or missed days, repeatable photos, shedding or side-effect notes, and the dates of clinician reviews. Record the plan as your clinician or the product label gave it to you.
   - question: How often should I take hair loss progress photos?
-    answer: A repeatable monthly photo set is enough for many long-term routines. Use the same angles, location, lighting, camera distance, and hair condition so the images are genuinely comparable.
+    answer: A repeatable monthly photo set is enough for many long-term routines. Use the same angles, location, lighting, camera distance, and hair condition so the images are comparable.
   - question: How long should I track before deciding whether treatment is working?
-    answer: The appropriate review window depends on the diagnosis and treatment. Many hair loss treatments take months to assess, so follow the timeframe given by your clinician or medicine instructions rather than setting a universal deadline.
+    answer: The appropriate review window depends on the diagnosis and treatment. Many hair loss treatments take months to assess, so use the timeframe your clinician or the medicine instructions give you.
   - question: Can a hair loss tracker diagnose why my hair is changing?
     answer: No. A tracker can organize photos, treatment history, and notes, but it cannot diagnose the cause of hair loss or decide whether a prescription or procedure is appropriate.
 citations:
@@ -28,11 +28,9 @@ citations:
 campaign_token: web-blog-track-progress
 ---
 
-Hair loss treatment progress is difficult to judge from memory. Changes are slow, photographs vary with lighting and styling, and missed applications become easy to forget after a few weeks. A good tracking record does not promise to tell you whether a treatment will work. It shows what you used, how consistently you used it, and what changed across a fair review window.
+Hair loss treatment progress is difficult to judge from memory. Changes are slow, photographs vary with lighting and styling, and missed applications become easy to forget after a few weeks. A tracking record can't tell you whether a treatment will work. What it can show is what you used, how consistently you used it, and what changed over a fair review window.
 
-That distinction matters. The American Academy of Dermatology explains that effective treatment begins with identifying the cause, and that no single treatment works for everyone. Tracking should support that clinical process, not replace it.
-
-Here is a six-step system for creating a record you can actually review.
+The American Academy of Dermatology explains that effective treatment begins with identifying the cause, and that no single treatment works for everyone. A record like this is something to take to the clinician who is making those calls. The six steps below build one.
 
 ## 1. Start with the plan you were given
 
@@ -61,13 +59,13 @@ Use a small, fixed set of views:
 4. Part line
 5. Top-down view
 
-Use the same room, lighting, camera, distance, and hair condition each time. Decide whether the hair will be wet or dry and whether it will be parted or styled. Consistency is more important than choosing one perfect setup.
+Use the same room, lighting, camera, distance, and hair condition each time. Decide whether the hair will be wet or dry and whether it will be parted or styled. A setup you can repeat every month matters more than a perfect one.
 
-The [hair loss progress-photo guide](/hair-loss-progress-photos/) provides a complete monthly checklist.
+The [hair loss progress-photo guide](/hair-loss-progress-photos/) has a full monthly checklist.
 
 ## 3. Record what actually happened
 
-The planned routine and the completed routine are not always the same. That is normal. The useful record is the honest one.
+Most people miss days, and the record is only useful if it shows them.
 
 For each treatment, record:
 
@@ -77,7 +75,7 @@ For each treatment, record:
 - Dose, formulation, or schedule changes
 - The date another treatment was added or removed
 
-Do not turn adherence into a score of personal success or failure. Its purpose is context. If the photos look unchanged after several months, the interpretation is different when the routine was followed consistently than when it was frequently interrupted.
+Missed days are context for the photos, so there's no need to treat them as a score. If the photos look unchanged after several months, the interpretation is different when the routine was followed consistently than when it was frequently interrupted.
 
 ## 4. Add notes that help explain the timeline
 
@@ -88,13 +86,13 @@ Notes should be brief enough that you will keep writing them. Record information
 - Side effects or symptoms
 - Illness, major stress, childbirth, weight change, or medication changes
 - Haircut, colour, length, or styling changes that alter photographs
-- Questions for your next clinician appointment
+- Questions for your next clinician appointment (there is a list in [questions to ask a dermatologist about hair loss](/blog/questions-to-ask-dermatologist-about-hair-loss/))
 
 A tracker cannot determine what caused a symptom. It can preserve the timing so you do not have to reconstruct it from memory. Contact a clinician promptly for sudden or patchy loss, scalp pain or inflammation, concerning symptoms, pregnancy-related medication questions, or anything that feels urgent.
 
 ## 5. Review on fixed checkpoints
 
-Daily mirror checks create noise, not a reliable trend. Set review checkpoints in advance and follow the timeframe appropriate to the treatment.
+Checking the mirror every day mostly picks up lighting and how your hair fell that morning. Set review checkpoints in advance and follow the timeframe appropriate to the treatment.
 
 For many long-term routines, a simple structure is:
 
@@ -122,7 +120,7 @@ An interpretation reaches a conclusion:
 - "The shedding proves it is working"
 - "The dose should be changed"
 
-Keep observations in the tracker. Take interpretations, prescription changes, and decisions to the appropriate clinician. This makes the record more reliable and reduces the chance that a discouraging week becomes a medical conclusion.
+Keep observations in the tracker, and take interpretations, prescription changes and decisions to your clinician. A record of observations is easier to trust, and a discouraging week is less likely to turn into a conclusion about your treatment.
 
 ## A simple treatment-progress template
 
@@ -137,15 +135,15 @@ Use this structure whether you track in an app, spreadsheet, notebook, or calend
 | Photo set | Fixed angles and capture conditions |
 | Notes | Shedding, symptoms, side effects, and relevant events |
 | Review checkpoint | Date and clinician instructions |
-| Questions | Items to discuss rather than decide alone |
+| Questions | Things to raise with your clinician |
 
 ## How Track Hair keeps the record together
 
-Track Hair is designed around this workflow. Each treatment has its own schedule, completed and missed entries stay attached to the timeline, repeatable photos provide visual checkpoints, and notes preserve the context surrounding a change.
+Track Hair is built around this workflow. Each treatment has its own schedule, completed and missed entries stay on the timeline, and photos and notes sit next to the dates they belong to.
 
-The app does not diagnose hair loss or decide which treatment belongs in your plan. Track Hair does not recommend medication. Its job is to make the plan you are following easier to document and review over time.
+The app does not diagnose hair loss or decide which treatment belongs in your plan, and Track Hair does not recommend medication. It keeps a record of the plan you are following so you can review it later.
 
-Start with three actions: add the routine you are currently following, take a consistent baseline photo set, and schedule the review date you were given. That gives the next few months a clear reference point instead of leaving them to memory.
+To start, add the routine you are following now, take a baseline photo set, and put in the review date you were given.
 
 ---
 

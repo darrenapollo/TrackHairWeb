@@ -76,7 +76,7 @@ Track first, but do not track instead of getting help when it is warranted. See 
 - Hair loss with other symptoms such as fatigue or weight change
 - Any hair loss during pregnancy or while planning one, or before starting prescription treatment
 
-A clinician can diagnose causes and guide prescription decisions. Your tracking record — photos, notes, and treatment history — makes that visit far more productive.
+A clinician can diagnose causes and guide prescription decisions. Your tracking record — photos, notes, and treatment history — makes that visit far more productive. For what to bring and what to ask, see [questions to ask a dermatologist about hair loss](/blog/questions-to-ask-dermatologist-about-hair-loss/).
 
 ## How to track hair loss so it is actually useful
 
