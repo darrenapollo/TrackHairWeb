@@ -52,7 +52,7 @@ Pattern hair loss is strongly linked to genetics, follicle miniaturization, agin
 ## Common signs
 
 - A receding hairline or more pronounced temple recession
-- Thinning at the crown or top of the scalp
+- Thinning at the crown or top of the scalp (see [how to photograph crown thinning](/blog/how-to-photograph-crown-thinning/))
 - A widening center part or reduced visible density across the top of the scalp
 - Increased shedding, especially when it persists beyond a short temporary trigger
 - A broader diffuse reduction in visible density over time

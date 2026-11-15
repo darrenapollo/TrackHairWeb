@@ -70,6 +70,8 @@ Use the same set each time. For most people that is:
 | Part line | Density along the part | Part hair in the same place every time |
 | Top-down | Overall scalp coverage | Camera directly above, hair in the same style |
 
+The crown is the hardest of these to repeat on your own; [how to photograph crown thinning](/blog/how-to-photograph-crown-thinning/) goes through camera position, light and wet or dry hair.
+
 You do not need all of them — but whichever you pick, keep the set fixed.
 
 ## Lighting, distance, and hair condition
