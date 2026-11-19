@@ -46,13 +46,27 @@ package = "./plugins/indexnow"
 
 [[redirects]]
   from = "/amp/blog/understanding-the-norwood-scale"
-  to = "/blog/understanding-norwood-scale/"
+  to = "/norwood-scale/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/amp/blog/understanding-the-norwood-scale.html"
-  to = "/blog/understanding-norwood-scale/"
+  to = "/norwood-scale/"
+  status = 301
+  force = true
+
+# The Norwood stage article was merged into the /norwood-scale/ hub (19 Nov
+# 2026) so one page owns the Norwood search intent.
+[[redirects]]
+  from = "/blog/understanding-norwood-scale/"
+  to = "/norwood-scale/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/understanding-norwood-scale"
+  to = "/norwood-scale/"
   status = 301
   force = true
 

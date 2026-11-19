@@ -76,7 +76,7 @@ until the Phase 2 blog measurement window ends.
 | Treatment not working | `/blog/hair-treatment-not-working/` | Existing article |
 | Hair shedding versus a trend | `/blog/is-hair-shedding-normal/` | Existing article |
 | Norwood scale | `/norwood-scale/` | Definitive owner |
-| Norwood stages I through VII | `/blog/understanding-norwood-scale/` | Duplicate-depth risk; consolidation queued |
+| Norwood stages I through VII | `/norwood-scale/` | Merged 19 Nov 2026; old blog URL 301s here |
 
 ## Norwood consolidation
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "\"My Hair Treatment Isn't Working\" — How to Know for Sure Before You Quit"
+title: "Hair Treatment Not Working? What to Check First"
 description: "Before you give up on a hair loss treatment, make sure you're not confusing 'too early' or 'used inconsistently' with a genuine failure. Here's how to tell."
 author: Darren Tracey
 date: 2026-07-02

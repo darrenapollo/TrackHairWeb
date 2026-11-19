@@ -125,4 +125,4 @@ Here's how to track your 5-ARI regimen with Track Hair:
 
 **Start planning your hair loss treatment routine.** [Download Track Hair]({% include app-store-url.html ct=page.campaign_token %}) and set up your medication schedule, baseline photos, notes, and review checkpoints today.
 
-*Related reading: [How to Track Minoxidil Progress](/blog/how-to-track-minoxidil-progress/) | [Spironolactone Guide](/spironolactone/) | [Understanding the Norwood Scale](/blog/understanding-norwood-scale/) | [Finasteride Guide](/finasteride/)*
+*Related reading: [How to Track Minoxidil Progress](/blog/how-to-track-minoxidil-progress/) | [Spironolactone Guide](/spironolactone/) | [Norwood Scale Guide](/norwood-scale/) | [Finasteride Guide](/finasteride/)*

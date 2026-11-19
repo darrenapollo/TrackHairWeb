@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ludwig Scale Quiz - Estimate Female Pattern Hair Loss Stage
+title: Ludwig Scale Quiz for Female Pattern Hair Loss
 description: "A free Ludwig scale quiz for women. Answer six questions about your part line, crown, and shedding to get an estimated Ludwig stage and a photo tracking plan."
 permalink: /ludwig-scale/
 last_modified_at: 2026-09-08

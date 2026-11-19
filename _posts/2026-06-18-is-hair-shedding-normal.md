@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Is Your Hair Shedding Normal? How to Tell With Tracking, Not Panic"
+title: "Is Your Hair Shedding Normal? How to Tell"
 description: "Everyone sheds hair. The hard part is knowing whether it's a normal blip or a real trend. Here's how to tell the difference by tracking instead of guessing."
 author: Darren Tracey
 date: 2026-06-18

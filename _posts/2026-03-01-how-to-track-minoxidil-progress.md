@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Track Minoxidil Progress: A Complete Photo Guide"
+title: "How to Track Minoxidil Progress With Photos"
 description: "Learn how to track minoxidil progress with consistent photos, application logs, shedding notes, review checkpoints, and realistic long-term treatment routines."
 author: Darren Tracey
 date: 2026-03-01

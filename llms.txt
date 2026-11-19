@@ -37,6 +37,9 @@ Medical note: Track Hair is informational only and does not provide diagnosis or
 - [Best hair loss tracker apps]({{ site.url }}/best-hair-loss-tracker-apps/): How tracking journals and AI scan apps compare.
 - [AI hair scan vs progress tracking]({{ site.url }}/ai-hair-scan-vs-tracking/): Why a single scan cannot measure change over time.
 
+## Blog
+{% for post in site.posts %}- [{{ post.title }}]({{ post.url | absolute_url }}): {{ post.summary | default: post.description }}
+{% endfor %}
 ## About
 - [About Track Hair]({{ site.url }}/about/): Who builds Track Hair, how it is made, and its sourcing and privacy approach.
 - [Privacy policy]({{ site.url }}/privacy/)
