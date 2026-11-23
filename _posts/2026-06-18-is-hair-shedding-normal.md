@@ -29,7 +29,7 @@ This is where tracking beats worrying. Let's break down what normal shedding loo
 
 Most people shed somewhere in the range of 50 to 100 hairs a day as part of the normal hair cycle, according to the American Academy of Dermatology. On days you wash or brush, you will see more at once, because you are collecting what would have come out anyway across previous days.
 
-So a full drain catcher after a wash is not automatically a red flag. A handful of hairs is not a diagnosis. The number on any single day tells you very little on its own — which is exactly why one bad-looking shower can send someone into a spiral that the full picture would not justify.
+So a full drain catcher after a wash is not automatically a red flag. The number on any single day tells you very little on its own — which is exactly why one bad-looking shower can send someone into a spiral that the full picture would not justify.
 
 ## Shedding is not the same as hair loss
 
@@ -81,7 +81,7 @@ Tracking is not a substitute for care. See a clinician promptly if you notice an
 - Any shedding during pregnancy, while breastfeeding, or while planning a pregnancy
 - Shedding that has not settled after several months
 
-A clinician can check for causes — thyroid issues, iron deficiency, and others — that no amount of home tracking can diagnose. What your tracking does is make that visit far more productive: instead of "I think it got worse a while ago," you arrive with dated photos, a shedding timeline, and a list of possible triggers.
+A clinician can check for causes such as thyroid issues or iron deficiency. Your tracking makes that visit far more productive: instead of "I think it got worse a while ago," you arrive with dated photos, a shedding timeline, and a list of possible triggers.
 
 ## How Track Hair helps you read the trend
 

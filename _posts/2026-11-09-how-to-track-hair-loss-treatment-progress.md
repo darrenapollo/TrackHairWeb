@@ -16,8 +16,6 @@ faq:
     answer: A repeatable monthly photo set is enough for many long-term routines. Use the same angles, location, lighting, camera distance, and hair condition so the images are comparable.
   - question: How long should I track before deciding whether treatment is working?
     answer: The appropriate review window depends on the diagnosis and treatment. Many hair loss treatments take months to assess, so use the timeframe your clinician or the medicine instructions give you.
-  - question: Can a hair loss tracker diagnose why my hair is changing?
-    answer: No. A tracker can organize photos, treatment history, and notes, but it cannot diagnose the cause of hair loss or decide whether a prescription or procedure is appropriate.
 citations:
   - label: "American Academy of Dermatology: Hair loss diagnosis and treatment"
     url: https://www.aad.org/public/diseases/hair-loss/treatment/diagnosis-treat
@@ -88,7 +86,7 @@ Notes should be brief enough that you will keep writing them. Record information
 - Haircut, colour, length, or styling changes that alter photographs
 - Questions for your next clinician appointment (there is a list in [questions to ask a dermatologist about hair loss](/blog/questions-to-ask-dermatologist-about-hair-loss/))
 
-A tracker cannot determine what caused a symptom. It can preserve the timing so you do not have to reconstruct it from memory. Contact a clinician promptly for sudden or patchy loss, scalp pain or inflammation, concerning symptoms, pregnancy-related medication questions, or anything that feels urgent.
+For a short template of what to note at each check-in, see [what to write in a hair loss journal](/blog/what-to-write-in-a-hair-loss-journal/). A tracker cannot determine what caused a symptom. It can preserve the timing so you do not have to reconstruct it from memory. Contact a clinician promptly for sudden or patchy loss, scalp pain or inflammation, concerning symptoms, pregnancy-related medication questions, or anything that feels urgent.
 
 ## 5. Review on fixed checkpoints
 
@@ -141,7 +139,7 @@ Use this structure whether you track in an app, spreadsheet, notebook, or calend
 
 Track Hair is built around this workflow. Each treatment has its own schedule, completed and missed entries stay on the timeline, and photos and notes sit next to the dates they belong to.
 
-The app does not diagnose hair loss or decide which treatment belongs in your plan, and Track Hair does not recommend medication. It keeps a record of the plan you are following so you can review it later.
+Track Hair does not recommend medication. It keeps a record of the plan you are following so you can review it later.
 
 To start, add the routine you are following now, take a baseline photo set, and put in the review date you were given.
 

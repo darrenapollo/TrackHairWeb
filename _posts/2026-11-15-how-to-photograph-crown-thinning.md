@@ -75,6 +75,8 @@ When two crown photos look different, check these before you conclude anything a
 
 Shedding is another thing that worries people. The AAD says it's normal to shed between 50 and 100 hairs a day, so hairs in the drain or on the pillow are not, on their own, a sign of thinning.
 
+Writing these conditions down next to each set of photos makes the comparison fairer later; [what to write in a hair loss journal](/blog/what-to-write-in-a-hair-loss-journal/) has a short template.
+
 ## How often to compare
 
 Hair grows slowly, so comparing today's crown photo with yesterday's mostly shows you the light. A more useful rhythm:
@@ -96,7 +98,7 @@ If you're tracking a routine your clinician suggested, note the date you started
 
 ## Keeping the record in one place
 
-Track Hair asks for the same three photos at each check-in, including the top of the scalp, keeps them in order by date, and lets you add notes about wash day or light. Logging your routine, reminders and the baseline photos are free; follow-up sets and side-by-side comparison are part of Pro. Any measurements it shows are estimates to track over time, not a diagnosis.
+Track Hair asks for the same three photos at each check-in, including the top of the scalp, keeps them in order by date, and lets you add notes about wash day or light. The compare view puts the same angle side by side across check-ins, and its AI hair analyser gives a 0 to 100 density score, a Norwood stage and a scalp density heatmap from your photos.
 
 ---
 

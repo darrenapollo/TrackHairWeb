@@ -96,7 +96,7 @@ At the follow-up, you can then compare like with like: photos from the same angl
 
 ## How Track Hair can help
 
-Track Hair keeps that record on your iPhone. You can add the routine you were given, take repeatable photo sets, log what you completed or missed, and keep dated notes about shedding or side effects, so everything is in one timeline when you sit down with your clinician. The app does not diagnose hair loss or decide which treatment is right for you.
+Track Hair keeps that record on your iPhone. You can add the routine you were given, take repeatable photo sets, log what you completed or missed, and keep dated notes about shedding or side effects, so everything is in one timeline when you sit down with your clinician. Track Hair does not recommend medication.
 
 ---
 
