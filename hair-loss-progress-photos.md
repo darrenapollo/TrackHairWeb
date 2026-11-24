@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Hair Loss Progress Photos: A Repeatable Guide"
-description: "Take consistent hair loss progress photos with repeatable angles, lighting, distance, hair condition, and monthly checkpoints for clearer comparisons."
+title: "Hair Loss Progress Photos: Angles, Lighting and a Monthly Checklist"
+description: "How to take hair loss progress photos you can compare: the five angles, light and distance, wet or dry hair, how often, and how clinics standardize scalp photos."
 permalink: /hair-loss-progress-photos/
-last_modified_at: 2026-08-18
+last_modified_at: 2026-11-24
 hero_kicker: Progress photos
 summary: Progress photos are the most reliable way to judge hair loss treatment at home — but only if they are repeatable. This guide covers the angles, lighting, and intervals that turn scattered selfies into a timeline you can actually compare.
 schema_type: MedicalWebPage
@@ -14,6 +14,8 @@ faq:
     answer: A useful set usually includes the front hairline, both temples, the crown or vertex, the part line, and a top-down view of the whole scalp. Capturing the same angles each time is what makes the comparison meaningful.
   - question: Should my hair be wet or dry for progress photos?
     answer: Pick one and stay consistent. Wet or damp hair often reveals scalp and density more clearly, which can make thinning easier to compare, but the most important thing is using the same condition every time.
+  - question: How do clinics document hair regrowth with photos?
+    answer: Clinical trials use standardized "global" photographs of fixed scalp regions, such as the vertex, the mid scalp and the frontal and temporal hairlines, taken the same way at every visit and compared with the baseline by an expert panel. Many clinics also take magnified trichoscopy images of the scalp.
   - question: Why do my progress photos look so different month to month?
     answer: Usually it is not your hair that changed — it is lighting, camera angle, hair length, or whether the hair was wet or dry. Controlling those variables is the whole point of a repeatable routine, and it is why an app that stores your reference angles helps.
 citations:
@@ -21,6 +23,12 @@ citations:
     url: https://www.aad.org/public/diseases/hair-loss/treatment/diagnosis
   - label: "Cleveland Clinic: Hair Loss"
     url: https://my.clevelandclinic.org/health/diseases/16921-hair-loss
+  - label: "Kaufman KD, et al. (1998): Finasteride in the treatment of men with androgenetic alopecia"
+    url: https://pubmed.ncbi.nlm.nih.gov/9777765/
+  - label: "Olsen EA, et al. (2012): Global photographic assessment of men with male pattern hair loss"
+    url: https://pubmed.ncbi.nlm.nih.gov/22325459/
+  - label: "Takwale A, et al. (2025): A practical guide to the standardization of hair loss photography for clinicians"
+    url: https://pubmed.ncbi.nlm.nih.gov/39152787/
 related_pages:
   - title: Hair loss guide
     description: Understand the common types of hair loss and how to plan a routine.
@@ -89,6 +97,21 @@ Monthly is the sweet spot for most treatments. Hair growth cycles are slow, so:
 - **Review windows:** compare at three and six months, not day to day. Most treatments need several months before change is fair to judge.
 
 Taking photos more often is fine, but resist judging them more often — early week-to-week "changes" are almost always noise.
+
+## How clinics photograph hair loss
+
+Hair loss research has relied on standardized photos for decades. In the main finasteride trials, published in 1998, results were judged partly by an expert panel reviewing photographs, alongside hair counts and patient and investigator assessments. A later analysis of those trials compared standardized photographs of four regions with the baseline over 24 months: the vertex, the front and middle of the scalp, and the frontal and temporal hairlines.
+
+Ordinary clinics are less consistent. In 2025 a group of UK dermatologists and a medical photographer published a practical photography protocol for hair loss, noting that standardized protocols "are lacking" in clinical practice. It sets out fixed views for each type of hair loss, so clinics without a medical photography unit can still take comparable images.
+
+Most clinics also take trichoscopy images, which are magnified close-ups of the scalp, with a handheld device. A phone can't do that, but you can borrow the rest of the method:
+
+- The same regions every time. The checklist above covers the ones trials use.
+- The same position, distance and light at every session.
+- A baseline taken before anything changes, and every later set compared with it.
+- Comparison across long intervals, such as 6, 12 and 24 months, not week to week.
+
+If you see a clinician, ask whether they take their own photos at each visit. Bring yours as well. A dated set taken the same way each month is something they can compare with directly.
 
 ## Turning photos into a timeline
 

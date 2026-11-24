@@ -859,6 +859,11 @@ select {
   align-items: start;
 }
 
+.article-hero__app {
+  display: none;
+  margin-top: 1.2rem;
+}
+
 .article-layout__aside {
   position: sticky;
   top: 108px;
@@ -1035,6 +1040,11 @@ select {
     grid-template-columns: 1fr;
   }
 
+  // minmax(0, …) stops wide content (the scrolling Norwood chart) from stretching the page on phones.
+  .article-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   .hero__grid {
     gap: 1.5rem;
   }
@@ -1045,6 +1055,11 @@ select {
 
   .article-layout__aside {
     position: static;
+  }
+
+  // The sidebar download card drops below the article on phones, so repeat the badge under the intro.
+  .article-hero__app {
+    display: block;
   }
 
   .story-timeline,
@@ -1425,4 +1440,34 @@ input:focus-visible {
   color: #8c1d18;
   font-weight: 700;
   text-decoration: underline;
+}
+
+// Norwood and Ludwig stage diagrams
+.scale-figure {
+  margin: 1.5rem 0;
+
+  img {
+    height: auto;
+    margin: 0 auto;
+  }
+
+  figcaption {
+    margin-top: 0.5rem;
+    color: var(--color-muted);
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}
+
+// The 7-stage chart is too small to read on a phone, so it scrolls sideways instead of shrinking.
+.scale-figure--chart {
+  overflow-x: auto;
+
+  img {
+    min-width: 680px;
+  }
+}
+
+.scale-figure--stage img {
+  width: 160px;
 }

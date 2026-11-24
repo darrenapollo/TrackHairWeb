@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Ludwig Scale Quiz for Female Pattern Hair Loss
-description: "A free Ludwig scale quiz for women. Answer six questions about your part line, crown, and shedding to get an estimated Ludwig stage and a photo tracking plan."
+title: "Ludwig Scale: The 3 Stages of Female Pattern Hair Loss (Quiz)"
+description: "The Ludwig scale for female pattern hair loss, with a diagram of each of the three types and a six-question quiz to estimate your stage and plan progress photos."
 permalink: /ludwig-scale/
-last_modified_at: 2026-09-08
+last_modified_at: 2026-11-24
 hero_kicker: Ludwig scale quiz
 summary: The Ludwig scale describes female pattern hair loss in three broad stages, based on the widening part line rather than a receding hairline. Answer six questions for an estimated stage and a repeatable photo routine. Everything is calculated in your browser, and nothing you enter is sent anywhere.
 schema_type: MedicalWebPage
@@ -25,6 +25,8 @@ faq:
   - question: Should I see a doctor about female hair loss?
     answer: A clinical assessment is more useful for women than for men, because thyroid disease, iron deficiency, hormonal conditions, postpartum shedding, medication effects, and scarring scalp conditions can all look similar at first. Sudden, patchy, or painful hair loss, or a hairline that is genuinely receding, should be seen promptly.
 citations:
+  - label: "Ludwig E (1977): Classification of the types of androgenetic alopecia occurring in the female sex"
+    url: https://pubmed.ncbi.nlm.nih.gov/921894/
   - label: "MedlinePlus: Female Pattern Baldness"
     url: https://medlineplus.gov/ency/article/001173.htm
   - label: "MedlinePlus: Hair Loss"
@@ -154,7 +156,12 @@ Treat the result as a label for the pattern you just described, not as a diagnos
 
 ## What the three Ludwig stages describe
 
-The scale grades density loss over the top of the scalp. The frontal hairline is expected to stay put in all three stages, which is what separates this pattern from the male one.
+Erich Ludwig published the scale in 1977, noting that pattern hair loss in women was far more common than was generally believed and looked different from the male pattern. It grades density loss over the top of the scalp. The frontal hairline is expected to stay put in all three stages, which is what separates this pattern from the male one.
+
+<figure class="scale-figure">
+  <img src="/assets/images/ludwig/ludwig-scale-chart.svg" alt="Ludwig scale chart showing the three types of female pattern hair loss from above: mild, moderate and extensive thinning around the part, with the front hairline kept" width="600" height="260" loading="lazy">
+  <figcaption>The three Ludwig types, seen from above with the face at the top. The shaded area shows thinning around the part. Simplified diagrams.</figcaption>
+</figure>
 
 - **Type I** is perceptible thinning over the crown, with the part only slightly widened. It is often visible to the person before anyone else notices.
 - **Type II** is pronounced thinning across the same area. The part is clearly widened and scalp shows through along it.

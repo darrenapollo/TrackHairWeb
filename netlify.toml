@@ -90,3 +90,25 @@ package = "./plugins/indexnow"
   to = "https://trymosey.app/:splat"
   status = 301
   force = true
+
+# URLs that never existed on this site but earned Search Console clicks
+# (likely invented by AI answers). Send them to the closest real page.
+[[redirects]]
+  from = "/hair-loss-photo-diary"
+  to = "/hair-loss-progress-photos/"
+  status = 301
+
+[[redirects]]
+  from = "/hair-loss-photo-diary/"
+  to = "/hair-loss-progress-photos/"
+  status = 301
+
+[[redirects]]
+  from = "/best-hair-loss-tracking-app-reviews/"
+  to = "/best-hair-loss-tracker-apps/"
+  status = 301
+
+[[redirects]]
+  from = "/best-hair-loss-tracking-app-reviews"
+  to = "/best-hair-loss-tracker-apps/"
+  status = 301

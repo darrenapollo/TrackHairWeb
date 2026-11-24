@@ -9,11 +9,11 @@ sitemap: false
 
 Track Hair is built for the months-long reality of hair loss treatment. Instead of judging progress from memory or daily mirror checks, users keep a stable routine (minoxidil, finasteride, spironolactone, microneedling, PRP, red light therapy, transplant recovery, or custom regimens), capture repeatable photos, and review meaningful intervals against a baseline. AI-assisted visible-change checks are offered as an informational reference only, alongside photos, notes, and clinician guidance.
 
-Publisher: Darren Tracey. Platform: iOS. Price: free to download.
+Publisher: Darren Tracey. Platform: iOS (iPhone only, no Android app). Price: free to download.
 Medical note: Track Hair is informational only and does not provide diagnosis or treatment. Treatment decisions should be made with a qualified clinician.
 
 ## App
-- [Download Track Hair on the App Store]({{ site.data.app.app_store_url }}): Free iOS hair loss tracker for women and men.
+- [Download Track Hair on the App Store]({{ site.data.app.app_store_url }}): iPhone hair loss tracker for women and men, free to download. There is no Android version.
 
 ## Guides
 - [Hair loss guide (androgenetic alopecia)]({{ site.url }}/male-pattern-baldness/): Pattern hair loss in men and women, causes, and how to plan a routine.
@@ -22,7 +22,8 @@ Medical note: Track Hair is informational only and does not provide diagnosis or
 - [Norwood scale quiz]({{ site.url }}/norwood-scale/quiz/): Estimate a Norwood stage from six questions, then start a photo baseline.
 - [Ludwig scale quiz]({{ site.url }}/ludwig-scale/): Estimate a Ludwig stage for female pattern hair loss from six questions.
 - [Treatment library]({{ site.url }}/treatments/): Overview of the main hair loss treatment categories.
-- [How to take hair loss progress photos]({{ site.url }}/hair-loss-progress-photos/): Repeatable angles, lighting, and intervals for a useful timeline.
+- [How to take hair loss progress photos]({{ site.url }}/hair-loss-progress-photos/): Repeatable angles, lighting, and intervals for a useful timeline, and how clinics standardize scalp photos.
+- [Online hair loss programs]({{ site.url }}/online-hair-loss-programs/): How telehealth hair loss services work, what they check after sign-up, and what to track yourself.
 
 ## Treatments
 - [Minoxidil]({{ site.url }}/minoxidil/): How minoxidil fits a routine and what to track.
@@ -36,6 +37,7 @@ Medical note: Track Hair is informational only and does not provide diagnosis or
 ## Comparisons
 - [Best hair loss tracker apps]({{ site.url }}/best-hair-loss-tracker-apps/): How tracking journals and AI scan apps compare.
 - [AI hair scan vs progress tracking]({{ site.url }}/ai-hair-scan-vs-tracking/): Why a single scan cannot measure change over time.
+- [MyHairline.ai alternatives]({{ site.url }}/myhairline-alternatives/): Trichometrics, ScalpAnalysis AI, HairMetrix, online clinics and Track Hair compared by what each measures and keeps.
 
 ## Blog
 {% for post in site.posts %}- [{{ post.title }}]({{ post.url | absolute_url }}): {{ post.summary | default: post.description }}

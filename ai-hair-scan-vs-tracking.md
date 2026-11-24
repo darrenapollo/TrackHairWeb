@@ -20,6 +20,9 @@ citations:
   - label: "Cleveland Clinic: Hair Loss"
     url: https://my.clevelandclinic.org/health/diseases/16921-hair-loss
 related_pages:
+  - title: MyHairline.ai alternatives
+    description: Trichometrics, ScalpAnalysis AI, HairMetrix and other options compared.
+    url: /myhairline-alternatives/
   - title: How to take progress photos
     description: The angles and intervals that make photo tracking reliable.
     url: /hair-loss-progress-photos/

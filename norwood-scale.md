@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Norwood Scale Guide for Male Pattern Baldness
-description: "See what each of the seven Norwood scale stages looks like in male pattern baldness and how repeatable progress photos help you track visible change at home."
+title: "Norwood Scale: The 7 Stages of Male Pattern Baldness (Chart)"
+description: "A Norwood scale chart with a diagram of each of the seven stages of male pattern baldness, how to estimate your own stage, and how to track change with photos."
 permalink: /norwood-scale/
-last_modified_at: 2026-11-19
+last_modified_at: 2026-11-24
 hero_kicker: Norwood scale guide
 summary: The Norwood scale is a common way to describe the visible pattern and progression of male pattern baldness. It is useful for orientation, but it becomes more practical when paired with repeatable photos, treatment history, and long-term review.
 schema_type: MedicalWebPage
@@ -51,31 +51,64 @@ Hair loss is easy to misread when you see yourself every day. A staging framewor
 
 O'Tar Norwood published the scale in 1975, building on an earlier classification by James Hamilton, which is why clinicians also call it the Hamilton-Norwood scale. It sorts male pattern baldness into seven stages by how far the hairline has receded at the temples and how much the crown has thinned.
 
+<figure class="scale-figure scale-figure--chart">
+  <img src="/assets/images/norwood/norwood-scale-chart.svg" alt="Norwood scale chart showing all seven stages of male pattern baldness from above, from a full hairline at stage 1 to a horseshoe of hair at stage 7" width="1400" height="260" loading="lazy">
+  <figcaption>The seven Norwood stages, seen from above with the face at the top. Simplified diagrams; real hair loss rarely looks this tidy.</figcaption>
+</figure>
+
 ### Stage I
+
+<figure class="scale-figure scale-figure--stage">
+  <img src="/assets/images/norwood/norwood-stage-1.svg" alt="Norwood stage 1 seen from above: a full hairline with little or no temple recession" width="200" height="260" loading="lazy">
+</figure>
 
 A full hairline with little or no recession at the temples. This is the baseline the other stages are measured against.
 
 ### Stage II
 
+<figure class="scale-figure scale-figure--stage">
+  <img src="/assets/images/norwood/norwood-stage-2.svg" alt="Norwood stage 2 seen from above: slight, even recession at both temples" width="200" height="260" loading="lazy">
+</figure>
+
 Slight, even recession at both temples. The hairline has moved back a little, and the hair behind it is still dense.
 
 ### Stage III
+
+<figure class="scale-figure scale-figure--stage">
+  <img src="/assets/images/norwood/norwood-stage-3.svg" alt="Norwood stage 3 seen from above: deeper temple recession giving the hairline an M shape" width="200" height="260" loading="lazy">
+</figure>
 
 Deeper recession at the temples gives the hairline an M, U or V shape. In the Stage III vertex variant, thinning also starts at the crown. Norwood described Stage III as the smallest amount of hair loss he counted as baldness.
 
 ### Stage IV
 
+<figure class="scale-figure scale-figure--stage">
+  <img src="/assets/images/norwood/norwood-stage-4.svg" alt="Norwood stage 4 seen from above: deeper temple recession and a bald spot at the crown, separated by a band of hair" width="200" height="260" loading="lazy">
+</figure>
+
 The temples recede further and the crown has a clear thin or bald area. A band of hair across the top of the scalp still separates the two.
 
 ### Stage V
+
+<figure class="scale-figure scale-figure--stage">
+  <img src="/assets/images/norwood/norwood-stage-5.svg" alt="Norwood stage 5 seen from above: a larger bald front and crown with only a narrow, sparse band of hair between them" width="200" height="260" loading="lazy">
+</figure>
 
 That band becomes narrower and sparser, and the front and crown areas start to meet.
 
 ### Stage VI
 
+<figure class="scale-figure scale-figure--stage">
+  <img src="/assets/images/norwood/norwood-stage-6.svg" alt="Norwood stage 6 seen from above: the front and crown have joined into one bald area, with hair at the sides and back" width="200" height="260" loading="lazy">
+</figure>
+
 The band is gone, so the front and crown areas join into one large area across the top of the scalp. Hair remains around the sides and back.
 
 ### Stage VII
+
+<figure class="scale-figure scale-figure--stage">
+  <img src="/assets/images/norwood/norwood-stage-7.svg" alt="Norwood stage 7 seen from above: only a narrow horseshoe of hair remains around the sides and back" width="200" height="260" loading="lazy">
+</figure>
 
 Only a narrow horseshoe of hair remains around the sides and back of the head, and that hair is often finer.
 
@@ -88,7 +121,7 @@ Any stage you give yourself is an estimate, and you may sit between two stages.
 3. Compare the shape of the temple recession and the amount of visible scalp at the crown with the stages above.
 4. If you sit between two stages, note both, then compare again in a few months in the same light.
 
-The [Norwood scale quiz](/norwood-scale/quiz/) asks the same questions and gives you an estimated stage.
+The [Norwood scale quiz](/norwood-scale/quiz/) works as a Norwood calculator: it asks the same questions and gives you an estimated stage.
 
 ## What the scale does not do
 

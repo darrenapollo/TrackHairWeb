@@ -4,7 +4,7 @@ title: "How to Track Minoxidil Progress With Photos"
 description: "Learn how to track minoxidil progress with consistent photos, application logs, shedding notes, review checkpoints, and realistic long-term treatment routines."
 author: Darren Tracey
 date: 2026-03-01
-last_modified_at: 2026-09-08
+last_modified_at: 2026-11-24
 permalink: /blog/how-to-track-minoxidil-progress/
 hero_kicker: Tracking guide
 summary: A practical walkthrough for judging minoxidil progress without relying on memory or daily mirror checks.
@@ -13,6 +13,10 @@ section: blog
 citations:
   - label: "MedlinePlus: Minoxidil drug information"
     url: https://medlineplus.gov/druginfo/meds/a682608.html
+  - label: "MedlinePlus: Minoxidil topical"
+    url: https://medlineplus.gov/druginfo/meds/a689003.html
+  - label: "DailyMed: Minoxidil topical solution 5% (US OTC label)"
+    url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00c83180-0e13-4a07-9ce8-a9cae19a79a3
   - label: "Cleveland Clinic: Hair Loss Treatments"
     url: https://my.clevelandclinic.org/health/treatments/8307-hair-loss-treatments
 campaign_token: web-blog-minoxidil
@@ -29,7 +33,7 @@ The human eye is poor at detecting gradual changes. When you look in the mirror 
 For minoxidil specifically, photo tracking solves several problems:
 
 - **The shedding phase panic** — Some people stop minoxidil during early shedding because they assume the routine is failing. A baseline photo and notes give you a better record to discuss with a clinician instead of reacting from memory.
-- **Distinguishing vellus from terminal hair** — New growth often starts as fine, colourless vellus hair. Photos in good lighting reveal this earlier than the mirror.
+- **Spotting fine new hairs** — Any new growth can start out short and fine. Close photos in consistent light make it easier to see than the mirror does.
 - **Objectively measuring density** — Comparing hair density in the crown or temples over months is nearly impossible without photographic evidence.
 
 ## Setting Up Your Photo Protocol
@@ -66,22 +70,22 @@ Always take photos with your hair in the same state:
 
 | Phase | Frequency |
 |-------|-----------|
-| Month 1 (baseline) | Day 0, then weekly during shed phase |
+| Month 1 (baseline) | Day 0, then weekly if you notice extra shedding |
 | Months 2–4 | Every 2 weeks |
 | Months 4–12 | Monthly |
 | Month 12+ | Every 2–3 months for maintenance tracking |
 
 ## What to Look for in Minoxidil Progress Photos
 
-When reviewing your photos at each stage:
+Response varies a lot from person to person. The [minoxidil timeline](/blog/minoxidil-timeline/) sets out what the official drug information says about timing. When reviewing your photos at each stage:
 
-**Months 1–2:** Don't look for improvement. Look for increased shedding (normal) and take note of your baseline density accurately.
+**Months 1–2:** Don't look for improvement yet. Some people notice more shedding in the early weeks, so note it with dates. Heavy or long-lasting shedding is worth raising with a clinician.
 
-**Month 3–4:** Look for very fine, short hairs in previously thinning areas. These may appear as a slight "fuzz" in good lighting.
+**Months 2–4:** The US label for 5% topical minoxidil says some men see results at 2 months and others need at least 4. If anything has changed, it's usually short, fine hairs in thinning areas, which show best in close photos taken in the same light as your baseline.
 
-**Month 5–6:** Vellus hairs should be converting to darker, thicker terminal hairs. In crown shots, look for a reduction in visible scalp.
+**Months 4–6:** MedlinePlus says minoxidil needs at least 4 months before any effect shows. This is the first fair point to compare each angle with your baseline, looking at how much scalp shows at the crown and along the part.
 
-**Month 8–12:** This is when the most dramatic visible changes typically occur. Compare directly to your day-0 baseline for the most motivating comparison.
+**Months 6–12:** MedlinePlus says it can take up to a year to see an effect, so a 12-month comparison with your day-0 baseline gives the clearest picture of how you've responded. If nothing has changed by then, talk it through with a clinician.
 
 ## Using Track Hair for Your Minoxidil Plan
 

@@ -1,9 +1,9 @@
 ---
 layout: blog
-title: Hair Loss Tracking Guides & Treatment Articles
-description: "Read practical hair loss tracking guides covering progress photos, minoxidil, finasteride, shedding, treatment routines, and meaningful long-term reviews."
+title: "Hair Loss Blog: Treatment Timelines, Photo Guides and Tracking Tips"
+description: "Guides to minoxidil and finasteride timelines, progress photos, shedding, crown thinning, hair loss journals and what to ask a dermatologist."
 permalink: /blog/
-last_modified_at: 2026-09-08
+last_modified_at: 2026-11-24
 section: blog
 ---
 

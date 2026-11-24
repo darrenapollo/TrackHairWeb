@@ -98,6 +98,8 @@ At the follow-up, you can then compare like with like: photos from the same angl
 
 Track Hair keeps that record on your iPhone. You can add the routine you were given, take repeatable photo sets, log what you completed or missed, and keep dated notes about shedding or side effects, so everything is in one timeline when you sit down with your clinician. Track Hair does not recommend medication.
 
+Before the appointment, you can export a doctor summary as a PDF to print or send ahead. It lists your adherence over the last 30 days, each treatment with its start date and the dose and frequency you entered, a dated list of changes to your routine, the dates of your photo sets, and your recent shedding and side-effect check-ins. It records what you entered. It doesn't diagnose anything or say whether a treatment caused a change, which leaves that judgement with your clinician.
+
 ---
 
 **Bring a clear record to your next appointment.** [Download Track Hair]({% include app-store-url.html ct=page.campaign_token %}) to keep your photos, routine and notes in one timeline.

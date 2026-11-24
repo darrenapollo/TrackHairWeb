@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Finasteride Hair Loss Tracker Guide
-description: "Learn how finasteride fits into male pattern hair loss care, how it differs from minoxidil and spironolactone, and how to track a prescribed routine over time."
+title: "Finasteride for Hair Loss: Timeline, Side Effects and Tracking"
+description: "When finasteride results usually show, why MedlinePlus treats 12 months as the review point, side effects to discuss, and how to track a prescribed routine."
 permalink: /finasteride/
-last_modified_at: 2026-09-08
+last_modified_at: 2026-11-24
 hero_kicker: Finasteride guide
 summary: Finasteride is one of the most established prescription treatments for male pattern baldness in men. This guide explains how it fits into a long-term plan and how to track a prescribed routine with more discipline and context.
 schema_type: MedicalWebPage
@@ -12,7 +12,7 @@ faq:
   - question: What makes finasteride different from minoxidil or spironolactone?
     answer: They work differently. Finasteride targets DHT-related hair loss progression, minoxidil is generally used to support hair growth and visible density, and spironolactone is an anti-androgen prescription option most often discussed for women.
   - question: How long should someone track finasteride before judging it?
-    answer: Hair loss treatments usually need months, not weeks, to assess. A structured photo record and medication log make that long review window easier to evaluate.
+    answer: MedlinePlus says it may take at least 3 months to see any improvement and that improvement should be expected within the first 12 months. A structured photo record and medication log make that long review window easier to evaluate.
   - question: Is dutasteride the same as finasteride?
     answer: No. They are related but distinct medications, and decisions about either one should be made with a qualified prescriber.
 citations:
@@ -20,6 +20,8 @@ citations:
     url: https://medlineplus.gov/druginfo/meds/a698016.html
   - label: "Cleveland Clinic: Male Pattern Baldness"
     url: https://my.clevelandclinic.org/health/diseases/24515-male-pattern-baldness-androgenic-alopecia
+  - label: "Kaufman KD, et al. (1998): Finasteride in the treatment of men with androgenetic alopecia"
+    url: https://pubmed.ncbi.nlm.nih.gov/9777765/
   - label: "AAD: Finding the right treatments for genetic hair loss"
     url: https://www.aad.org/news/finding-the-right-treatments-for-genetic-hair-loss
 related_pages:
@@ -55,12 +57,18 @@ Finasteride is commonly discussed for men with confirmed or strongly suspected m
 
 ## Typical timeline
 
+MedlinePlus says finasteride may take at least 3 months to show any improvement, because hair loss and growth happen slowly, and that you should expect to see improvement during the first 12 months. If there's no improvement after 12 months, it says further treatment probably won't help. Finasteride only slows hair loss while you take it, and MedlinePlus notes that hair which grew back is likely to be lost within 12 months of stopping.
+
 | Window | What to review |
 | --- | --- |
-| First month | Adherence, any side effects, and starting photo baseline |
+| Before you start | A full baseline photo set: front, temples, crown and top-down |
+| First month | Adherence, any side effects, and anything your prescriber asked you to watch |
 | Months 1 to 3 | Routine stability, not dramatic visible change |
-| Months 3 to 6 | Early photo comparisons may start to matter |
-| Months 6 to 12 | More realistic window for reviewing progress and discussing next steps with a clinician |
+| Months 3 to 6 | Early photo comparisons with the baseline may start to matter |
+| Months 6 to 12 | A more realistic window for reviewing progress with your prescriber |
+| Month 12 | MedlinePlus's point for judging whether it has helped |
+
+The main finasteride trials judged results over one and two years, using hair counts, patient and investigator assessments, and an expert panel's review of standardized photographs of the scalp. Repeating the same photos at home, in the same light and from the same angles, is a simpler version of that method. The [progress photos guide](/hair-loss-progress-photos/) explains how.
 
 ## Side effects and risks
 

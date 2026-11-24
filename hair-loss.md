@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Hair Loss Causes, Types and Tracking Guide
-description: "Learn the common causes and types of hair loss in women and men, when to consult a clinician, and how progress photos and routine tracking can help over time."
+title: "Hair Loss: Causes, Types and When to See a Doctor"
+description: "The common causes and types of hair loss in women and men, the signs that need a clinician soon, and how progress photos help you tell real change from a bad day."
 permalink: /hair-loss/
 hero_kicker: Hair loss
 summary: Hair loss is a symptom with many possible causes, not a single condition. This guide explains the most common types in women and men, when it is worth seeing a clinician, and how to track a routine so you can actually tell whether it is working.
 schema_type: MedicalWebPage
-last_modified_at: 2026-09-08
+last_modified_at: 2026-11-24
 faq:
   - question: What are the most common types of hair loss?
     answer: Pattern hair loss (androgenetic alopecia) is the most common in both men and women. Other common causes include telogen effluvium (temporary shedding after stress, illness, or childbirth), nutritional or thyroid issues, and traction from hairstyles. Some causes are temporary and some are progressive, which is why tracking over time is useful.

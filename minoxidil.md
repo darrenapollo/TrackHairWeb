@@ -3,7 +3,7 @@ layout: page
 title: Minoxidil Progress Tracker for Hair Loss
 description: "Learn how to track minoxidil applications, shedding notes, side effects, and progress photos within female or male hair loss treatment routines over time."
 permalink: /minoxidil/
-last_modified_at: 2026-09-08
+last_modified_at: 2026-11-24
 hero_kicker: Minoxidil guide
 summary: Minoxidil is one of the most widely used hair loss treatments. This guide explains what it does, where its limits are, and how to plan a minoxidil routine with enough consistency and context to review over time.
 schema_type: MedicalWebPage
@@ -18,11 +18,16 @@ faq:
 citations:
   - label: "MedlinePlus: Minoxidil drug information"
     url: https://medlineplus.gov/druginfo/meds/a682608.html
+  - label: "MedlinePlus: Minoxidil topical"
+    url: https://medlineplus.gov/druginfo/meds/a689003.html
   - label: "Cleveland Clinic: Hair Loss Treatments"
     url: https://my.clevelandclinic.org/health/treatments/8307-hair-loss-treatments
   - label: "AAD: Finding the right treatments for genetic hair loss"
     url: https://www.aad.org/news/finding-the-right-treatments-for-genetic-hair-loss
 related_pages:
+  - title: Minoxidil timeline
+    description: What to expect and which photos to take, month by month.
+    url: /blog/minoxidil-timeline/
   - title: Female pattern hair loss guide
     description: See how minoxidil often fits into female hair loss planning and photo review.
     url: /female-pattern-hair-loss/
@@ -64,6 +69,8 @@ It may be less useful when the goal is to reverse extensive, longstanding bald a
 | Months 1 to 3 | Consistency matters more than visible change |
 | Months 3 to 6 | Early comparisons may become more useful |
 | Months 6 to 12 | Better point for reviewing photos and deciding whether the routine is worthwhile |
+
+MedlinePlus says minoxidil needs at least 4 months, and possibly up to a year, before any effect shows, and that most new hair is lost within a few months of stopping. The [minoxidil timeline](/blog/minoxidil-timeline/) goes through each stage and which photos to take.
 
 For a photo-by-photo workflow, use the [minoxidil progress guide](/blog/how-to-track-minoxidil-progress/). To keep minoxidil in one record with any other treatments, follow the [treatment progress tracking guide](/blog/how-to-track-hair-loss-treatment-progress/). If you are considering stopping because nothing appears to be happening, first separate an early review, inconsistent use, and a genuine lack of response with the [hair-treatment review checklist](/blog/hair-treatment-not-working/).
 

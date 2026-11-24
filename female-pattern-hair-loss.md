@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Female Pattern Hair Loss Treatment Tracking Guide
-description: "A practical guide to female pattern hair loss treatments, including minoxidil, spironolactone, progress photos, shedding notes, and clinician-guided review."
+title: "Female Pattern Hair Loss: Treatments, Timelines and Tracking"
+description: "Female pattern hair loss explained: the treatments clinicians discuss, such as minoxidil and spironolactone, how long they take to judge, and how to track progress."
 permalink: /female-pattern-hair-loss/
-last_modified_at: 2026-08-18
+last_modified_at: 2026-11-24
 hero_kicker: Female hair loss guide
 summary: Female pattern hair loss often needs a different planning workflow from male pattern baldness. This guide explains the main treatment conversations, what to track, and how Track Hair keeps long review windows organized.
 schema_type: MedicalWebPage
@@ -16,6 +16,8 @@ faq:
   - question: What should someone photograph?
     answer: Repeatable front, temple, crown, part-line, and top-down photos are useful when captured in similar lighting at planned intervals. The goal is a comparable timeline, not daily checking.
 citations:
+  - label: "MedlinePlus: Minoxidil topical"
+    url: https://medlineplus.gov/druginfo/meds/a689003.html
   - label: "MedlinePlus: Female Pattern Baldness"
     url: https://medlineplus.gov/ency/article/001173.htm
   - label: "AAD: Finding the right treatments for genetic hair loss"
@@ -76,6 +78,12 @@ If the immediate concern is increased shedding, the guide to [normal shedding ve
 ### PRP, red light therapy, and procedures
 
 [PRP](/prp-therapy/), [red light therapy](/red-light-therapy/), [microneedling](/microneedling/), and [hair transplant recovery](/hair-transplant/) may be discussed in selected plans. Each has a different cadence, so Track Hair treats them as separate routines rather than one combined note.
+
+## How long treatments take to judge
+
+Treatments for female pattern hair loss are slow. MedlinePlus says topical minoxidil needs at least 4 months, and possibly up to a year, before any effect shows, and that most new hair is lost within a few months of stopping. Prescription options such as spironolactone are also judged over months, so ask your prescriber when they would expect to review it.
+
+In practice, take a baseline photo set before you start, repeat it every month or so, and plan a proper comparison at around 6 and 12 months. Early weeks often bring more questions than answers, especially if shedding changes. The [minoxidil timeline](/blog/minoxidil-timeline/) sets out which photos to take at each stage.
 
 ## How to track female hair loss with Track Hair
 

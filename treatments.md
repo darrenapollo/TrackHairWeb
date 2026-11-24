@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Hair Loss Treatments for Women and Men
-description: "Compare hair loss treatment options for women and men, including minoxidil, finasteride, spironolactone, microneedling, PRP, transplants, and red light."
+title: "Hair Loss Treatments for Women and Men: Options Compared"
+description: "Minoxidil, finasteride, spironolactone, microneedling, PRP, red light and transplants compared: what each does, how long it takes to judge, and what to track."
 permalink: /treatments/
-last_modified_at: 2026-08-18
+last_modified_at: 2026-11-24
 hero_kicker: Treatment library
 summary: Browse the main treatment categories commonly discussed for pattern hair loss and other long-term routines, then use Track Hair to turn those options into a plan with schedules, notes, photos, and review checkpoints.
 schema_type: CollectionPage
@@ -121,4 +121,4 @@ In Track Hair, device routines can be tracked by actual session completion and r
 
 ## Build a record you can review
 
-Whichever options belong in your clinician-guided plan, keep the start date, prescribed or intended schedule, missed days, changes, side effects, and repeatable photos together. The [hair loss progress-photo guide](/hair-loss-progress-photos/) explains how to create a reliable baseline, while the [hair loss tracker app comparison](/best-hair-loss-tracker-apps/) shows which types of tools preserve different parts of that record.
+Whichever options belong in your clinician-guided plan, keep the start date, prescribed or intended schedule, missed days, changes, side effects, and repeatable photos together. The [hair loss progress-photo guide](/hair-loss-progress-photos/) explains how to create a reliable baseline, while the [hair loss tracker app comparison](/best-hair-loss-tracker-apps/) shows which types of tools preserve different parts of that record. If your treatment comes from a telehealth service, the guide to [online hair loss programs](/online-hair-loss-programs/) explains what they check after sign-up and what to keep yourself.

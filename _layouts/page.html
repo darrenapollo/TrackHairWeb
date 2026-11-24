@@ -12,6 +12,9 @@ layout: default
       {% if page.summary %}
       <p class="article-hero__summary">{{ page.summary }}</p>
       {% endif %}
+      {% unless page.hide_app_cta %}
+      <div class="article-hero__app">{% include app-store-badge.html location='page_hero_mobile' ct=page.campaign_token %}</div>
+      {% endunless %}
       {% if page.last_modified_at %}
       <p class="article-meta">Last updated <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: "%B %-d, %Y" }}</time></p>
       {% endif %}
