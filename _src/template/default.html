@@ -5,9 +5,10 @@
   </head>
 
   <body class="site-body{% if page.body_class %} {{ page.body_class }}{% endif %}">
+    <a class="skip-link" href="#main">Skip to content</a>
     {% include navigation.html %}
 
-    <main class="site-main">
+    <main class="site-main" id="main" tabindex="-1">
       {{ content }}
     </main>
 

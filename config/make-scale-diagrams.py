@@ -77,21 +77,29 @@ def write(path, text):
 
 def build(root, scale, stages, extra=None, part_line=False):
     name = scale.lower()
-    row = []
+    row, bodies = [], []
     for i, (num, desc, shapes) in enumerate(stages, 1):
         shapes = ([(extra, 1)] if extra else []) + shapes
         label = f"{'Type' if scale == 'Ludwig' else 'Stage'} {num}"
         body = head(f"{name}{i}", shapes, label, part_line)
         write(f"{root}/{name}/{name}-{'type' if scale == 'Ludwig' else 'stage'}-{i}.svg",
               svg(200, 260, f"{scale} {label}: {desc}, seen from above", body))
+        bodies.append(body)
         row.append(f'<g transform="translate({(i - 1) * 200} 0)">{body}</g>')
     write(f"{root}/{name}/{name}-scale-chart.svg",
           svg(200 * len(stages), 260, f"{scale} scale chart: all {len(stages)} {'types' if scale == 'Ludwig' else 'stages'} seen from above", "".join(row)))
+    if len(stages) > 4:
+        # Phone variant: rows of four so every stage stays legible at 375px without sideways scrolling.
+        grid = [f'<g transform="translate({(i % 4) * 200} {(i // 4) * 260})">{body}</g>'
+                for i, body in enumerate(bodies)]
+        rows = -(-len(stages) // 4)
+        write(f"{root}/{name}/{name}-scale-chart-mobile.svg",
+              svg(800, 260 * rows, f"{scale} scale chart: all {len(stages)} stages seen from above", "".join(grid)))
 
 
 if __name__ == "__main__":
     root = sys.argv[1]
     build(root, "Norwood", NORWOOD)
     build(root, "Ludwig", LUDWIG, extra=LUDWIG_FRONT, part_line=True)
-    assert len(os.listdir(f"{root}/norwood")) == 8 and len(os.listdir(f"{root}/ludwig")) == 4
+    assert len(os.listdir(f"{root}/norwood")) == 9 and len(os.listdir(f"{root}/ludwig")) == 4
     print("ok")

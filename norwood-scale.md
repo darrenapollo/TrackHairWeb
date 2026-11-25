@@ -39,6 +39,14 @@ related_pages:
 campaign_token: web-norwood-scale
 ---
 
+<figure class="scale-figure scale-figure--chart">
+  <picture>
+    <source media="(max-width: 720px)" srcset="/assets/images/norwood/norwood-scale-chart-mobile.svg" width="800" height="520">
+    <img src="/assets/images/norwood/norwood-scale-chart.svg" alt="Norwood scale chart showing all seven stages of male pattern baldness from above, from a full hairline at stage 1 to a horseshoe of hair at stage 7" width="1400" height="260" fetchpriority="high">
+  </picture>
+  <figcaption>The seven Norwood stages, seen from above with the face at the top. Simplified diagrams; real hair loss rarely looks this tidy.</figcaption>
+</figure>
+
 ## What the Norwood scale is
 
 The Norwood scale is a commonly used staging framework for male pattern baldness. It is most helpful as a communication tool: it gives people and clinicians a shared way to describe recession, crown involvement, and broader progression.
@@ -50,11 +58,6 @@ Hair loss is easy to misread when you see yourself every day. A staging framewor
 ## The seven stages
 
 O'Tar Norwood published the scale in 1975, building on an earlier classification by James Hamilton, which is why clinicians also call it the Hamilton-Norwood scale. It sorts male pattern baldness into seven stages by how far the hairline has receded at the temples and how much the crown has thinned.
-
-<figure class="scale-figure scale-figure--chart">
-  <img src="/assets/images/norwood/norwood-scale-chart.svg" alt="Norwood scale chart showing all seven stages of male pattern baldness from above, from a full hairline at stage 1 to a horseshoe of hair at stage 7" width="1400" height="260" loading="lazy">
-  <figcaption>The seven Norwood stages, seen from above with the face at the top. Simplified diagrams; real hair loss rarely looks this tidy.</figcaption>
-</figure>
 
 ### Stage I
 

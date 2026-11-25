@@ -37,6 +37,18 @@ related_pages:
 campaign_token: web-treatments
 ---
 
+## Choose the right guide for your routine
+
+<div class="related-grid">
+{% for guide in site.data.app.treatment_guides %}
+  <a class="related-card" href="{{ guide.url }}">
+    <p class="eyebrow">{{ guide.accent }}</p>
+    <h3>{{ guide.title }}</h3>
+    <p>{{ guide.description }}</p>
+  </a>
+{% endfor %}
+</div>
+
 ## Start with the cause, not the treatment list
 
 Hair loss treatments are not interchangeable because hair loss has different causes. Pattern hair loss, temporary shedding, autoimmune loss, scalp disease, medication effects, and nutritional or thyroid problems can require very different decisions. A clinician can help identify the cause, especially when loss is sudden, patchy, painful, inflamed, or accompanied by other symptoms.
@@ -52,18 +64,6 @@ For gradual pattern hair loss, treatment plans often combine a core medical opti
 | PRP | In-clinic procedure sometimes used as part of a broader plan | Appointment series | Session dates, follow-ups, photos across the treatment series |
 | Hair transplant | Surgical redistribution of donor hair for suitable candidates | Procedure and recovery | Aftercare, shedding phase, follow-ups, repeatable regrowth photos |
 | Red light therapy | Device-based option used by some people alongside another plan | Repeated device sessions | Actual session completion, device schedule, maintenance, photos |
-
-## Choose the right guide for your routine
-
-<div class="related-grid">
-{% for guide in site.data.app.treatment_guides %}
-  <a class="related-card" href="{{ guide.url }}">
-    <p class="eyebrow">{{ guide.accent }}</p>
-    <h3>{{ guide.title }}</h3>
-    <p>{{ guide.description }}</p>
-  </a>
-{% endfor %}
-</div>
 
 ## How to use this library
 

@@ -41,9 +41,8 @@ hero:
   eyebrow: Hair loss tracker app for women and men
   title: Track your hair loss treatments, photos, and changes over months.
   description: Track Hair brings female and male hair loss routines, minoxidil, finasteride, spironolactone, transplant recovery, PRP, microneedling, progress photos, regimen notes, and review timelines together so you can judge change with more context.
-  proof: Built for individual routines, long review windows, and treatment consistency. Not a generic habit tracker or one-off scanner.
   primary_cta: Download on the App Store
-  secondary_cta_label: Build a better routine
+  secondary_cta_label: Browse treatment guides
   secondary_cta_url: /treatments/
 
 story:

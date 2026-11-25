@@ -1,4 +1,4 @@
-<input type="checkbox" id="nav-toggle" class="nav__toggle" aria-hidden="true">
+<input type="checkbox" id="nav-toggle" class="nav__toggle" aria-label="Menu" aria-controls="nav-mobile">
 <nav class="nav" aria-label="Primary">
   <div class="nav__shell container">
     <a class="nav__brand" href="/" aria-label="Track Hair home">
@@ -13,17 +13,18 @@
       <a class="button button--nav" href="{% include app-store-url.html ct='web-nav-desktop' %}" target="_blank" rel="noopener" data-cta="desktop_nav">{{ site.data.strings.nav.cta_label }}</a>
     </div>
 
-    <label class="nav__menu-button" for="nav-toggle" aria-label="Open navigation">
+    <a class="button button--nav nav__cta-mobile" href="{% include app-store-url.html ct='web-nav-mobile' %}" target="_blank" rel="noopener" data-cta="mobile_nav">{{ site.data.strings.nav.cta_label }}</a>
+
+    <label class="nav__menu-button" for="nav-toggle" aria-hidden="true">
       <span></span>
       <span></span>
       <span></span>
     </label>
   </div>
 
-  <div class="nav__mobile">
+  <div class="nav__mobile" id="nav-mobile">
     {% for link in site.data.strings.nav.links %}
     <a class="nav__mobile-link{% if page.url == link.url %} nav__mobile-link--active{% endif %}" href="{{ link.url }}">{{ link.title }}</a>
     {% endfor %}
-    <a class="button button--mobile" href="{% include app-store-url.html ct='web-nav-mobile' %}" target="_blank" rel="noopener" data-cta="mobile_nav">{{ site.data.strings.nav.cta_label }}</a>
   </div>
 </nav>

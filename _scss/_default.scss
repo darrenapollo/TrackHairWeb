@@ -152,8 +152,57 @@ select {
 
 .nav__toggle {
   position: absolute;
+  width: 1px;
+  height: 1px;
   opacity: 0;
   pointer-events: none;
+}
+
+// The hidden checkbox takes keyboard focus; show it on the visible button.
+.nav__toggle:focus-visible + .nav .nav__menu-button {
+  outline: 3px solid var(--color-brand);
+  outline-offset: 3px;
+}
+
+.nav__menu-button span {
+  transition: transform 180ms ease-out, opacity 180ms ease-out;
+}
+
+.nav__toggle:checked + .nav .nav__menu-button span:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+
+.nav__toggle:checked + .nav .nav__menu-button span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav__toggle:checked + .nav .nav__menu-button span:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+.nav__cta-mobile {
+  display: none;
+}
+
+.skip-link {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 30;
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-sm);
+  background: var(--color-brand);
+  color: var(--color-white);
+  font-weight: 700;
+  transform: translateY(-200%);
+}
+
+.skip-link:focus-visible {
+  transform: none;
+}
+
+.site-main:focus {
+  outline: none;
 }
 
 .nav__shell {
@@ -167,6 +216,7 @@ select {
 .nav__brand {
   display: inline-flex;
   align-items: center;
+  min-height: 48px;
   gap: 0.8rem;
   font-weight: 700;
 }
@@ -263,23 +313,39 @@ select {
   color: var(--color-muted);
 }
 
-.hero__proof,
-.hero__meta {
+.hero__trust {
   margin: 1rem 0 0;
+  max-width: 40rem;
   color: var(--color-muted);
-}
-
-.hero__proof {
-  padding-left: 1rem;
-  border-left: 3px solid var(--color-accent);
+  font-size: 0.95rem;
 }
 
 .hero__actions,
 .final-cta__actions {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 0.9rem;
   margin-top: 1.6rem;
+}
+
+.hero__link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  color: var(--color-accent);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+}
+
+.hero__trust,
+.final-cta__trust {
+  a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+  }
 }
 
 .hero__showcase {
@@ -668,6 +734,7 @@ select {
 }
 
 .faq-item summary {
+  min-height: 44px;
   cursor: pointer;
   list-style: none;
   font-weight: 700;
@@ -748,13 +815,16 @@ select {
 .footer__links {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 0 1.25rem;
   align-content: start;
   justify-content: flex-end;
 }
 
 .footer__links a,
 .footer__links button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
   color: var(--color-muted);
   font-weight: 600;
 }
@@ -1025,6 +1095,16 @@ select {
     display: inline-flex;
   }
 
+  .nav__cta-mobile {
+    display: inline-flex;
+    width: auto;
+    margin-left: auto;
+  }
+
+  .nav__shell {
+    gap: 0.6rem;
+  }
+
   .nav__toggle:checked + .nav .nav__mobile {
     display: grid;
   }
@@ -1124,7 +1204,6 @@ select {
   .article-section,
   .footer__shell,
   .final-cta,
-  .story-step,
   .feature-card,
   .regimen-card,
   .learn-card,
@@ -1141,7 +1220,17 @@ select {
     flex-direction: column;
   }
 
-  .button {
+  // The App Store badge is the primary action, so it leads at full thumb size.
+  .hero__actions {
+    align-items: center;
+  }
+
+  .hero__actions .badge-link img {
+    width: 180px;
+    height: 60px;
+  }
+
+  .button:not(.nav__cta-mobile) {
     width: 100%;
   }
 
@@ -1465,6 +1554,14 @@ input:focus-visible {
 
   img {
     min-width: 680px;
+  }
+
+  // Phones get the four-per-row chart, which fits without scrolling.
+  @media (max-width: 720px) {
+    img {
+      min-width: 0;
+      width: 100%;
+    }
   }
 }
 

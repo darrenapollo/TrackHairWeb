@@ -38,6 +38,13 @@ layout: default
           <p>{{ site.data.strings.medical.app_cta_body }}</p>
           <a class="button button--light" href="{% include app-store-url.html ct=page.campaign_token %}" target="_blank" rel="noopener" data-cta="post_sidebar">{{ site.data.strings.medical.app_cta_label }}</a>
         </section>
+
+        {% unless page.hide_medical_disclaimer %}
+        <section class="aside-card">
+          <h2>{{ site.data.strings.medical.disclaimer_title }}</h2>
+          <p>{{ site.data.strings.medical.disclaimer_body }}</p>
+        </section>
+        {% endunless %}
       </aside>
     </div>
   </div>

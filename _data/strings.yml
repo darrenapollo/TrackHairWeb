@@ -1,7 +1,5 @@
 nav:
   links:
-    - title: App
-      url: /
     - title: Treatments
       url: /treatments/
     - title: Hair Loss
@@ -11,7 +9,8 @@ nav:
   cta_label: Download
 
 home:
-  social_proof: Built for the months-long reality of hair treatment, not a quick scan or a generic habit streak.
+  # Facts only: free download per the FAQ; storage per privacy.md and PRODUCT_STATE.md. No prices, trial lengths or ratings.
+  trust_line: Free to download on iPhone. Your photos and notes stay on your device or in your own iCloud.
   features_title: Everything your hair plan needs in one place
   story_title: How Track Hair supports your journey
   regimens_title: Plan the treatments people actually combine
