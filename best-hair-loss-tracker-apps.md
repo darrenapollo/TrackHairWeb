@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Best Hair Loss Tracker Apps (2026): 5 Compared"
-description: "Track Hair, Trichometrics, Hairline, Hair Snap and Miiskin compared on progress photos, treatment logging, AI readings and what each keeps over time."
+title: "5 Best Hair Loss & Hair Growth Tracker Apps (2026)"
+description: "Five hair loss and hair growth tracker apps compared: which logs your treatment, which gives AI scan scores and which connects you to a dermatologist."
 permalink: /best-hair-loss-tracker-apps/
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 hero_kicker: Comparison
 summary: Hair loss tracker apps now range from treatment journals and aligned progress-photo tools to AI scanners and clinician-care platforms. This guide compares the main approaches and explains which type fits each goal.
 schema_type: WebPage
@@ -13,7 +13,11 @@ faq:
   - question: Are AI hair scan apps accurate?
     answer: AI scan apps can give a rough, informational estimate of density or hair loss stage from a photo, but results vary with lighting, angle, and hair condition, and they are not a medical diagnosis. Their bigger limitation is that a single scan describes one moment — it cannot tell you whether your routine is working over time.
   - question: Do I need to pay for a hair loss tracker app?
-    answer: Some apps are free to download, others charge a subscription. Track Hair is free to download. When comparing, check what is behind a paywall — photo storage, comparison tools, and history are the features that matter most for long-term tracking.
+    answer: Most of these apps are free to download and charge a subscription for their main features. Track Hair is free to download; comparing photos over time, AI readings and long-term history need a Pro subscription. When comparing apps, check what is behind the paywall — photo storage, comparison tools, and history are the features that matter most for long-term tracking.
+  - question: Is there a hair loss tracker app for Android?
+    answer: Track Hair is an iPhone app. The apps on this page were reviewed from their App Store listings, so check Google Play for each one if you use Android. Without an app, you can still track progress with the same three photo angles each month, taken in the same light, and a written log of what you used and when.
+  - question: What is the difference between a hair growth tracker and a hair scanner app?
+    answer: A hair growth tracker keeps a record over months — repeatable photos, the treatments you used, and notes — so you can compare like with like. A hair scanner app reads a single photo and returns a score or estimate for that moment. Some apps do both; a scan is most useful when it is repeated under the same conditions and kept in a history.
 citations:
   - label: "American Academy of Dermatology: Hair loss diagnosis and treatment"
     url: https://www.aad.org/public/diseases/hair-loss/treatment/diagnosis
@@ -66,6 +70,18 @@ We compared each app on five practical criteria:
 | **[Hairline: Hair Loss Tracker](https://apps.apple.com/us/app/hairline-hair-loss-tracker/id6780453702)** | Stage reference and aligned photos | A focused hairline, crown, and temple photo record | Less emphasis on multi-treatment schedules and regimen history |
 | **[Hair Snap Health & Style Scan](https://apps.apple.com/us/app/hair-snap-health-style-scan/id6736712385)** | AI hair scan and care routine | Quick hair and scalp analysis with recommendations and progress views | Scan results remain sensitive to photo conditions and are not a diagnosis |
 | **[Miiskin: Rx Dermatology Visits](https://apps.apple.com/us/app/miiskin-skin-tracker-ehealth/id1214795331)** | Online dermatology care | People seeking clinician-led assessment or prescription follow-up where available | Broader than hair tracking and tied to supported clinical services |
+
+## Features side by side
+
+| App | Progress photos | Treatment log and reminders | Photo readings | Report to share | Clinician care |
+| --- | --- | --- | --- | --- | --- |
+| Track Hair | Guided, repeatable angles | Yes, for several treatments | Density and scalp visibility, no score or stage | Doctor summary PDF | No |
+| Trichometrics | Side-by-side history | Yes | 0–100 scores, Norwood or Ludwig estimate | PDF export | No |
+| Hairline | Aligned monthly photos | — | Questionnaire-based stage reference | — | No |
+| Hair Snap | Progress views | — | AI density, texture and volume ratings | — | No |
+| Miiskin | — | — | — | — | Yes, where available |
+
+A dash means the feature is not part of how the app describes itself on its App Store listing, not that it is definitely missing. All five are listed on the iPhone App Store.
 
 ## Track Hair: best for following a treatment routine
 
